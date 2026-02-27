@@ -9,7 +9,7 @@
         "alignment": "center"
     },
 
-    "label": "LOCATION",
+    "label": "LOCATION!",
     "label_region": { "x": 624, "y": 1186, "width": 400, "height": 100 },
     "label_font": {
         "font": "semibold",
