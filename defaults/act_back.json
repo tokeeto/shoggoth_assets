@@ -4,10 +4,10 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 230, "y": 535, "width": 950, "height": 150 },
+    "name_region": { "x": 225, "y": -400, "width": 1800, "height": 400 },
     "name_font": {
         "font": "title",
-        "size": 88,
+        "size": 98,
         "alignment": "center",
         "rotation": 90
     },
@@ -20,7 +20,7 @@
     "text_region": {
         "x": 512,
         "y": 227,
-        "width": 1480,
+        "width": 1460,
         "height": 1264,
         "attach_before": "flavor_text"
     },
