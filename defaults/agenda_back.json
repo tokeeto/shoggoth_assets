@@ -16,7 +16,7 @@
     "flavor_text_region": { "attached": true },
     "flavor_text_font": {
         "font": "italic",
-        "size": 60
+        "size": 64
     },
     "flavor_text_format": "<blockquote>{value}</blockquote>\n",
     
@@ -24,7 +24,7 @@
     "text_region": { "x": 512, "y": 228, "width": 1460, "height": 1264, "attach_before": "flavor_text" },
     "text_font": {
         "font": "regular",
-        "size": 60
+        "size": 64
     },
 
     "encounter_icon_region": {

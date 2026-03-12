@@ -5,47 +5,47 @@
 
     "name": "<name>",
     "name_region": {
-        "x": 80,
-        "y": 76,
-        "width": 510,
-        "height": 70
+        "x": 220,
+        "y": 220,
+        "width": 1000,
+        "height": 150
     },
     "name_font": {
         "font": "title",
-        "size": 50,
+        "size": 96,
         "alignment": "center"
     },
 
     "label": "STORY",
     "label_region": {
-        "x": 275,
-        "y": 1008,
+        "x": 718,
+        "y": 2086,
         "width": 200,
-        "height": 50
+        "height": 96
     },
     "label_font": {
         "font": "bold",
-        "size": 28,
+        "size": 52,
         "alignment": "center"
     },
 
     "text": "",
     "text_font": {
         "font": "regular",
-        "size": 36
+        "size": 64
     },
     "text_region": {
-        "x": 78,
-        "y": 226,
-        "width": 600,
-        "height": 870
+        "x": 220,
+        "y": 500,
+        "width": 1200,
+        "height": 1850
     },
 
     "encounter_icon_region": {
-        "x": 610,
-        "y": 60,
-        "width": 70,
-        "height": 70
+        "x": 1295,
+        "y": 190,
+        "width": 140,
+        "height": 140
     },
     "trackerbox_region": {
         "x": 34,
