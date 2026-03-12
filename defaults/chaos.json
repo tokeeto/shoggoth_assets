@@ -2,16 +2,16 @@
     "template": "chapter_1/scenario",
     "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 184, "y": 432, "width": 1276, "height": 300 },
+    "name_region": { "x": 184, "y": 455, "width": 1276, "height": 300 },
     "name_font": {
         "font": "title",
-        "size": 90,
+        "size": 110,
         "alignment": "center"
     },
 
-    "difficulty": "Easy/Standard",
-    "difficulty_region": { "x": 72, "y": 580, "width": 1500, "height": 100 },
-    "difficulty_font": { "font": "bold", "alignment": "center", "size": 60 },
+    "difficulty": "EASY/STANDARD",
+    "difficulty_region": { "x": 72, "y": 586, "width": 1500, "height": 100 },
+    "difficulty_font": { "font": "bold", "alignment": "center", "size": 56 },
 
     "header_region": { "x": 212, "y": 612, "width": 1200, "height": 1220 },
     "header_font": {

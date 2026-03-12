@@ -19,7 +19,7 @@
 
     "text_region": {
         "x": 152,
-        "y": 1336,
+        "y": 1352,
         "width": 1344,
         "height": 572,
         "attach_after": "flavor_text"
@@ -74,7 +74,7 @@
     "connection_5_region": { "x": 984, "y": 1893, "width": 140, "height": 140 },
     "connection_6_region": { "x": 1148, "y": 1925, "width": 140, "height": 140 },
 
-    "shroud_region": { "x": 106, "y": 1142, "width": 192, "height": 200 },
+    "shroud_region": { "x": 110, "y": 1142, "width": 192, "height": 200 },
     "shroud_font": {
         "font": "skill",
         "size": 110,
@@ -84,7 +84,7 @@
         "alignment": "center"
     },
 
-    "clues_region": { "x": 1350, "y": 1142, "width": 192, "height": 200 },
+    "clues_region": { "x": 1336, "y": 1142, "width": 192, "height": 200 },
     "clues_font": {
         "font": "skill",
         "size": 110,
