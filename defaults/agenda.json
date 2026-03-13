@@ -12,15 +12,26 @@
     },
 
     "text_region": {
-        "x": 1072,
+        "x": 1090,
         "y": 497,
-        "width": 1056,
-        "height": 948,
+        "width": 1030,
+        "height": 1100,
         "attach_before": "flavor_text"
     },
+    "text_polygon": [
+        [1090, 497],
+        [2120, 497],
+        [2120, 1400],
+        [1300, 1400],
+        [1270, 1300],
+        [1200, 1250],
+        [1090, 1150],
+        [1090, 497]
+    ],
+
     "text_font": {
         "font": "regular",
-        "size": 68,
+        "size": 72,
         "alignment": "left"
     },
     "flavor_text": "",

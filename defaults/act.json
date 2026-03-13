@@ -18,6 +18,16 @@
         "height": 948,
         "attach_before": "flavor_text"
     },
+    "text_polygon": [
+        [112, 492],
+        [1140, 492],
+        [1140, 1200],
+        [1040, 1280],
+        [988, 1370],
+        [112, 1370],
+        [112, 492]
+    ],
+    
     "text_font": {
         "font": "regular",
         "size": 68,
