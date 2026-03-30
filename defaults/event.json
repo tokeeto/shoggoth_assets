@@ -19,10 +19,10 @@
     },
 
     "label": "%:EVENT",
-    "label_region": { "x": 148, "y": 334, "width": 165, "height": 70 },
+    "label_region": { "x": 155, "y": 334, "width": 151, "height": 70 },
     "label_font": {
         "font": "semibold",
-        "size": 40,
+        "size": 38,
         "color": "black",
         "alignment": "center"
     },

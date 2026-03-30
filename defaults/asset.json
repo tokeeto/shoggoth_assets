@@ -31,10 +31,10 @@
     },
 
     "label": "%:ASSET",
-    "label_region": { "x": 144, "y": 332, "width": 166, "height": 70 },
+    "label_region": { "x": 156, "y": 332, "width": 150, "height": 70 },
     "label_font": {
         "font": "semibold",
-        "size": 40,
+        "size": 38,
         "color": "#231f20",
         "alignment": "center"
     },
