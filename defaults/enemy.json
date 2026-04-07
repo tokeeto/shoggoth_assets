@@ -26,7 +26,7 @@
     },
 
     "label": "%:ENEMY",
-    "label_region": { "x": 696, "y": 1304, "width": 244, "height": 100 },
+    "label_region": { "x": 696, "y": 1300, "width": 244, "height": 100 },
     "label_region_minimal": { "x": 696, "y": 1128, "width": 244, "height": 100 },
     "label_font": {
         "font": "semibold",
@@ -35,7 +35,7 @@
     },
 
     "text": "",
-    "text_region": { "x": 272, "y": 552, "width": 810, "height": 580, "attach_after": "flavor_text" },
+    "text_region": { "x": 100, "y": 560, "width": 810, "height": 580, "attach_after": "flavor_text" },
     "text_polygon": [
         [272, 512],
         [1342, 512],

@@ -1,0 +1,13 @@
+{
+    "parent": "fullart_location",
+    "template": "fullart/location_back",
+    "editor": "location_back",
+    "connection": "<copy>",
+    "connections": "<copy>",
+    "traits": "<copy>",
+
+    "illustration": "<copy>",
+    "illustration_pan_x": "<copy>",
+    "illustration_pan_y": "<copy>",
+    "illustration_zoom": "<copy>"
+}

@@ -11,7 +11,7 @@
         "alignment": "center"
     },
     "subtitle": "",
-    "subtitle_region": { "x": 360, "y": 244, "width": 700, "height": 100 },
+    "subtitle_region": { "x": 360, "y": 238, "width": 700, "height": 100 },
     "subtitle_font": {
         "font": "semibold",
         "alignment": "center",
@@ -40,23 +40,23 @@
     "illustration": "",
     "illustration_region": { "x": 72, "y": 312, "width": 1120, "height": 1260 },
     "willpower": "3",
-    "willpower_region": { "x": 1220, "y": 148, "width": 120, "height": 120 },
+    "willpower_region": { "x": 1215, "y": 148, "width": 120, "height": 120 },
     "willpower_font": { "font": "skill", "size": 90, "alignment": "center" },
 
     "intellect": "3",
-    "intellect_region": { "x": 1458, "y": 148, "width": 120, "height": 120 },
+    "intellect_region": { "x": 1453, "y": 148, "width": 120, "height": 120 },
     "intellect_font": { "font": "skill", "size": 90, "alignment": "center" },
 
     "combat": "3",
-    "combat_region": { "x": 1706, "y": 148, "width": 120, "height": 120 },
+    "combat_region": { "x": 1701, "y": 148, "width": 120, "height": 120 },
     "combat_font": { "font": "skill", "size": 90, "alignment": "center" },
 
     "agility": "3",
-    "agility_region": { "x": 1944, "y": 148, "width": 120, "height": 120 },
+    "agility_region": { "x": 1939, "y": 148, "width": 120, "height": 120 },
     "agility_font": { "font": "skill", "size": 90, "alignment": "center" },
 
     "health": "7",
-    "health_region": { "x": 1530, "y": 1315, "width": 140, "height": 170 },
+    "health_region": { "x": 1530, "y": 1304, "width": 140, "height": 170 },
     "health_font": {
         "font": "skill",
         "size": 120,
@@ -67,7 +67,7 @@
     },
 
     "sanity": "7",
-    "sanity_region": { "x": 1714, "y": 1315, "width": 200, "height": 160 },
+    "sanity_region": { "x": 1714, "y": 1304, "width": 200, "height": 160 },
     "sanity_font": {
         "font": "skill",
         "size": 120,

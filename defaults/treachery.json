@@ -8,7 +8,7 @@
     "template_bleed_location": false,
 
     "name": "<name>",
-    "name_region": { "x": 228, "y": 1310, "width": 1196, "height": 160 },
+    "name_region": { "x": 228, "y": 1300, "width": 1196, "height": 160 },
     "name_font": {
         "font": "title",
         "size": 94,
@@ -16,7 +16,7 @@
     },
 
     "label": "%:TREACHERY",
-    "label_region": { "x": 620, "y": 1216, "width": 416, "height": 80 },
+    "label_region": { "x": 620, "y": 1214, "width": 416, "height": 80 },
     "label_font": {
         "font": "semibold",
         "size": 48,
@@ -26,7 +26,7 @@
     "subtitle_weakness": "WEAKNESS",
     "subtitle_encounter_weakness": "WEAKNESS",
     "subtitle_basic_weakness": "BASIC WEAKNESS",
-    "subtitle_region_weakness": { "x": 192, "y": 1424, "width": 1260, "height": 80 },
+    "subtitle_region_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
     "subtitle_region_basic_weakness": { "x": 192, "y": 1424, "width": 1260, "height": 80 },
     "subtitle_region_encounter_weakness": { "x": 192, "y": 1424, "width": 1260, "height": 80 },
     "subtitle_font": {
