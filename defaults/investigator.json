@@ -95,6 +95,13 @@
         "alignment": "center"
     },
 
+    "encounter_icon_region_story": {
+        "x": 120,
+        "y": 118,
+        "width": 115,
+        "height": 115
+    },
+
     "collection": "<exi> <exn>",
     "collection_story": "<esn>/<est>      <exi>    <exn>",
     "collection_region": { "x": 1224, "y": 1524, "width": 922, "height": 70 },

@@ -1,6 +1,7 @@
 {
     "orientation": "horizontal",
     "template": "investigator_back_<class>",
+    "template_story": "investigator_back_neutral",
     "name": "<unique><name>",
     "name_region": { "x": 1058, "y": 118, "width": 1010, "height": 140 },
     "name_font": {
@@ -17,7 +18,7 @@
         "size": 56
     },
 
-    "text_region": { "x": 192, "y": 372, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
+    "text_region": { "x": 192, "y": 372, "width": 1880, "height": 1292, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
         "size": 68,
@@ -28,6 +29,20 @@
     "flavor_text": "",
     "flavor_text_region": {"attached": true},
     "flavor_text_format": "\n<i>{value}</i>",
+
+    "encounter_overlay_story": "story_event_overlay.png",
+    "encounter_overlay_region_story": {
+        "x": 950,
+        "y": 80,
+        "width": 200,
+        "height": 200
+    },
+    "encounter_icon_region_story": {
+        "x": 995,
+        "y": 120,
+        "width": 115,
+        "height": 115
+    },
 
     "entries": [
         ["<b>Deck Size:</b>", "30"],
@@ -40,7 +55,6 @@
         ["<b>Deckbuilding Restrictions:</b>", ""]
     ],
 
-    "illustration_pan_x": -30,
     "illustration_rotation": -16,
     "illustration_region": { "x": 72, "y": 92, "width": 824, "height": 824 },
 
@@ -87,5 +101,26 @@
         [635, 997],
         [771, 927],
         [825, 363]
+    ],
+
+    "text_region_neutral": { "x": 192, "y": 390, "width": 1880, "height": 1292, "attach_after": "flavor_text" },
+    "text_polygon_neutral": [
+        [940, 380],
+        [2060, 380],
+        [2060, 1480],
+        [180, 1480],
+        [180, 920],
+        [840, 920],
+        [940, 380]
+    ],
+    "text_region_story": { "x": 192, "y": 390, "width": 1880, "height": 1292, "attach_after": "flavor_text" },
+    "text_polygon_story": [
+        [940, 380],
+        [2060, 380],
+        [2060, 1480],
+        [180, 1480],
+        [180, 920],
+        [840, 920],
+        [940, 380]
     ]
 }
