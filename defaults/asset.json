@@ -50,7 +50,7 @@
         "font": "title",
         "size": 128,
         "color": "white",
-        "outline": 4,
+        "outline": 6,
         "outline_color": "#231f20",
         "alignment": "center"
     },

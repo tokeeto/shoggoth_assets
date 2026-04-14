@@ -1,5 +1,5 @@
 {
-    "template": "fullart/location",
+    "template": "fullart/location<subtitle>",
     "parent": "location",
     "editor": "location",
     "template_bleed": true,
@@ -20,7 +20,12 @@
         "attach_after": "flavor_text"
     },
 
-    "subtitle_region": null,
+    "subtitle_region": { "x": 449, "y": 267, "width": 764, "height": 84 },
+    "subtitle_font": {
+        "font": "bolditalic",
+        "size": 64,
+        "alignment": "center"
+    },
 
     "encounter_icon_region": {
         "x": 766,
@@ -33,13 +38,13 @@
 
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1720 },
 
-    "connection_region": { "x": 98, "y": 80, "width": 144, "height": 140 },
+    "connection_region": { "x": 110, "y": 110, "width": 140, "height": 140 },
     "connection_1_region": { "x": 328, "y": 1930, "width": 140, "height": 140 },
     "connection_2_region": { "x": 492, "y": 1898, "width": 140, "height": 140 },
-    "connection_3_region": { "x": 656, "y": 1886, "width": 140, "height": 140 },
-    "connection_4_region": { "x": 820, "y": 1886, "width": 140, "height": 140 },
-    "connection_5_region": { "x": 984, "y": 1900, "width": 140, "height": 140 },
-    "connection_6_region": { "x": 1148, "y": 1932, "width": 140, "height": 140 },
+    "connection_3_region": { "x": 656, "y": 1885, "width": 140, "height": 140 },
+    "connection_4_region": { "x": 820, "y": 1885, "width": 140, "height": 140 },
+    "connection_5_region": { "x": 984, "y": 1898, "width": 140, "height": 140 },
+    "connection_6_region": { "x": 1148, "y": 1930, "width": 140, "height": 140 },
 
     "shroud_region": { "x": 120, "y": 1420, "width": 192, "height": 200 },
     "shroud_font": {

@@ -11,10 +11,11 @@
     },
 
     "label": "%:SKILL",
-    "label_region": { "x": 160, "y": 328, "width": 152, "height": 80 },
+    "label_region": { "x": 130, "y": 330, "width": 200, "height": 90 },
     "label_font": {
         "font": "semibold",
         "size": 44,
+        "min_size": 8,
         "alignment": "center"
     },
 
@@ -26,8 +27,8 @@
     },
 
     "level_region": { "x": 106, "y": 88, "width": 242, "height": 242 },
-    "level_overlay": "{card_class}_skill_{level}.png",
-    "level_overlay_story": "neutral_skill_{level}.png",
+    "level_overlay": "skill_{level}.png",
+    "level_overlay_story": "skill_{level}.png",
     "encounter_overlay_story": "story_event_overlay.png",
     
     "text_region": {

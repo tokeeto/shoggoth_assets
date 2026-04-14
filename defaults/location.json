@@ -34,7 +34,7 @@
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
 
-    "subtitle_region": { "x": 452, "y": 228, "width": 764, "height": 84 },
+    "subtitle_region": { "x": 449, "y": 237, "width": 764, "height": 84 },
     "subtitle_font": {
         "font": "bolditalic",
         "size": 64,

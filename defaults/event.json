@@ -23,7 +23,7 @@
     "label_font": {
         "font": "semibold",
         "size": 38,
-        "color": "black",
+        "color": "#231f20",
         "alignment": "center"
     },
 

@@ -8,7 +8,7 @@
   "EVENT": "EREIGNIS",
   "KEY": "SCHLÜSSEL",
   "LOCATION": "ORT",
-  "SKILL": "FERTIGKEIT",
+  "SKILL": "<margin 6><size 15>FERTIGKEIT</size>",
   "STORY": "HANDLUNG",
   "TREACHERY": "VERRAT",
   "ASSET": "VORTEIL",
