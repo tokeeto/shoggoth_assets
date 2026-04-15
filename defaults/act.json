@@ -1,6 +1,6 @@
 {
     "orientation": "horizontal",
-    "template": "act",
+    "template": "chapter_1/act",
     "template_bleed": true,
 
     "name": "<name>",

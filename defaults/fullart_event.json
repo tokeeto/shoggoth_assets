@@ -3,14 +3,17 @@
 	"template": "fullart/event_<class>",
     "template_bleed": true,
     "editor": "event",
-    "level_region": { "x": 29, "y": 81, "width": 96, "height": 48 },
-    "name_region": { "x": 0, "y": 840, "width": 750, "height": 65 },
-    "traits_region": { "x": 0, "y": 895, "width": 750, "height": 50 },
+    "icons_box": "fullart/icon_box_<class>.png",
+    "icons_region": {"x": 170, "y": 424, "width": 0, "height": 164},
+    "icons_box_region": { "x": -55, "y": -55, "width": 212, "height": 212},
+    "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
+    "name_region": { "x": 72, "y": 1752, "width": 1500, "height": 130 },
+    "traits_region": { "x": 72, "y": 1862, "width": 1500, "height": 100 },
     "text_region": {
-        "x": 100,
-        "y": 925,
-        "width": 576,
-        "height": 135,
+        "x": 272,
+        "y": 1922,
+        "width": 1152,
+        "height": 270,
         "attach_after": "flavor_text"
     },
     "text_polygon": [
@@ -22,7 +25,7 @@
         [84, 984],
         [104, 914]
     ],
-    "illustrator_region": { "x": 5, "y": 40, "width": 1000, "height": 35 },
+    "illustrator_region": { "x": 82, "y": 152, "width": 2000, "height": 70 },
     "illustrator_font": {
         "font": "bold",
         "size": 19,
@@ -32,7 +35,7 @@
     },
 
     "collection": "<exi>\n<exn>",
-    "collection_region": { "x": 690, "y": 1000, "width": 50, "height": 80 },
+    "collection_region": { "x": 1452, "y": 2072, "width": 100, "height": 160 },
     "collection_font": {
         "font": "bold",
         "size": 19,

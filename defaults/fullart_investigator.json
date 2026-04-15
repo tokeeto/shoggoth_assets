@@ -5,62 +5,62 @@
     "template": "fullart/investigator_<class>",
     "template_bleed": true,
 
-    "name_region": { "x": 140, "y": 26, "width": 424, "height": 72 },
-    "name_region_multi": { "x": 340, "y": 26, "width": 424, "height": 72 },
+    "name_region": { "x": 352, "y": 124, "width": 848, "height": 144 },
+    "name_region_multi": { "x": 752, "y": 124, "width": 848, "height": 144 },
     "name_font": {
         "font": "title",
         "color": "white",
-        "size": 50,
+        "size": 100,
         "alignment": "left",
         "outline": 1,
         "outline_color": "#111111"
     },
-    "subtitle_region": { "x": 144, "y": 84, "width": 350, "height": 50 },
-    "subtitle_region_multi": { "x": 340, "y": 86, "width": 350, "height": 50 },
+    "subtitle_region": { "x": 360, "y": 240, "width": 700, "height": 100 },
+    "subtitle_region_multi": { "x": 752, "y": 244, "width": 700, "height": 100 },
     "subtitle_font": {
         "font": "semibold",
         "alignment": "left",
-        "size": 28,
+        "size": 56,
         "color": "white",
         "outline": 1,
         "outline_color": "#111111"
     },
-    "text_region": { "x": 614, "y": 195, "width": 400, "height": 520, "attach_after": "flavor_text" },
+    "text_region": { "x": 1300, "y": 462, "width": 800, "height": 1040, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
-        "size": 32,
+        "size": 64,
         "color": "white",
         "alignment": "left"
     },
-    "traits_region": { "x": 614, "y": 160, "width": 430, "height": 50 },
+    "traits_region": { "x": 1300, "y": 392, "width": 860, "height": 100 },
     "traits_font": {
         "font": "bolditalic",
-        "size": 32,
+        "size": 64,
         "alignment": "center",
         "color": "white"
     },
 
-    "illustrator_region": { "x": 10, "y": 726, "width": 461, "height": 35 },
+    "illustrator_region": { "x": 92, "y": 1524, "width": 922, "height": 70 },
     "illustrator_font": {
         "font": "bold",
-        "size": 20,
+        "size": 40,
         "color": "white",
         "alignment": "left"
     },
 
-    "willpower_region": { "x": 56, "y": 188, "width": 60, "height": 60 },
-    "intellect_region": { "x": 56, "y": 279, "width": 60, "height": 60 },
-    "combat_region": { "x": 56, "y": 372, "width": 60, "height": 60 },
-    "agility_region": { "x": 56, "y": 465, "width": 60, "height": 60 },
+    "willpower_region": { "x": 184, "y": 448, "width": 120, "height": 120 },
+    "intellect_region": { "x": 184, "y": 630, "width": 120, "height": 120 },
+    "combat_region": { "x": 184, "y": 816, "width": 120, "height": 120 },
+    "agility_region": { "x": 184, "y": 1002, "width": 120, "height": 120 },
 
-    "health_region": { "x": 734, "y": 50, "width": 60, "height": 80 },
-    "sanity_region": { "x": 821, "y": 50, "width": 100, "height": 80 },
+    "health_region": { "x": 1540, "y": 172, "width": 120, "height": 160 },
+    "sanity_region": { "x": 1714, "y": 172, "width": 200, "height": 160 },
 
-    "copyright_region": { "x": 0, "y": 726, "width": 1050, "height": 35 },
+    "copyright_region": { "x": 72, "y": 1524, "width": 2100, "height": 70 },
 
-    "class_symbol_3_region": { "x": 190, "y": 4, "width": 104, "height": 104 },
-    "class_symbol_2_region": { "x": 100, "y": 4, "width": 104, "height": 104 },
-    "class_symbol_1_region": { "x": 10, "y": 4, "width": 104, "height": 104 },
+    "class_symbol_3_region": { "x": 452, "y": 80, "width": 208, "height": 208 },
+    "class_symbol_2_region": { "x": 272, "y": 80, "width": 208, "height": 208 },
+    "class_symbol_1_region": { "x": 92, "y": 80, "width": 208, "height": 208 },
 
-    "illustration_region": { "x": -36, "y": -36, "width": 1158, "height": 858 }
+    "illustration_region": { "x": 0, "y": 0, "width": 2244, "height": 1622 }
 }

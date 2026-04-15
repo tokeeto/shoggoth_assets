@@ -36,10 +36,10 @@
     },
     
     "text": "",
-    "text_region_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 640, "attach_after": "flavor_text" },
-    "text_region_basic_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 640, "attach_after": "flavor_text" },
-    "text_region_encounter_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 640, "attach_after": "flavor_text" },
-    "text_region": { "x": 192, "y": 1512, "width": 1260, "height": 640, "attach_after": "flavor_text" },
+    "text_region_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_basic_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_encounter_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region": { "x": 192, "y": 1512, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
         "size": 68,

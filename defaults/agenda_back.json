@@ -1,6 +1,6 @@
 {
     "orientation": "horizontal",
-    "template": "agenda_back",
+    "template": "chapter_1/agenda_back",
     "template_bleed": true,
 
     "name": "<name>",

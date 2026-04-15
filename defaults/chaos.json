@@ -26,7 +26,7 @@
     },
     "entries": [
         { "token": "skull", "text": "-2" },
-        { "token": "cultist, tablet", "text": "-4" },
+        { "token": ["cultist", "tablet"], "text": "-4" },
         { "token": "elder_thing", "text": "-8" }
     ],
 
