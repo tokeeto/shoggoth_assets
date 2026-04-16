@@ -18,10 +18,10 @@
 
     "label": "%:STORY",
     "label_region": {
-        "x": 718,
+        "x": 708,
         "y": 2086,
-        "width": 200,
-        "height": 96
+        "width": 225,
+        "height": 70
     },
     "label_font": {
         "font": "bold",

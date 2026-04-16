@@ -63,7 +63,7 @@
         "x": 144,
         "y": 1428,
         "width": 1320,
-        "height": 550,
+        "height": 470,
         "attach_after": "flavor_text"
     },
     "text_font": {
