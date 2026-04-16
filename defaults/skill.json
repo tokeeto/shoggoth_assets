@@ -121,6 +121,8 @@
     },
 
     "collection": "<exi> <exn>",
+    "collection_story": "<esn>/<est>        <exi> <exn>",
+    "collection_story weakness": "<esn>/<est>        <exi> <exn>",
     "collection_region": { "x": 160, "y": 2112, "width": 1326, "height": 70 },
     "collection_font": {
         "font": "bold",
