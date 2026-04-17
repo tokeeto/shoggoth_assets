@@ -118,7 +118,13 @@
     },
     "encounter_icon_basic_weakness": "AHLCG-BasicWeakness.png",
 
-    "victory_text": "",
+    "victory": "",
+    "victory_region": { "x": 1200, "y": 1850, "width": 340, "height": 100 },
+    "victory_font": {
+        "font": "bold",
+        "size": 64,
+        "alignment": "right"
+    },
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",

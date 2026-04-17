@@ -18,6 +18,14 @@
         "alignment": "center"
     },
 
+    "victory": "",
+    "victory_region": { "x": 0, "y": 1972, "width": 1644, "height": 80 },
+    "victory_font": {
+        "font": "bold",
+        "size": 64,
+        "alignment": "center"
+    },
+
     "label": "%:EVENT",
     "label_region": { "x": 155, "y": 334, "width": 151, "height": 70 },
     "label_font": {
