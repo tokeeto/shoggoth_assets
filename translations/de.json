@@ -13,5 +13,12 @@
   "TREACHERY": "VERRAT",
   "ASSET": "VORTEIL",
   "WEAKNESS": "SCHWÄCHE",
-  "BASIC WEAKNESS": "GRUNDSCHWÄCHE"
+  "BASIC WEAKNESS": "GRUNDSCHWÄCHE",
+  "<forced>": "<b>Erzwungen –</b>",
+  "<for>": "<b>Erzwungen –</b>",
+  "<prey>": "<b>Erzwungen –</b>",
+  "<rev>": "<b>Enthüllung –</b>",
+  "<spawn>": "<b>Erscheinen –</b>",
+  "<obj>": "<b> –</b>",
+  "<objective>": "<b> –</b>"
 }
