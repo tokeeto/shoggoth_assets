@@ -65,7 +65,7 @@
 
     "encounter_icon_basic_weakness": "AHLCG-BasicWeakness.png",
     "encounter_overlay_basic_weakness": "basic_weakness.png",
-    "encounter_overlay_encounter_weakness": "basic_weakness.png",
+    "encounter_overlay_weakness": "basic_weakness.png",
     "encounter_overlay_region": {
         "x": 690,
         "y": 1052,
