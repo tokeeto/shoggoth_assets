@@ -1,7 +1,8 @@
 {
     "template": "chapter_1/event_<class>",
     "template_story": "chapter_1/event_neutral",
-    "template_story weakness": "chapter_1/event_weakness",
+    "template_story weakness": "chapter_1/event_weakness_subtitle",
+    "template_weakness": "chapter_1/event_weakness_subtitle",
     "template_bleed": true,
     "name": "<name>",
     "name_region": { "x": 72, "y": 1292, "width": 1500, "height": 130 },
@@ -11,6 +12,8 @@
         "alignment": "center"
     },
 
+    "traits_region_story weakness": { "x": 72, "y": 1476, "width": 1500, "height": 100 },
+    "traits_region_weakness": { "x": 72, "y": 1476, "width": 1500, "height": 100 },
     "traits_region": { "x": 72, "y": 1412, "width": 1500, "height": 100 },
     "traits_font": {
         "font": "bolditalic",
@@ -35,6 +38,16 @@
         "alignment": "center"
     },
 
+    "text1_story weakness": "WEAKNESS",
+    "text1_weakness": "WEAKNESS",
+    "text1_region_story weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
+    "text1_region_weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
+    "text1_font_story weakness": {
+        "font": "bolditalic",
+        "size": 64,
+        "alignment": "center"
+    },
+
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
 
     "class": "guardian",
@@ -50,11 +63,25 @@
         "alignment": "center"
     },
 
+    "text_region_story weakness": {
+        "x": 212,
+        "y": 1548,
+        "width": 1152,
+        "height": 592,
+        "attach_after": "flavor_text"
+    },
+    "text_region_weakness": {
+        "x": 212,
+        "y": 1548,
+        "width": 1152,
+        "height": 592,
+        "attach_after": "flavor_text"
+    },
     "text_region": {
         "x": 212,
         "y": 1484,
         "width": 1152,
-        "height": 592,
+        "height": 575,
         "attach_after": "flavor_text"
     },
     "text_font": {

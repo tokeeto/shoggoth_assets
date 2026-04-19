@@ -19,7 +19,7 @@
     },
     "classes": ["guardian"],
     "text": "",
-    "text_region": { "x": 1300, "y": 452, "width": 800, "height": 972, "attach_after": "flavor_text" },
+    "text_region": { "x": 1300, "y": 452, "width": 800, "height": 910, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
         "size": 64,
