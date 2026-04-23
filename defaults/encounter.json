@@ -1,4 +1,5 @@
 {
     "template": "encounter",
-    "template_bleed": true
+    "template_bleed": true,
+    "grouping": "encounter"
 }

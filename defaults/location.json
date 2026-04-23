@@ -1,6 +1,7 @@
 {
     "template": "chapter_1/location<subtitle>",
     "template_bleed": true,
+    "grouping": "location",
     "name": "<name>",
     "name_region": { "x": 92, "y": 96, "width": 1440, "height": 180 },
     "name_font": {
