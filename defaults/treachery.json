@@ -23,9 +23,9 @@
         "alignment": "center"
     },
 
-    "subtitle_weakness": "WEAKNESS",
-    "subtitle_encounter_weakness": "WEAKNESS",
-    "subtitle_basic_weakness": "BASIC WEAKNESS",
+    "subtitle_weakness": "%:WEAKNESS",
+    "subtitle_encounter_weakness": "%:WEAKNESS",
+    "subtitle_basic_weakness": "%:BASIC WEAKNESS",
     "subtitle_region_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
     "subtitle_region_basic_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
     "subtitle_region_encounter_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },

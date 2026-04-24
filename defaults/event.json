@@ -38,12 +38,12 @@
         "alignment": "center"
     },
 
-    "text1_story weakness": "WEAKNESS",
-    "text1_weakness": "WEAKNESS",
+    "text1_story weakness": "%:WEAKNESS",
+    "text1_weakness": "%:WEAKNESS",
     "text1_region_story weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
     "text1_region_weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
     "text1_font_story weakness": {
-        "font": "bolditalic",
+        "font": "bold",
         "size": 64,
         "alignment": "center"
     },
