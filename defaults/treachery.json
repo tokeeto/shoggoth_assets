@@ -27,8 +27,8 @@
     "subtitle_encounter_weakness": "WEAKNESS",
     "subtitle_basic_weakness": "BASIC WEAKNESS",
     "subtitle_region_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
-    "subtitle_region_basic_weakness": { "x": 192, "y": 1424, "width": 1260, "height": 80 },
-    "subtitle_region_encounter_weakness": { "x": 192, "y": 1424, "width": 1260, "height": 80 },
+    "subtitle_region_basic_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
+    "subtitle_region_encounter_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
     "subtitle_font": {
         "font": "bold",
         "alignment": "center",
@@ -52,9 +52,9 @@
     "flavor_text_format": "\n<center><i>{value}</i>",
 
     "traits_region": { "x": 192, "y": 1432, "width": 1272, "height": 640 },
-    "traits_region_basic_weakness": { "x": 192, "y": 1502, "width": 1272, "height": 640 },
-    "traits_region_weakness": { "x": 192, "y": 1502, "width": 1272, "height": 640 },
-    "traits_region_encounter_weakness": { "x": 192, "y": 1502, "width": 1272, "height": 640 },
+    "traits_region_basic_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
+    "traits_region_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
+    "traits_region_encounter_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
