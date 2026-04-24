@@ -88,7 +88,7 @@
     "clues_region": { "x": 1336, "y": 1142, "width": 192, "height": 200 },
     "clues_font": {
         "font": "skill",
-        "size": 110,
+        "size": 115,
         "color": "#231f20",
         "outline": 4,
         "outline_color": "#faf4e6",
