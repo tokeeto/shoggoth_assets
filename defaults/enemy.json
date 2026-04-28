@@ -1,5 +1,6 @@
 {
     "template": "chapter_1/enemy<subtitle>",
+    "grouping": "enemy",
     "template_bleed": true,
     "template_basic_weakness": "chapter_1/enemy_weakness",
     "template_encounter_weakness": "chapter_1/enemy_weakness_story",

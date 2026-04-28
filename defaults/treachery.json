@@ -1,5 +1,6 @@
 {
     "template": "chapter_1/treachery",
+    "grouping": "treachery",
     "template_bleed": true,
     "template_basic_weakness": "chapter_1/treachery_weakness",
     "template_encounter_weakness": "chapter_1/treachery_weakness",

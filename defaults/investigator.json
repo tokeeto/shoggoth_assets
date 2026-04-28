@@ -1,5 +1,6 @@
 {
     "orientation": "horizontal",
+    "grouping": "investigator",
     "template": "investigator_<class>",
     "template_bleed": false,
     
