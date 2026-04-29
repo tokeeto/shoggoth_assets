@@ -3,6 +3,7 @@
     "template_story": "chapter_1/event_neutral",
     "template_story weakness": "chapter_1/event_weakness_subtitle",
     "template_weakness": "chapter_1/event_weakness_subtitle",
+    "template_basic weakness": "chapter_1/event_weakness_subtitle",
     "template_bleed": true,
     "name": "<name>",
     "name_region": { "x": 72, "y": 1292, "width": 1500, "height": 130 },
@@ -14,6 +15,7 @@
 
     "traits_region_story weakness": { "x": 72, "y": 1476, "width": 1500, "height": 100 },
     "traits_region_weakness": { "x": 72, "y": 1476, "width": 1500, "height": 100 },
+    "traits_region_basic weakness": { "x": 72, "y": 1476, "width": 1500, "height": 100 },
     "traits_region": { "x": 72, "y": 1412, "width": 1500, "height": 100 },
     "traits_font": {
         "font": "bolditalic",
@@ -39,8 +41,10 @@
     },
 
     "text1_story weakness": "%:WEAKNESS",
+    "text1_basic weakness": "%:BASIC WEAKNESS",
     "text1_weakness": "%:WEAKNESS",
     "text1_region_story weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
+    "text1_region_basic weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
     "text1_region_weakness": { "x": 72, "y": 1405, "width": 1500, "height": 100 },
     "text1_font": {
         "font": "bold",
@@ -63,18 +67,13 @@
         "alignment": "center"
     },
 
-    "text_region_story weakness": {
-        "x": 212,
-        "y": 1548,
-        "width": 1152,
-        "height": 592,
-        "attach_after": "flavor_text"
-    },
+    "text_region_story weakness": {"x": 212, "y": 1548, "width": 1152, "height": 530, "attach_after": "flavor_text" },
+    "text_region_basic weakness": {"x": 212, "y": 1548, "width": 1152, "height": 530, "attach_after": "flavor_text" },
     "text_region_weakness": {
         "x": 212,
         "y": 1548,
         "width": 1152,
-        "height": 592,
+        "height": 530,
         "attach_after": "flavor_text"
     },
     "text_region": {
@@ -122,23 +121,11 @@
     "level_overlay": "{card_class}_{level}.png",
     "level_overlay_story": "neutral_{level}.png",
     "level_overlay_story weakness": "weakness_{level}.png",
+    "level_overlay_basic weakness": "weakness_{level}.png",
     "encounter_overlay_story": "story_event_overlay.png",
+    "encounter_overlay_basic weakness": "basic_weakness_event.png",
     "encounter_overlay_story weakness": "basic_weakness_event.png",
-
-    "basicweaknessevent_region": {
-        "x": 720,
-        "y": 1060,
-        "width": 216,
-        "height": 212
-    },
-    "basicweaknessicon_region": {
-        "x": 764,
-        "y": 1104,
-        "width": 120,
-        "height": 120
-    },
-
-    "weaknessbody_region": { "x": 248, "y": 1480, "width": 1152, "height": 572 },
+    "encounter_icon_basic weakness": "basic_weakness_icon.png",
 
     "encounter_overlay_region": {
         "x": 732,
@@ -147,8 +134,8 @@
         "height": 200
     },
     "encounter_icon_region": {
-        "x": 780,
-        "y": 1104,
+        "x": 774,
+        "y": 1114,
         "width": 108,
         "height": 108
     },
