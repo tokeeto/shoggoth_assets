@@ -1,33 +1,26 @@
 {
     "orientation": "horizontal",
+    "editor": "act",
     "template": "chapter_1/act_agenda_full_back",
     "template_bleed": true,
 
+
     "name": "<name>",
-    "name_region": { "x": 108, "y": 340, "width": 1000, "height": 176 },
+    "name_region": { "x": 450, "y": 1085, "width": 1340, "height": 106 },
     "name_font": {
         "font": "title",
-        "size": 100,
+        "size": 90,
         "alignment": "center"
     },
 
     "text_region": {
-        "x": 112,
-        "y": 492,
-        "width": 1056,
-        "height": 948,
-        "attach_before": "flavor_text"
+        "x": 140,
+        "y": 1210,
+        "width": 1960,
+        "height": 225,
+        "attach_after": "flavor_text"
     },
-    "text_polygon": [
-        [112, 492],
-        [1140, 492],
-        [1140, 1200],
-        [1040, 1280],
-        [970, 1350],
-        [112, 1370],
-        [112, 492]
-    ],
-    
+
     "text_font": {
         "font": "regular",
         "size": 68,
@@ -37,46 +30,17 @@
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "<i>{value}</i>\n",
 
-    "illustration_region": { "x": 912, "y": 0, "width": 1332, "height": 1644 },
+    "illustration_region": { "x": 0, "y": 0, "width": 2244, "height": 1644 },
 
     "encounter_icon_region": {
-        "x": 582,
-        "y": 200,
-        "width": 100,
-        "height": 100
-    },
-
-    "label": "%:Act",
-    "label_region": { "attached": true },
-    "label_format": "{value} ",
-
-    "index": "2a",
-    "index_region": {
-        "x": 352,
-        "y": 130,
-        "width": 536,
-        "height": 84,
-        "attach_before": "label"
-    },
-    "index_font": {
-        "size": 56,
-        "font": "semibold",
-        "alignment": "center"
-    },
-
-    "clues": "<dash>",
-    "clues_region": { "x": 1042, "y": 1292, "width": 160, "height": 200  },
-    "clues_font": {
-        "font": "skill",
-        "size": 110,
-        "color": "white",
-        "outline": 4,
-        "outline_color": "#462f40",
-        "alignment": "center"
+        "x": 230,
+        "y": 1025,
+        "width": 120,
+        "height": 120
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 1512, "width": 1062, "height": 70 },
+    "illustrator_region": { "x": 92, "y": 1508, "width": 2060, "height": 60 },
     "illustrator_font": {
         "font": "bold",
         "size": 40,
@@ -85,7 +49,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 1512, "width": 1062, "height": 70 },
+    "copyright_region": { "x": 92, "y": 1508, "width": 2060, "height": 60 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -94,11 +58,12 @@
     },
 
     "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 1512, "width": 1062, "height": 70 },
+    "collection_region": { "x": 92, "y": 1508, "width": 2060, "height": 60 },
     "collection_font": {
         "font": "bold",
         "size": 40,
         "color": "white",
         "alignment": "right"
     }
+
 }

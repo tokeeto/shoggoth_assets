@@ -8,7 +8,7 @@
     "template_minimal": "enemy_full",
 
     "name": "<name>",
-    "name_region": { "x": 72, "y": 90, "width": 1500, "height": 200 },
+    "name_region": { "x": 302, "y": 90, "width": 1050, "height": 130 },
     "name_font": {
         "font": "title",
         "size": 110,
