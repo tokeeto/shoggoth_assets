@@ -1,5 +1,5 @@
 {
-    "template": "encounter",
+    "template": "chapter_1/encounter",
     "template_bleed": true,
     "grouping": "encounter"
 }

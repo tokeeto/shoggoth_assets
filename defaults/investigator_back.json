@@ -19,7 +19,7 @@
         "size": 56
     },
 
-    "text_region": { "x": 192, "y": 372, "width": 1880, "height": 1292, "attach_after": "flavor_text" },
+    "text_region": { "x": 192, "y": 372, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
         "size": 68,
@@ -54,7 +54,7 @@
     ],
 
     "illustration_rotation": -16,
-    "illustration_region": { "x": 72, "y": 92, "width": 824, "height": 824 },
+    "illustration_region": { "x": 72, "y": 72, "width": 824, "height": 824 },
 
     "text_polygon": [
         [832, 372],
@@ -72,8 +72,9 @@
         [2060, 372],
         [2060, 1480],
         [192, 1480],
-        [192, 992],
-        [772, 992],
+        [192, 1012],
+        [712, 1012],
+        [742, 972],
         [832, 372]
     ],
 
@@ -101,7 +102,7 @@
         [825, 363]
     ],
 
-    "text_region_neutral": { "x": 192, "y": 390, "width": 1880, "height": 1292, "attach_after": "flavor_text" },
+    "text_region_neutral": { "x": 192, "y": 390, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
     "text_polygon_neutral": [
         [940, 380],
         [2060, 380],
@@ -111,7 +112,7 @@
         [840, 920],
         [940, 380]
     ],
-    "text_region_story": { "x": 192, "y": 390, "width": 1880, "height": 1292, "attach_after": "flavor_text" },
+    "text_region_story": { "x": 192, "y": 390, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
     "text_polygon_story": [
         [940, 380],
         [2060, 380],

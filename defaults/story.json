@@ -1,7 +1,7 @@
 {
-    "template": "story_<class>",
+    "template": "chapter_1/story_<class>",
     "template_bleed": [36, 36],
-    "classes": ["default"],
+    "classes": ["neutral"],
 
     "name": "<name>",
     "name_region": {
