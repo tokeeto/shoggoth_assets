@@ -20,7 +20,7 @@
     "level_region": { "x": 97, "y": 86, "width": 242, "height": 242 },
     "icons_box": "fullart/icon_box_<class>.png",
     "icons_region": {"x": 170, "y": 424, "width": 0, "height": 164},
-    "icons_box_region": { "x": -55, "y": -55, "width": 212, "height": 212},
+    "icons_box_region": { "x": -55, "y": -53, "width": 212, "height": 212},
     "text_polygon": null,
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 2244 }
 }

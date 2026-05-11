@@ -30,13 +30,16 @@
         { "token": "elder_thing", "text": "-8" }
     ],
 
+    "chaos_extra": "",
+    "chaos_extra_font": {"font": "title", "size": 72, "alignment": "center"},
+
     "bodyicon_region": { "x": 248, "y": 664, "width": 188, "height": 188 },
 
     "encounter_icon_region": {
-        "x": 760,
-        "y": 300,
-        "width": 128,
-        "height": 128
+        "x": 772,
+        "y": 322,
+        "width": 102,
+        "height": 102
     },
 
     "trackerbox_region": { "x": 136, "y": 814, "width": 612, "height": 184 },

@@ -15,7 +15,7 @@
     },
     "icons_box": "fullart/icon_box_<class>.png",
     "icons_region": {"x": 170, "y": 424, "width": 0, "height": 164},
-    "icons_box_region": { "x": -55, "y": -55, "width": 212, "height": 212},
+    "icons_box_region": { "x": -55, "y": -53, "width": 212, "height": 212},
     "text_polygon": null,
     "health_region": { "x": 272, "y":1622, "width": 120, "height": 160 },
     "sanity_region": { "x": 1232, "y":1622, "width": 180, "height": 160 },

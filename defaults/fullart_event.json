@@ -5,7 +5,7 @@
     "editor": "event",
     "icons_box": "fullart/icon_box_<class>.png",
     "icons_region": {"x": 170, "y": 424, "width": 0, "height": 164},
-    "icons_box_region": { "x": -55, "y": -55, "width": 212, "height": 212},
+    "icons_box_region": { "x": -55, "y": -53, "width": 212, "height": 212},
     "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
     "name_region": { "x": 72, "y": 1752, "width": 1500, "height": 130 },
     "traits_region": { "x": 72, "y": 1862, "width": 1500, "height": 100 },

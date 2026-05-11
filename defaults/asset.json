@@ -1,6 +1,7 @@
 {
     "template": "chapter_1/asset_<class><subtitle>",
     "template_basic weakness": "chapter_1/asset_weakness<subtitle>",
+    "template_story weakness": "chapter_1/asset_weakness<subtitle>",
     "template_story": "chapter_1/asset_neutral<subtitle>",
     "template_bleed_basic weakness": true,
     "template_bleed": true,
@@ -59,6 +60,7 @@
     "level_overlay_story": "neutral_{level}.png",
     "level_overlay_basic weakness": "neutral_{level}.png",
     "level_overlay_weakness": "neutral_{level}.png",
+    "level_overlay_story weakness": "neutral_{level}.png",
 
     "text": "",
     "text_region": {
@@ -89,13 +91,11 @@
     "slot_2_region": { "x": 1140, "y": 1882, "width": 224, "height": 224 },
 
     "text1_weakness": "WEAKNESS",
+    "text1_story weakness": "WEAKNESS",
+    "text1_region_story weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
     "text1_region_weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
-    "text1_font_weakness": {
-        "font": "semibold",
-        "size": 48,
-        "color": "#231f20",
-        "alignment": "center"
-    },
+    "text1_font_weakness": {"font": "semibold", "size": 48, "color": "#231f20", "alignment": "center"},
+    "text1_font_story weakness": {"font": "semibold", "size": 48, "color": "#231f20", "alignment": "center"},
 
     "text1_basic weakness": "BASIC WEAKNESS",
     "text1_region_basic weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
@@ -106,18 +106,15 @@
         "alignment": "center"
     },
     "encounter_overlay_basic weakness": "basic_weakness_skill.png",
+    "encounter_overlay_story weakness": "basic_weakness_skill.png",
     "encounter_overlay_region": {
         "x": 1350,
         "y": 96,
         "width": 200,
         "height": 200
     },
-    "encounter_icon_region_basic weakness": {
-        "x": 1392,
-        "y": 136,
-        "width": 112,
-        "height": 112
-    },
+    "encounter_icon_region_basic weakness": {"x": 1392,"y": 136,"width": 112,"height": 112},
+    "encounter_icon_region_story weakness": {"x": 1392,"y": 136,"width": 112,"height": 112},
     "encounter_icon_basic weakness": "basic_weakness_icon.png",
 
     "victory": "",
