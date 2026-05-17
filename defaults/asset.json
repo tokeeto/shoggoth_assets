@@ -90,14 +90,14 @@
     "slot_1_region": { "x": 1348, "y": 1882, "width": 224, "height": 224 },
     "slot_2_region": { "x": 1140, "y": 1882, "width": 224, "height": 224 },
 
-    "text1_weakness": "WEAKNESS",
-    "text1_story weakness": "WEAKNESS",
+    "text1_weakness": "%:WEAKNESS",
+    "text1_story weakness": "%:WEAKNESS",
     "text1_region_story weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
     "text1_region_weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
     "text1_font_weakness": {"font": "semibold", "size": 48, "color": "#231f20", "alignment": "center"},
     "text1_font_story weakness": {"font": "semibold", "size": 48, "color": "#231f20", "alignment": "center"},
 
-    "text1_basic weakness": "BASIC WEAKNESS",
+    "text1_basic weakness": "%:BASIC WEAKNESS",
     "text1_region_basic weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
     "text1_font_basic weakness": {
         "font": "semibold",
