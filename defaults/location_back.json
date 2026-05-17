@@ -1,6 +1,6 @@
 {
     "parent": "location",
-    "template": "chapter_1/location_back",
+    "template": "chapter_1/location_back<subtitle>",
     "name_region": { "x": 92, "y": 96, "width": 1440, "height": 180 },
     "name_font": {
         "font": "title",
