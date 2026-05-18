@@ -1,7 +1,7 @@
 {
     "template": "chapter_1/scenario",
     "template_bleed": true,
-    "name": "<name>",
+    "name": "<dbl><name></dbl>",
     "name_region": { "x": 184, "y": 455, "width": 1276, "height": 300 },
     "name_font": {
         "font": "title",
