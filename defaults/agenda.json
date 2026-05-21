@@ -3,7 +3,7 @@
     "template": "chapter_1/agenda",
     "template_bleed": true,
     
-    "name": "<name>",
+    "name": "<dbl><name></dbl>",
     "name_region": { "x": 1092, "y": 345, "width": 1000, "height": 176 },
     "name_font": {
         "font": "title",
