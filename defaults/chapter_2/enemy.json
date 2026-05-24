@@ -1,0 +1,88 @@
+{
+	"parent": "enemy",
+	"template": "chapter_2/enemy<subtitle>",
+    "template_bleed": false,
+    "editor": "enemy",
+
+    "illustration_region": { "x": 0, "y": 1328, "width": 1644, "height": 916 },
+
+    "text_region": { "x": 200, "y": 550, "width": 1210, "height": 580, "attach_after": "flavor_text" }, "text_polygon": [        [272, 512],
+        [1342, 512],
+        [1342, 582],
+        [1482, 582],
+        [1482, 948],
+        [1432, 948],
+        [1432, 1092],
+        [212, 1092],
+        [212, 912],
+        [152, 912],
+        [152, 582],
+        [272, 582],
+        [272, 512]
+    ],
+
+    "victory_overlay": "ch2_enemy_victory.png",
+    "victory_overlay_region": {"x": 72, "y": 72, "width": 1500, "height": 2100},
+    "victory_region": {"x": 1200, "y": 1280, "width": 300, "height": 80},
+
+    "damage1_region": {
+        "x": 600,
+        "y": 1184,
+        "width": 76,
+        "height": 92
+    },
+    "damage2_region": {
+        "x": 508,
+        "y": 1170,
+        "width": 76,
+        "height": 92
+    },
+    "damage3_region": {
+        "x": 416,
+        "y": 1156,
+        "width": 76,
+        "height": 92
+    },
+    "damage4_region": {
+        "x": 324,
+        "y": 1142,
+        "width": 76,
+        "height": 92
+    },
+    "damage5_region": {
+        "x": 232,
+        "y": 1128,
+        "width": 76,
+        "height": 92
+    },
+    "horror1_region": {
+        "x": 956,
+        "y": 1184,
+        "width": 108,
+        "height": 96
+    },
+    "horror2_region": {
+        "x": 1048,
+        "y": 1170,
+        "width": 108,
+        "height": 96
+    },
+    "horror3_region": {
+        "x": 1140,
+        "y": 1156,
+        "width": 108,
+        "height": 96
+    },
+    "horror4_region": {
+        "x": 1232,
+        "y": 1142,
+        "width": 108,
+        "height": 96
+    },
+    "horror5_region": {
+        "x": 1324,
+        "y": 1128,
+        "width": 108,
+        "height": 96
+    }
+}
