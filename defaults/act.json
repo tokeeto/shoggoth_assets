@@ -3,7 +3,7 @@
     "template": "chapter_1/act",
     "template_bleed": true,
 
-    "name": "<dbl><name></dbl>",
+    "name": "<name>",
     "name_region": { "x": 108, "y": 340, "width": 1000, "height": 176 },
     "name_font": {
         "font": "title",
