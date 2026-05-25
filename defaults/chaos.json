@@ -45,17 +45,8 @@
     "trackerbox_region": { "x": 136, "y": 814, "width": 612, "height": 184 },
     "trackername_region": { "x": 160, "y": 822, "width": 560, "height": 40 },
 
-    "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 2132, "width": 1326, "height": 70 },
-    "illustrator_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "left"
-    },
-
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2132, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -64,7 +55,7 @@
     },
 
     "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2132, "width": 1326, "height": 70 },
+    "collection_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
     "collection_font": {
         "font": "bold",
         "size": 40,

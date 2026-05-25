@@ -1,3 +1,4 @@
 {
-    "template": "customizable_back"
+    "template": "chapter_1/customizable_back",
+    "template_bleed": true
 }

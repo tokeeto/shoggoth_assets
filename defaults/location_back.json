@@ -34,7 +34,7 @@
     "connection": "<copy>",
     "connections": "<copy>",
 
-    "collection": "",
+    "collection": "<exi>        ",
     "collection_region": { "x": 72, "y": 2116, "width": 1430, "height": 70 },
     "collection_font": {
         "font": "bold",

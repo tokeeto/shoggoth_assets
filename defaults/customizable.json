@@ -1,31 +1,26 @@
 {
-    "template": "customizable",
+    "template": "chapter_1/customizable",
+    "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 68, "y": 85, "width": 620, "height": 68 },
+    "name_region": { "x": 208, "y": 242, "width": 1240, "height": 136 },
     "name_font": {
         "font": "title",
-        "size": 45,
+        "size": 90,
         "alignment": "center"
     },
 
     "label": "%:UPGRADES",
-    "label_region": { "x": 310, "y": 1012, "width": 130, "height": 28 },
+    "label_region": { "x": 692, "y": 2096, "width": 260, "height": 56 },
     "label_font": {
         "font": "semibold",
-        "size": 24,
-        "color": "black",
+        "size": 48,
         "alignment": "center"
     },
 
     "entries": [],
 
-    "text_region": { "x": 64, "y": 198, "width": 632, "height": 774 },
+    "text_region": { "x": 200, "y": 468, "width": 1264, "height": 1548 },
     "text_font": {
-        "font": "regular",
-        "size": 34,
-        "color": "black",
-        "outline": null,
-        "outline_color": null,
-        "alignment": "left"
+        "size": 68
     }
 }
