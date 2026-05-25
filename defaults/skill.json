@@ -64,7 +64,7 @@
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
 
-    "illustration_region": { "x": 0, "y": 232, "width": 1644, "height": 1192 },
+    "illustration_region": { "x": 85, "y": 232, "width": 1460, "height": 1215 },
     "basicweaknessskill_region": {
         "x": 1404,
         "y": 84,
