@@ -11,7 +11,8 @@
         "height": 108
     },
     "label_region": { "x": 620, "y": 768, "width": 416, "height": 80 },
-    
+    "victory_region": { "x": 372, "y": 680, "width": 900, "height": 100 },
+
     "attack_region": { "x": 565, "y": 292, "width": 104, "height": 140 },
     "evade_region": { "x": 976, "y": 292, "width": 104, "height": 140 },
     "health_region": { "x": 765, "y": 282, "width": 120, "height": 140 },
