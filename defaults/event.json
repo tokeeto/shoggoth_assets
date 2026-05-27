@@ -1,5 +1,6 @@
 {
     "template": "chapter_1/event_<class>",
+    "template_multi": "chapter_1/event_<class>_<class_length>",
     "template_story": "chapter_1/event_neutral",
     "template_story weakness": "chapter_1/event_weakness_subtitle",
     "template_weakness": "chapter_1/event_weakness_subtitle",
@@ -114,9 +115,13 @@
     "icons_box_story": "skill_box_neutral.png",
     "icons_box_story weakness": "skill_box_weakness.png",
 
-    "class_symbol_3_region": { "x": 988, "y": 80, "width": 208, "height": 208 },
-    "class_symbol_2_region": { "x": 1168, "y": 80, "width": 208, "height": 208 },
-    "class_symbol_1_region": { "x": 1348, "y": 80, "width": 208, "height": 208 },
+    "class_symbol_3_region": { "x": 500, "y": 1090, "width": 208, "height": 208 },
+    "class_symbol_2_region": { "x": 620, "y": 1090, "width": 208, "height": 208 },
+    "class_symbol_1_region": { "x": 800, "y": 1090, "width": 208, "height": 208 },
+
+    "class_symbol_3_region_multi3": { "x": 544, "y": 1090, "width": 208, "height": 208 },
+    "class_symbol_2_region_multi3": { "x": 714, "y": 1090, "width": 208, "height": 208 },
+    "class_symbol_1_region_multi3": { "x": 884, "y": 1090, "width": 208, "height": 208 },
 
     "level_overlay": "{card_class}_{level}.png",
     "level_overlay_story": "neutral_{level}.png",

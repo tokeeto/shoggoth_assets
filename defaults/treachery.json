@@ -2,7 +2,7 @@
     "template": "chapter_1/treachery",
     "grouping": "treachery",
     "template_bleed": true,
-    "template_basic_weakness": "chapter_1/treachery_weakness",
+    "template_basic weakness": "chapter_1/treachery_weakness",
     "template_encounter_weakness": "chapter_1/treachery_weakness",
     "template_weakness": "chapter_1/treachery_weakness",
     "template_location": "treachery_location",
@@ -26,9 +26,9 @@
 
     "subtitle_weakness": "%:WEAKNESS",
     "subtitle_encounter_weakness": "%:WEAKNESS",
-    "subtitle_basic_weakness": "%:BASIC WEAKNESS",
+    "subtitle_basic weakness": "%:BASIC WEAKNESS",
     "subtitle_region_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
-    "subtitle_region_basic_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
+    "subtitle_region_basic weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
     "subtitle_region_encounter_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
     "subtitle_font": {
         "font": "bold",
@@ -38,7 +38,7 @@
     
     "text": "",
     "text_region_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
-    "text_region_basic_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_basic weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_region_encounter_weakness": { "x": 192, "y": 1552, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_region": { "x": 192, "y": 1512, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_font": {
@@ -57,7 +57,7 @@
         [192, 1512]
     ],
     "text_polygon_weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
-    "text_polygon_basic_weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
+    "text_polygon_basic weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
     "text_polygon_encounter_weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
 
     "flavor_text": "",
@@ -65,7 +65,7 @@
     "flavor_text_format": "\n<center><i>{value}</i>",
 
     "traits_region": { "x": 192, "y": 1432, "width": 1272, "height": 640 },
-    "traits_region_basic_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
+    "traits_region_basic weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
     "traits_region_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
     "traits_region_encounter_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
     "traits_font": {
@@ -76,9 +76,9 @@
 
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1272 },
 
-    "encounter_icon_basic_weakness": "AHLCG-BasicWeakness.png",
-    "encounter_overlay_basic_weakness": "basic_weakness.png",
-    "encounter_overlay_weakness": "basic_weakness.png",
+    "encounter_icon_basic weakness": "AHLCG-BasicWeakness.png",
+    "encounter_overlay_basic weakness": "basic weakness.png",
+    "encounter_overlay_weakness": "basic weakness.png",
     "encounter_overlay_region": {
         "x": 690,
         "y": 1052,
