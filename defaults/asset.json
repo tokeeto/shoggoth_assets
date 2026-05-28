@@ -171,7 +171,7 @@
         "alignment": "center"
     },
 
-    "collection": "<exi> <exn>",
+    "collection": "<exi>   <exn>",
     "collection_story": "<esn>/<est>        <exi> <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
     "collection_region": { "x": 156, "y": 2102, "width": 1326, "height": 70 },
