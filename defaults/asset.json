@@ -24,7 +24,7 @@
     },
 
     "traits": "",
-    "traits_region": { "x": 416, "y": 1352, "width": 812, "height": 80 },
+    "traits_region": { "x": 416, "y": 1348, "width": 812, "height": 80 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -65,14 +65,14 @@
     "text": "",
     "text_region": {
         "x": 144,
-        "y": 1428,
+        "y": 1416,
         "width": 1320,
         "height": 470,
         "attach_after": "flavor_text"
     },
     "text_font": {
         "font": "regular",
-        "size": 64,
+        "size": 74,
         "color": "#231f20",
         "alignment": "left"
     },
@@ -87,8 +87,8 @@
     "class_symbol_2_region": { "x": 1168, "y": 80, "width": 208, "height": 208 },
     "class_symbol_1_region": { "x": 1348, "y": 80, "width": 208, "height": 208 },
 
-    "slot_1_region": { "x": 1348, "y": 1882, "width": 224, "height": 224 },
-    "slot_2_region": { "x": 1140, "y": 1882, "width": 224, "height": 224 },
+    "slot_1_region": { "x": 1308, "y": 1882, "width": 224, "height": 224 },
+    "slot_2_region": { "x": 1080, "y": 1882, "width": 224, "height": 224 },
 
     "text1_weakness": "%:WEAKNESS",
     "text1_story weakness": "%:WEAKNESS",
@@ -130,8 +130,8 @@
 
     "sanity": null,
     "health": null,
-    "health_region": { "x": 678, "y": 1962, "width": 120, "height": 160 },
-    "sanity_region": { "x": 860, "y": 1968, "width": 180, "height": 160 },
+    "health_region": { "x": 678, "y": 1958, "width": 120, "height": 160 },
+    "sanity_region": { "x": 860, "y": 1964, "width": 180, "height": 160 },
     "health_font": {
         "font": "skill",
         "size": 110,
@@ -153,16 +153,16 @@
     "icons": "",
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 2102, "width": 1326, "height": 70 },
+    "illustrator_region": { "x": 142, "y": 2106, "width": 1348, "height": 70 },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2102, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 142, "y": 2106, "width": 1348, "height": 70 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -170,10 +170,10 @@
         "alignment": "center"
     },
 
-    "collection": "<exi> <exn>",
+    "collection": "<exi>      <exn>",
     "collection_story": "<esn>/<est>        <exi> <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2102, "width": 1326, "height": 70 },
+    "collection_region": { "x": 142, "y": 2106, "width": 1348, "height": 70 },
     "collection_font": {
         "font": "bold",
         "size": 40,
