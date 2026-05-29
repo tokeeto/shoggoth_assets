@@ -6,7 +6,7 @@
     "template_bleed_basic weakness": true,
     "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 344, "y": 144, "width": 952, "height": 120 },
+    "name_region": { "x": 344, "y": 135, "width": 952, "height": 120 },
     "name_font": {
         "font": "title",
         "size": 94,
