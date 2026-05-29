@@ -30,9 +30,9 @@
         "alignment": "center"
     },
 
-    "traits_region": { "x": 438, "y": 1480, "width": 812, "height": 100 },
-    "traits_region_weakness": { "x": 438, "y": 1525, "width": 812, "height": 100 },
-    "traits_region_basic weakness": { "x": 438, "y": 1525, "width": 812, "height": 100 },
+    "traits_region": { "x": 422, "y": 1470, "width": 812, "height": 100 },
+    "traits_region_weakness": { "x": 422, "y": 1525, "width": 812, "height": 100 },
+    "traits_region_basic weakness": { "x": 422, "y": 1525, "width": 812, "height": 100 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -61,24 +61,24 @@
         "height": 110
     },
 
-    "text_region": {"x": 230, "y": 1536, "width": 1204, "height": 480, "attach_after": "flavor_text" },
+    "text_region": {"x": 230, "y": 1546, "width": 1244, "height": 480, "attach_after": "flavor_text" },
     "text_region_weakness": {"x": 230, "y": 1585, "width": 1204, "height": 480, "attach_after": "flavor_text" },
     "text_region_basic weakness": {"x": 230, "y": 1585, "width": 1204, "height": 480, "attach_after": "flavor_text" },
     "text_polygon": [
-        [242, 1532],
-        [1432, 1532],
-        [1470, 1692],
-        [1476, 1840],
-        [1436, 2032],
-        [242, 2032],
-        [280, 1864],
-        [276, 1744],
-        [256, 1596],
-        [242, 1532]
+        [252, 1542],
+        [1442, 1542],
+        [1480, 1702],
+        [1486, 1850],
+        [1446, 2042],
+        [252, 2042],
+        [280, 1874],
+        [286, 1754],
+        [266, 1606],
+        [252, 1542]
     ],
     "text_font": {
         "font": "regular",
-        "size": 68,
+        "size": 73,
         "color": "black",
         "outline": null,
         "outline_color": null,
@@ -116,16 +116,16 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 160, "y": 2112, "width": 1326, "height": 70 },
+    "illustrator_region": { "x": 142, "y": 2120, "width": 1358, "height": 70 },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 160, "y": 2112, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 142, "y": 2120, "width": 1358, "height": 70 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -133,10 +133,10 @@
         "alignment": "center"
     },
 
-    "collection": "<exi> <exn>",
+    "collection": "<exi>   <exn>",
     "collection_story": "<esn>/<est>        <exi> <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 160, "y": 2112, "width": 1326, "height": 70 },
+    "collection_region": { "x": 142, "y": 2120, "width": 1358, "height": 70 },
     "collection_font": {
         "font": "bold",
         "size": 40,
