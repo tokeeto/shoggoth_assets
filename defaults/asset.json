@@ -45,7 +45,7 @@
     "level": 0,
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
 
-    "cost": "<dash>",
+    "cost": "---",
     "cost_region": { "x": 156, "y": 138, "width": 140, "height": 180 },
     "cost_font": {
         "font": "title",
