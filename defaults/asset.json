@@ -136,7 +136,7 @@
         "font": "skill",
         "size": 110,
         "color": "white",
-        "outline": 2,
+        "outline": 4,
         "outline_color": "#cb270d",
         "alignment": "center"
     },
@@ -144,7 +144,7 @@
         "font": "skill",
         "size": 110,
         "color": "white",
-        "outline": 2,
+        "outline": 4,
         "outline_color": "#1c2b48",
         "alignment": "center"
     },
