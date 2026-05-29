@@ -76,9 +76,9 @@
 
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1272 },
 
-    "encounter_icon_basic weakness": "AHLCG-BasicWeakness.png",
-    "encounter_overlay_basic weakness": "basic weakness.png",
-    "encounter_overlay_weakness": "basic weakness.png",
+    "encounter_icon_basic weakness": "basic_weakness_icon.png",
+    "encounter_overlay_basic weakness": "basic_weakness.png",
+    "encounter_overlay_weakness": "basic_weakness.png",
     "encounter_overlay_region": {
         "x": 690,
         "y": 1052,

@@ -6,7 +6,7 @@
     "template_bleed_basic weakness": true,
     "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 344, "y": 144, "width": 952, "height": 120 },
+    "name_region": { "x": 344, "y": 135, "width": 952, "height": 120 },
     "name_font": {
         "font": "title",
         "size": 94,
@@ -45,7 +45,7 @@
     "level": 0,
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
 
-    "cost": "<dash>",
+    "cost": "---",
     "cost_region": { "x": 156, "y": 138, "width": 140, "height": 180 },
     "cost_font": {
         "font": "title",
@@ -136,7 +136,7 @@
         "font": "skill",
         "size": 110,
         "color": "white",
-        "outline": 2,
+        "outline": 4,
         "outline_color": "#cb270d",
         "alignment": "center"
     },
@@ -144,7 +144,7 @@
         "font": "skill",
         "size": 110,
         "color": "white",
-        "outline": 2,
+        "outline": 4,
         "outline_color": "#1c2b48",
         "alignment": "center"
     },

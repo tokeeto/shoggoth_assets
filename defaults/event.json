@@ -57,7 +57,7 @@
 
     "class": "guardian",
 
-    "cost": "<dash>",
+    "cost": "---",
     "cost_region": { "x": 156, "y": 142, "width": 140, "height": 180 },
     "cost_font": {
         "font": "title",
