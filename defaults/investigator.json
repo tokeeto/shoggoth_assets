@@ -131,10 +131,17 @@
     },
 
     "encounter_icon_region_story": {
-        "x": 115,
-        "y": 118,
+        "x": 130,
+        "y": 138,
         "width": 115,
         "height": 115
+    },
+    "encounter_overlay_story": "story_event_overlay.png",
+    "encounter_overlay_region": {
+        "x": 88,
+        "y": 96,
+        "width": 200,
+        "height": 200
     },
 
     "collection": "<exi> <exn>",
