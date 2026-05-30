@@ -32,7 +32,7 @@
 
     "traits_region": { "x": 422, "y": 1470, "width": 812, "height": 100 },
     "traits_region_weakness": { "x": 422, "y": 1525, "width": 812, "height": 100 },
-    "traits_region_basic weakness": { "x": 422, "y": 1525, "width": 812, "height": 100 },
+    "traits_region_basic weakness": { "x": 422, "y": 1535, "width": 812, "height": 100 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -65,18 +65,18 @@
         "height": 110
     },
 
-    "text_region": {"x": 230, "y": 1546, "width": 1244, "height": 480, "attach_after": "flavor_text" },
-    "text_region_weakness": {"x": 230, "y": 1585, "width": 1204, "height": 480, "attach_after": "flavor_text" },
-    "text_region_basic weakness": {"x": 230, "y": 1585, "width": 1204, "height": 480, "attach_after": "flavor_text" },
+    "text_region": {"x": 252, "y": 1546, "width": 1208, "height": 480, "attach_after": "flavor_text" },
+    "text_region_weakness": {"x": 252, "y": 1610, "width": 1208, "height": 480, "attach_after": "flavor_text" },
+    "text_region_basic weakness": {"x": 252, "y": 1610, "width": 1208, "height": 480, "attach_after": "flavor_text" },
     "text_polygon": [
         [252, 1542],
-        [1442, 1542],
-        [1480, 1702],
-        [1486, 1850],
-        [1446, 2042],
+        [1422, 1542],
+        [1460, 1702],
+        [1460, 1870],
+        [1426, 2042],
         [252, 2042],
-        [280, 1874],
-        [286, 1754],
+        [272, 1874],
+        [276, 1754],
         [266, 1606],
         [252, 1542]
     ],
