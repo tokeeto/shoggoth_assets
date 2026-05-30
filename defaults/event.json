@@ -159,7 +159,7 @@
     "copyright_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
     "copyright_font": {
         "font": "bold",
-        "size": 38,
+        "size": 40,
         "color": "white",
         "alignment": "center"
     },
@@ -170,7 +170,7 @@
     "collection_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
     "collection_font": {
         "font": "bold",
-        "size": 38,
+        "size": 40,
         "color": "white",
         "alignment": "right"
     }
