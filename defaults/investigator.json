@@ -1,11 +1,12 @@
 {
     "orientation": "horizontal",
     "grouping": "investigator",
-    "template": "investigator_<class>",
-    "template_bleed": false,
+    "template": "chapter_1/investigator_<class>",
+    "template_story": "chapter_1/investigator_neutral",
+    "template_bleed": true,
     
     "name": "<unique><name>",
-    "name_region": { "x": 264, "y": 124, "width": 848, "height": 144 },
+    "name_region": { "x": 264, "y": 132, "width": 848, "height": 144 },
     "name_font_neutral_parallel": {"font": "title", "size": 90, "alignment": "center", "color": "white" },
     "name_font_mystic_parallel": {"font": "title", "size": 90, "alignment": "center", "color": "white" },
     "name_font_guardian_parallel": {"font": "title", "size": 90, "alignment": "center", "color": "white" },
@@ -18,7 +19,7 @@
         "alignment": "center"
     },
     "subtitle": "",
-    "subtitle_region": { "x": 360, "y": 238, "width": 700, "height": 100 },
+    "subtitle_region": { "x": 360, "y": 250, "width": 700, "height": 100 },
     "subtitle_font": {"font": "semibold", "alignment": "center", "size": 56},
     "subtitle_font_neutral_parallel": {"font": "semibold", "alignment": "center", "size": 56},
     "subtitle_font_mystic_parallel": {"font": "semibold", "alignment": "center", "size": 56},
@@ -50,7 +51,7 @@
     "illustration": "",
     "illustration_region": { "x": 72, "y": 312, "width": 1120, "height": 1260 },
     "willpower": "3",
-    "willpower_region": { "x": 1215, "y": 148, "width": 120, "height": 120 },
+    "willpower_region": { "x": 1215, "y": 162, "width": 120, "height": 120 },
     "willpower_font": { "font": "skill", "size": 90, "alignment": "center" },
     "willpower_font_neutral_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
     "willpower_font_mystic_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
@@ -60,7 +61,7 @@
     "willpower_font_survivor_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
 
     "intellect": "3",
-    "intellect_region": { "x": 1453, "y": 148, "width": 120, "height": 120 },
+    "intellect_region": { "x": 1453, "y": 162, "width": 120, "height": 120 },
     "intellect_font": { "font": "skill", "size": 90, "alignment": "center" },
     "intellect_font_neutral_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
     "intellect_font_mystic_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
@@ -70,7 +71,7 @@
     "intellect_font_survivor_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
 
     "combat": "3",
-    "combat_region": { "x": 1701, "y": 148, "width": 120, "height": 120 },
+    "combat_region": { "x": 1701, "y": 162, "width": 120, "height": 120 },
     "combat_font": { "font": "skill", "size": 90, "alignment": "center" },
     "combat_font_neutral_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
     "combat_font_mystic_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
@@ -80,7 +81,7 @@
     "combat_font_survivor_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
 
     "agility": "3",
-    "agility_region": { "x": 1939, "y": 148, "width": 120, "height": 120 },
+    "agility_region": { "x": 1939, "y": 162, "width": 120, "height": 120 },
     "agility_font": { "font": "skill", "size": 90, "alignment": "center" },
     "agility_font_neutral_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
     "agility_font_mystic_parallel": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },

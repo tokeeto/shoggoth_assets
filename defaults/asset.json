@@ -79,6 +79,7 @@
 
     "encounter_overlay_story": "story_event_overlay.png",
     "icons_box_story": "skill_box_neutral.png",
+    "icons_box_basic weakness": "skill_box_weakness.png",
 
     "illustration": "",
     "illustration_region": { "x": 0, "y": 232, "width": 1644, "height": 1032 },

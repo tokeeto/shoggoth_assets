@@ -114,6 +114,7 @@
 
     "icons_box_story": "skill_box_neutral.png",
     "icons_box_story weakness": "skill_box_weakness.png",
+    "icons_box_basic weakness": "skill_box_weakness.png",
 
     "class_symbol_3_region": { "x": 500, "y": 1090, "width": 208, "height": 208 },
     "class_symbol_2_region": { "x": 620, "y": 1090, "width": 208, "height": 208 },

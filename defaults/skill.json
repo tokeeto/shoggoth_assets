@@ -48,6 +48,10 @@
     "encounter_overlay_weakness": "basic_weakness_skill.png",
     "encounter_icon_basic weakness": "basic_weakness_icon.png",
 
+    "icons_box_story": "skill_box_neutral.png",
+    "icons_box_story weakness": "skill_box_weakness.png",
+    "icons_box_basic weakness": "skill_box_weakness.png",
+
     "encounter_overlay_region": {
         "x": 1330,
         "y": 84,
