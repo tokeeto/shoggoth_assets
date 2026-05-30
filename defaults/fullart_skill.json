@@ -5,12 +5,12 @@
     "editor": "skill",
     "name_region": { "x": 384, "y": 132, "width": 1176, "height": 160 },
     "label_region": { "x": 146, "y": 322, "width": 152, "height": 80 },
-    "traits_region": { "x": 72, "y": 1778, "width": 1500, "height": 100 },
+    "traits_region": { "x": 422, "y": 1770, "width": 812, "height": 100 },
     "text_region": {
-        "x": 102,
+        "x": 100,
         "y": 1842,
-        "width": 1440,
-        "height": 230,
+        "width": 1444,
+        "height": 220,
         "attach_after": "flavor_text"
     },
     "text_font": {
