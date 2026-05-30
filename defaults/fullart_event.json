@@ -7,28 +7,41 @@
     "icons_region": {"x": 170, "y": 424, "width": 0, "height": 164},
     "icons_box_region": { "x": -55, "y": -53, "width": 212, "height": 212},
     "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
-    "name_region": { "x": 72, "y": 1752, "width": 1500, "height": 130 },
-    "traits_region": { "x": 72, "y": 1862, "width": 1500, "height": 100 },
+    "name_region": { "x": 282, "y": 1752, "width": 1080, "height": 130 },
+    "traits_region": { "x": 302, "y": 1862, "width": 1040, "height": 100 },
     "text_region": {
         "x": 272,
-        "y": 1922,
-        "width": 1152,
-        "height": 270,
+        "y": 1934,
+        "width": 1100,
+        "height": 250,
         "attach_after": "flavor_text"
     },
     "text_polygon": [
-        [104, 914],
-        [634, 884],
-        [664, 984],
-        [654, 1044],
-        [104, 1044],
-        [84, 984],
-        [104, 914]
+        [272, 1934],
+        [1372, 1934],
+        [1402, 2059],
+        [1372, 2184],
+        [272, 2184],
+        [242, 2059],
+        [272, 1934]
     ],
-    "illustrator_region": { "x": 82, "y": 152, "width": 2000, "height": 70 },
+    "illustrator_region": {
+        "x": 82, "y": 152, "width": 2000, "height": 90,
+        "attach_after": "copyright"
+        },
     "illustrator_font": {
         "font": "bold",
-        "size": 19,
+        "size": 38,
+        "color": "white",
+        "alignment": "left",
+        "rotation": 90
+    },
+    "copyright_region": {
+        "attached": true
+    },
+    "copyright_font": {
+        "font": "bold",
+        "size": 40,
         "color": "white",
         "alignment": "left",
         "rotation": 90
@@ -38,7 +51,7 @@
     "collection_region": { "x": 1452, "y": 2072, "width": 100, "height": 160 },
     "collection_font": {
         "font": "bold",
-        "size": 19,
+        "size": 40,
         "color": "white",
         "alignment": "center"
     }
