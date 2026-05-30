@@ -86,7 +86,7 @@
     },
     "text_font": {
         "font": "regular",
-        "size": 62,
+        "size": 74,
         "color": "black",
         "alignment": "left"
     },
@@ -147,7 +147,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 138, "y": 2112, "width": 1326, "height": 70 },
+    "illustrator_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
     "illustrator_font": {
         "font": "bold",
         "size": 38,
@@ -156,7 +156,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 72, "y": 2112, "width": 1500, "height": 70 },
+    "copyright_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
     "copyright_font": {
         "font": "bold",
         "size": 38,
@@ -165,9 +165,9 @@
     },
 
     "collection": "<exi> <exn>",
-    "collection_story": "<esn>/<est>        <exi> <exn>",
+    "collection_story": "<esn>/<est>        <exi>   <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 152, "y": 2112, "width": 1326, "height": 70 },
+    "collection_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
     "collection_font": {
         "font": "bold",
         "size": 38,
