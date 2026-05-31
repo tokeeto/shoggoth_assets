@@ -32,8 +32,8 @@
     "illustration_region": { "x": 0, "y": 0, "width": 2244, "height": 1644 },
 
     "encounter_icon_region": {
-        "x": 230,
-        "y": 910,
+        "x": 225,
+        "y": 914,
         "width": 120,
         "height": 120
     },
