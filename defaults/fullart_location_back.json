@@ -5,6 +5,8 @@
     "connection": "<copy>",
     "connections": "<copy>",
     "traits": "<copy>",
+    "flavor_text_region": { "attached": true },
+    "flavor_text_format": "<center><i>{value}</i>",
 
     "illustration": "<copy>",
     "illustration_pan_x": "<copy>",
