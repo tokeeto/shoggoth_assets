@@ -136,6 +136,13 @@
         "width": 115,
         "height": 115
     },
+    "encounter_overlay_story": "story_encounter_overlay.png",
+    "encounter_overlay_region": {
+        "x": 51,
+        "y": 70,
+        "width": 241,
+        "height": 241
+    },
 
     "collection": "<exi> <exn>",
     "collection_story": "<esn>/<est>      <exi>    <exn>",
