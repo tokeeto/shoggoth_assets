@@ -130,13 +130,13 @@
         "alignment": "center"
     },
 
-    "encounter_icon_region_story": {
+    "encounter_icon_region": {
         "x": 130,
         "y": 138,
         "width": 115,
         "height": 115
     },
-    "encounter_overlay_story": "story_encounter_overlay.png",
+    "encounter_overlay": "story_encounter_overlay.png",
     "encounter_overlay_region": {
         "x": 65,
         "y": 86,
