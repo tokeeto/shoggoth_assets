@@ -3,7 +3,7 @@
     "template_bleed": true,
     "grouping": "location",
     "name": "<name>",
-    "name_region": { "x": 92, "y": 96, "width": 1440, "height": 180 },
+    "name_region": { "x": 92, "y": 70, "width": 1440, "height": 140 },
     "name_font": {
         "font": "title",
         "size": 110,
@@ -11,7 +11,7 @@
     },
 
     "label": "%:LOCATION",
-    "label_region": { "x": 624, "y": 1186, "width": 400, "height": 100 },
+    "label_region": { "x": 618, "y": 1173, "width": 400, "height": 60 },
     "label_font": {
         "font": "semibold",
         "size": 48,

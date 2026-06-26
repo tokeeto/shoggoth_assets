@@ -6,7 +6,7 @@
     "template_bleed_basic weakness": true,
     "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 340, "y": 135, "width": 940, "height": 120 },
+    "name_region": { "x": 340, "y": 120, "width": 940, "height": 120 },
     "name_font": {
         "font": "title",
         "size": 94,
@@ -15,7 +15,7 @@
 
     "subtitle": null,
     "subtitle_region": {
-        "x": 92, "y": 254, "width": 1500, "height": 100
+        "x": 525, "y": 245, "width": 650, "height": 70
     },
     "subtitle_font": {
         "font": "semibold",
@@ -24,7 +24,7 @@
     },
 
     "traits": "",
-    "traits_region": { "x": 416, "y": 1352, "width": 812, "height": 80 },
+    "traits_region": { "x": 416, "y": 1330, "width": 812, "height": 64 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -32,7 +32,7 @@
     },
 
     "label": "%:ASSET",
-    "label_region": { "x": 156, "y": 332, "width": 150, "height": 70 },
+    "label_region": { "x": 145, "y": 320, "width": 160, "height": 45 },
     "label_font": {
         "font": "semibold",
         "size": 38,
@@ -46,7 +46,7 @@
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
 
     "cost": "---",
-    "cost_region": { "x": 156, "y": 138, "width": 140, "height": 180 },
+    "cost_region": { "x": 148, "y": 115, "width": 154, "height": 155 },
     "cost_font": {
         "font": "title",
         "size": 128,
@@ -65,14 +65,14 @@
     "text": "",
     "text_region": {
         "x": 144,
-        "y": 1416,
+        "y": 1400,
         "width": 1356,
         "height": 470,
         "attach_after": "flavor_text"
     },
     "text_font": {
         "font": "regular",
-        "size": 64,
+        "size": 72,
         "color": "#231f20",
         "alignment": "left"
     },
@@ -93,16 +93,16 @@
 
     "text1_weakness": "%:WEAKNESS",
     "text1_story weakness": "%:WEAKNESS",
-    "text1_region_story weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
-    "text1_region_weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
-    "text1_font_weakness": {"font": "semibold", "size": 48, "color": "#231f20", "alignment": "center"},
-    "text1_font_story weakness": {"font": "semibold", "size": 48, "color": "#231f20", "alignment": "center"},
-
     "text1_basic weakness": "%:BASIC WEAKNESS",
-    "text1_region_basic weakness": { "x": 416, "y": 1282, "width": 812, "height": 80 },
+    "text1_region_story weakness": { "x": 416, "y": 1264, "width": 812, "height": 55 },
+    "text1_region_weakness": { "x": 416, "y": 1264, "width": 812, "height": 55 },
+    "text1_region_basic weakness": { "x": 416, "y": 1264, "width": 812, "height": 55 },
+    "text1_font_weakness": {"font": "semibold", "size": 47, "color": "#231f20", "alignment": "center"},
+    "text1_font_story weakness": {"font": "semibold", "size": 47, "color": "#231f20", "alignment": "center"},
+
     "text1_font_basic weakness": {
         "font": "semibold",
-        "size": 48,
+        "size": 47,
         "color": "#231f20",
         "alignment": "center"
     },
@@ -131,21 +131,21 @@
 
     "sanity": null,
     "health": null,
-    "health_region": { "x": 678, "y": 1962, "width": 120, "height": 160 },
-    "sanity_region": { "x": 860, "y": 1968, "width": 180, "height": 160 },
+    "health_region": { "x": 659, "y": 1957, "width": 140, "height": 170 },
+    "sanity_region": { "x": 854, "y": 1954, "width": 188, "height": 159 },
     "health_font": {
         "font": "skill",
-        "size": 110,
+        "size": 114,
         "color": "white",
-        "outline": 4,
+        "outline": 6,
         "outline_color": "#cb270d",
         "alignment": "center"
     },
     "sanity_font": {
         "font": "skill",
-        "size": 110,
+        "size": 114,
         "color": "white",
-        "outline": 4,
+        "outline": 6,
         "outline_color": "#1c2b48",
         "alignment": "center"
     },
@@ -154,7 +154,7 @@
     "icons": "",
 
     "illustrator": "",
-    "illustrator_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
+    "illustrator_region": { "x": 142, "y": 2120, "width": 1360, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 40,
@@ -163,7 +163,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
+    "copyright_region": { "x": 142, "y": 2120, "width": 1360, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -174,7 +174,7 @@
     "collection": "<exi>   <exn>",
     "collection_story": "<esn>/<est>        <exi> <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 142, "y": 2120, "width": 1360, "height": 70 },
+    "collection_region": { "x": 142, "y": 2120, "width": 1360, "height": 40 },
     "collection_font": {
         "font": "bold",
         "size": 40,
