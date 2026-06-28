@@ -4,7 +4,7 @@
     "template_bleed": true,
     
     "name": "<name>",
-    "name_region": { "x": 1092, "y": 345, "width": 1000, "height": 176 },
+    "name_region": { "x": 1092, "y": 320, "width": 1000, "height": 100 },
     "name_font": {
         "font": "title",
         "size": 100,
@@ -13,25 +13,25 @@
 
     "text_region": {
         "x": 1090,
-        "y": 497,
+        "y": 472,
         "width": 1030,
-        "height": 935,
+        "height": 948,
         "attach_before": "flavor_text"
     },
     "text_polygon": [
-        [1090, 497],
-        [2120, 497],
+        [1090, 472],
+        [2120, 472],
         [2120, 1400],
         [1300, 1400],
         [1270, 1300],
         [1200, 1250],
         [1090, 1150],
-        [1090, 497]
+        [1090, 472]
     ],
 
     "text_font": {
         "font": "regular",
-        "size": 72,
+        "size": 68,
         "alignment": "left"
     },
     "flavor_text": "",
@@ -54,9 +54,9 @@
     "index": "2a",
     "index_region": {
         "x": 1328,
-        "y": 135,
+        "y": 115,
         "width": 536,
-        "height": 84,
+        "height": 56,
         "attach_before": "label"
     },
     "index_font": {
@@ -65,18 +65,18 @@
         "alignment": "center"
     },
 
-    "doom_region": { "x": 1032, "y": 1297, "width": 160, "height": 200 },
+    "doom_region": { "x": 1032, "y": 1275, "width": 168, "height": 110 },
     "doom_font": {
         "font": "skill",
         "size": 110,
         "color": "white",
         "outline": 4,
-        "outline_color": "#462f40",
+        "outline_color": "#231f20",
         "alignment": "center"
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 1084, "y": 1507, "width": 1062, "height": 70 },
+    "illustrator_region": { "x": 1084, "y": 1512, "width": 1062, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 40,
@@ -85,7 +85,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 1084, "y": 1507, "width": 1062, "height": 70 },
+    "copyright_region": { "x": 1084, "y": 1512, "width": 1062, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -94,7 +94,7 @@
     },
 
     "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 1084, "y": 1507, "width": 1062, "height": 70 },
+    "collection_region": { "x": 1084, "y": 1512, "width": 1062, "height": 40 },
     "collection_font": {
         "font": "bold",
         "size": 40,

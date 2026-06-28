@@ -8,7 +8,7 @@
     "template_minimal": "enemy_full",
 
     "name": "<name>",
-    "name_region": { "x": 302, "y": 90, "width": 1050, "height": 130 },
+    "name_region": { "x": 302, "y": 54, "width": 1050, "height": 110 },
     "name_font": {
         "font": "title",
         "size": 110,
@@ -19,7 +19,7 @@
     "subtitle_basic_weakness": "BASIC WEAKNESS",
     "subtitle_weakness": "WEAKNESS",
     "subtitle_encounter_weakness": "WEAKNESS",
-    "subtitle_region": { "x": 72, "y": 222, "width": 1500, "height": 80 },
+    "subtitle_region": { "x": 72, "y": 204, "width": 1500, "height": 56 },
     "subtitle_font": {
         "font": "bold",
         "size": 56,
@@ -27,8 +27,8 @@
     },
 
     "label": "%:ENEMY",
-    "label_region": { "x": 696, "y": 1300, "width": 244, "height": 100 },
-    "label_region_minimal": { "x": 696, "y": 1128, "width": 244, "height": 100 },
+    "label_region": { "x": 696, "y": 1285, "width": 244, "height": 48 },
+    "label_region_minimal": { "x": 696, "y": 1113, "width": 244, "height": 48 },
     "label_font": {
         "font": "semibold",
         "size": 48,
@@ -36,7 +36,7 @@
     },
 
     "text": "",
-    "text_region": { "x": 100, "y": 560, "width": 810, "height": 580, "attach_after": "flavor_text" },
+    "text_region": { "x": 100, "y": 512, "width": 810, "height": 580, "attach_after": "flavor_text" },
     "text_polygon": [
         [272, 512],
         [1342, 512],
@@ -62,7 +62,7 @@
     "flavor_text_format": "\n<center><i>{value}</i>",
 
     "traits": "",
-    "traits_region": { "x": 272, "y": 492, "width": 1116, "height": 120 },
+    "traits_region": { "x": 272, "y": 462, "width": 1116, "height": 62 },
     "traits_font": {
         "font": "bolditalic",
         "size": 62,
@@ -85,41 +85,41 @@
     },
 
     "attack": "<dash>",
-    "attack_region": { "x": 504, "y": 308, "width": 104, "height": 180 },
+    "attack_region": { "x": 490, "y": 308, "width": 110, "height": 90 },
     "attack_font": {
         "font": "skill",
         "size": 90,
         "color": "white",
         "alignment": "center",
         "outline": 4,
-        "outline_color": "#462f40"
+        "outline_color": "#231f20"
     },
 
     "evade": "<dash>",
-    "evade_region": { "x": 1056, "y": 308, "width": 104, "height": 180 },
+    "evade_region": { "x": 1045, "y": 308, "width": 110, "height": 90 },
     "evade_font": {
         "font": "skill",
         "size": 90,
         "color": "white",
         "alignment": "center",
         "outline": 4,
-        "outline_color": "#462f40"
+        "outline_color": "#231f20"
     },
 
     "draw_health_overlay": false,
     "health": "<dash>",
-    "health_region": { "x": 724, "y": 296, "width": 200, "height": 180 },
+    "health_region": { "x": 730, "y": 280, "width": 180, "height": 100 },
     "health_font": {
         "font": "skill",
-        "size": 90,
+        "size": 100,
         "color": "white",
         "alignment": "center",
         "outline": 4,
-        "outline_color": "#462f40"
+        "outline_color": "#231f20"
     },
 
     "victory": "",
-    "victory_region": { "x": 372, "y": 1072, "width": 900, "height": 100 },
+    "victory_region": { "x": 372, "y": 1049, "width": 900, "height": 72 },
     "victory_font": {
         "font": "bold",
         "size": 72,
@@ -188,7 +188,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "illustrator_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 40,
@@ -197,7 +197,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -206,7 +206,7 @@
     },
 
     "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "collection_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "collection_font": {
         "font": "bold",
         "size": 40,

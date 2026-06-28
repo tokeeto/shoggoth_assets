@@ -6,9 +6,9 @@
     "name": "<name>",
     "name_region": {
         "x": 220,
-        "y": 220,
+        "y": 189,
         "width": 1000,
-        "height": 150
+        "height": 96
     },
     "name_font": {
         "font": "title",
@@ -19,9 +19,9 @@
     "label": "%:STORY",
     "label_region": {
         "x": 708,
-        "y": 2086,
+        "y": 2069,
         "width": 225,
-        "height": 70
+        "height": 52
     },
     "label_font": {
         "font": "bold",
@@ -36,7 +36,7 @@
     },
     "text_region": {
         "x": 220,
-        "y": 500,
+        "y": 479,
         "width": 1200,
         "height": 1480
     },
@@ -47,21 +47,9 @@
         "width": 140,
         "height": 140
     },
-    "trackerbox_region": {
-        "x": 34,
-        "y": 393,
-        "width": 306,
-        "height": 90
-    },
-    "trackername_region": {
-        "x": 46,
-        "y": 397,
-        "width": 280,
-        "height": 20
-    },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 270, "y": 2032, "width": 400, "height": 60 },
+    "copyright_region": { "x": 270, "y": 2019, "width": 400, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -69,7 +57,7 @@
     },
 
     "collection": "<esn>/<est>        <exi>   <exn>",
-    "collection_region": { "x": 976, "y": 2032, "width": 400, "height": 60 },
+    "collection_region": { "x": 976, "y": 2019, "width": 400, "height": 40 },
     "collection_font": {
         "font": "bold",
         "size": 40,

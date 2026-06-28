@@ -2,7 +2,7 @@
     "template": "chapter_1/scenario",
     "template_bleed": true,
     "name": "<dbl><name></dbl>",
-    "name_region": { "x": 184, "y": 455, "width": 1276, "height": 300 },
+    "name_region": { "x": 184, "y": 418, "width": 1276, "height": 110 },
     "name_font": {
         "font": "title",
         "size": 110,
@@ -10,13 +10,8 @@
     },
 
     "difficulty": "EASY/STANDARD",
-    "difficulty_region": { "x": 72, "y": 586, "width": 1500, "height": 100 },
+    "difficulty_region": { "x": 184, "y": 568, "width": 1276, "height": 56 },
     "difficulty_font": { "font": "bold", "alignment": "center", "size": 56 },
-
-    "header_region": { "x": 212, "y": 612, "width": 1200, "height": 1220 },
-    "header_font": {
-        "alignment": "center"
-    },
 
     "chaos_region": { "x": 248, "y": 696, "width": 1200, "height": 1220 },
     "chaos_font": {
@@ -33,8 +28,6 @@
     "chaos_extra": "",
     "chaos_extra_font": {"font": "title", "size": 72, "alignment": "center"},
 
-    "bodyicon_region": { "x": 248, "y": 664, "width": 188, "height": 188 },
-
     "encounter_icon_region": {
         "x": 772,
         "y": 322,
@@ -42,11 +35,8 @@
         "height": 102
     },
 
-    "trackerbox_region": { "x": 136, "y": 814, "width": 612, "height": 184 },
-    "trackername_region": { "x": 160, "y": 822, "width": 560, "height": 40 },
-
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 156, "y": 2100, "width": 1326, "height": 70 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -55,7 +45,7 @@
     },
 
     "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "collection_region": { "x": 156, "y": 2100, "width": 1326, "height": 40 },
     "collection_font": {
         "font": "bold",
         "size": 40,
