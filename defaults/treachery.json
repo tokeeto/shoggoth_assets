@@ -9,7 +9,7 @@
     "template_bleed_location": false,
 
     "name": "<name>",
-    "name_region": { "x": 228, "y": 1268, "width": 1196, "height": 94 },
+    "name_region": { "x": 228, "y": 1279, "width": 1196, "height": 94 },
     "name_font": {
         "font": "title",
         "size": 94,
@@ -27,20 +27,20 @@
     "subtitle_weakness": "%:WEAKNESS",
     "subtitle_encounter_weakness": "%:WEAKNESS",
     "subtitle_basic weakness": "%:BASIC WEAKNESS",
-    "subtitle_region_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
-    "subtitle_region_basic weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
-    "subtitle_region_encounter_weakness": { "x": 192, "y": 1418, "width": 1260, "height": 80 },
+    "subtitle_region_weakness": { "x": 192, "y": 1405, "width": 1260, "height": 60 },
+    "subtitle_region_basic weakness": { "x": 192, "y": 1405, "width": 1260, "height": 60 },
+    "subtitle_region_encounter_weakness": { "x": 192, "y": 1405, "width": 1260, "height": 60 },
     "subtitle_font": {
         "font": "bold",
         "alignment": "center",
-        "size": 80
+        "size": 60
     },
     
     "text": "",
-    "text_region_weakness": { "x": 192, "y": 1530, "width": 1260, "height": 565, "attach_after": "flavor_text" },
-    "text_region_basic weakness": { "x": 192, "y": 1530, "width": 1260, "height": 565, "attach_after": "flavor_text" },
-    "text_region_encounter_weakness": { "x": 192, "y": 1530, "width": 1260, "height": 565, "attach_after": "flavor_text" },
-    "text_region": { "x": 192, "y": 1490, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_weakness": { "x": 192, "y": 1520, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_basic weakness": { "x": 192, "y": 1520, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_encounter_weakness": { "x": 192, "y": 1520, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region": { "x": 192, "y": 1470, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
         "size": 68,
@@ -48,26 +48,26 @@
         "alignment": "left" 
     },
     "text_polygon": [
-        [192, 1512],
-        [1452, 1512],
+        [192, 1470],
+        [1452, 1470],
         [1452, 1980],
         [1052, 2077],
         [592, 2077],
         [192, 1980],
-        [192, 1512]
+        [192, 1470]
     ],
-    "text_polygon_weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
-    "text_polygon_basic weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
-    "text_polygon_encounter_weakness": [[192, 1512],[1452, 1512],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1512]],
+    "text_polygon_weakness": [[192, 1520],[1452, 1520],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1520]],
+    "text_polygon_basic weakness": [[192, 1520],[1452, 1520],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1520]],
+    "text_polygon_encounter_weakness": [[192, 1520],[1452, 1520],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1520]],
 
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
 
-    "traits_region": { "x": 192, "y": 1432, "width": 1272, "height": 640 },
-    "traits_region_basic weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
-    "traits_region_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
-    "traits_region_encounter_weakness": { "x": 192, "y": 1495, "width": 1272, "height": 640 },
+    "traits_region": { "x": 192, "y": 1401, "width": 1272, "height": 64 },
+    "traits_region_basic weakness": { "x": 192, "y": 1464, "width": 1272, "height": 64 },
+    "traits_region_weakness": { "x": 192, "y": 1464, "width": 1272, "height": 64 },
+    "traits_region_encounter_weakness": { "x": 192, "y": 1464, "width": 1272, "height": 64 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -93,14 +93,14 @@
     },
 
     "victory": "",
-    "victory_region": { "x": 1072, "y": 1972, "width": 400, "height": 100 },
+    "victory_region": { "x": 1072, "y": 1972, "width": 400, "height": 72 },
     "victory_font": {
         "font": "bold",
         "size": 72,
         "alignment": "right"
     },
 
-    "shroud_region_location": { "x": 132, "y": 1222, "width": 192, "height": 200 },
+    "shroud_region_location": { "x": 132, "y": 1222, "width": 192, "height": 110 },
     "shroud_font_location": {
         "font": "skill",
         "size": 110,
@@ -110,7 +110,7 @@
         "alignment": "center"
     },
 
-    "clues_region_location": { "x": 1332, "y": 1222, "width": 192, "height": 200 },
+    "clues_region_location": { "x": 1332, "y": 1222, "width": 192, "height": 110 },
     "clues_font_location": {
         "font": "skill",
         "size": 110,
@@ -121,7 +121,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "illustrator_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 40,
@@ -130,7 +130,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -139,7 +139,7 @@
     },
 
     "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2112, "width": 1326, "height": 70 },
+    "collection_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "collection_font": {
         "font": "bold",
         "size": 40,
