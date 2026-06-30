@@ -3,18 +3,18 @@
     "parent": "location",
     "editor": "location",
     "template_bleed": true,
-    "name_region": { "x": 92, "y": 150, "width": 1440, "height": 180 },
+    "name_region": { "x": 92, "y": 126, "width": 1440, "height": 180 },
     "name_font": {
         "font": "title",
         "size": 100,
         "alignment": "center"
     },
 
-    "label_region": { "x": 624, "y": 1464, "width": 400, "height": 100 },
+    "label_region": { "x": 624, "y": 1448, "width": 400, "height": 100 },
 
     "text_region": {
         "x": 152,
-        "y": 1620,
+        "y": 1590,
         "width": 1344,
         "height": 260,
         "attach_after": "flavor_text"
@@ -34,7 +34,7 @@
         "height": 112
     },
 
-    "traits_region": { "x": 152, "y": 1545, "width": 1344, "height": 120 },
+    "traits_region": { "x": 152, "y": 1525, "width": 1344, "height": 120 },
 
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1720 },
 
@@ -46,7 +46,7 @@
     "connection_5_region": { "x": 984, "y": 1898, "width": 140, "height": 140 },
     "connection_6_region": { "x": 1148, "y": 1930, "width": 140, "height": 140 },
 
-    "shroud_region": { "x": 120, "y": 1420, "width": 192, "height": 200 },
+    "shroud_region": { "x": 110, "y": 1410, "width": 192, "height": 200 },
     "shroud_font": {
         "font": "skill",
         "size": 110,
@@ -56,7 +56,7 @@
         "alignment": "center"
     },
 
-    "clues_region": { "x": 1345, "y": 1420, "width": 192, "height": 200 },
+    "clues_region": { "x": 1335, "y": 1410, "width": 192, "height": 200 },
     "clues_font": {
         "font": "skill",
         "size": 110,
@@ -67,7 +67,7 @@
     },
 
     "victory": "",
-    "victory_region": { "x": 1036, "y": 1842, "width": 500, "height": 100 },
+    "victory_region": { "x": 1036, "y": 1822, "width": 500, "height": 100 },
     "victory_font": {
         "font": "bold",
         "size": 72,

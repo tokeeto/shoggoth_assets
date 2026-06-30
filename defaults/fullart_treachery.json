@@ -3,8 +3,8 @@
     "template": "fullart/treachery",
     "template_bleed": true,
     "editor": "treachery",
-    "name_region": { "x": 228, "y": 1610, "width": 1196, "height": 160 },
-    "label_region": { "x": 620, "y": 1524, "width": 416, "height": 80 },
+    "name_region": { "x": 228, "y": 1590, "width": 1196, "height": 160 },
+    "label_region": { "x": 620, "y": 1512, "width": 416, "height": 80 },
 
     "encounter_icon_region": {
         "x": 766,
@@ -13,16 +13,15 @@
         "height": 112
     },
 
-    "label_region": { "x": 274, "y": 727, "width": 208, "height": 40 },
     "traits_region": { "x": 0, "y": 830, "width": 750, "height": 50 },
     "text_region": {
         "x": 192,
-        "y": 1800,
+        "y": 1780,
         "width": 1260,
         "height": 270,
         "attach_after": "flavor_text"
     },
     "text_polygon": [],
-    "traits_region": { "x": 192, "y": 1742, "width": 1272, "height": 640 },
+    "traits_region": { "x": 192, "y": 1712, "width": 1272, "height": 640 },
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1272 }
 }
