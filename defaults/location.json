@@ -54,10 +54,10 @@
     },
 
     "encounter_icon_region": {
-        "x": 764,
-        "y": 1054,
-        "width": 112,
-        "height": 112
+        "x": 766,
+        "y": 1052,
+        "width": 110,
+        "height": 110
     },
     "encounter_overlay_region": {
         "x": 724,
