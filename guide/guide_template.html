@@ -126,7 +126,7 @@
 
 		/* resolution styles */
 		.resolution_box {
-			padding: 1em 0;
+			padding: 0;
 			position: relative;
 		}
 		.resolution_box .glyph {
@@ -134,15 +134,15 @@
 			position: absolute;
 		}
 		.resolution_box .glyph.top {
-			top: 2%;
+			top: -10px;
 		}
 		.resolution_box .glyph.bottom {
-			bottom: 2%;
+			bottom: 12px;
 		}
 		.resolution_box .content {
 			border-radius: 5mm;
 			padding: .5em;
-			margin: 2em;
+			margin: 0 2em 2em 2em;
 			background-color: rgba(91, 45, 45, .2);
 			box-shadow: 0 0 1em 1em rgba(91, 45, 45, .2);
 		}
@@ -203,7 +203,7 @@
 			margin-bottom: 1em;
 		}
 		.content > * {
-			text-align: left;
+			text-align: justify;
 		}
 
 		.story {
@@ -231,7 +231,7 @@
 			border-bottom: none;
 		}
 
-		.center {
+		.center, .center > p {
 			text-align: center;
 		}
 		.italic {
