@@ -5,7 +5,7 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 450, "y": 970, "width": 1340, "height": 106 },
+    "name_region": { "x": 450, "y": 948, "width": 1340, "height": 106 },
     "name_font": {
         "font": "title",
         "size": 90,
@@ -39,7 +39,7 @@
     },
 
     "clues": "<dash>",
-    "clues_region": { "x": 1895, "y": 920, "width": 160, "height": 160  },
+    "clues_region": { "x": 1895, "y": 898, "width": 160, "height": 160  },
     "clues_font": {
         "font": "skill",
         "size": 110,
