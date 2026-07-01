@@ -11,7 +11,7 @@
     },
 
     "label": "%:LOCATION",
-    "label_region": { "x": 614, "y": 1176, "width": 406, "height": 48 },
+    "label_region": { "x": 614, "y": 1172, "width": 406, "height": 48 },
     "label_font": {
         "font": "semibold",
         "size": 48,
@@ -86,7 +86,7 @@
     "connection_5_region": { "x": 984, "y": 1893, "width": 140, "height": 140 },
     "connection_6_region": { "x": 1148, "y": 1925, "width": 140, "height": 140 },
 
-    "shroud_region": { "x": 110, "y": 1142, "width": 205, "height": 110 },
+    "shroud_region": { "x": 110, "y": 1132, "width": 205, "height": 110 },
     "shroud_font": {
         "font": "skill",
         "size": 110,
@@ -96,7 +96,7 @@
         "alignment": "center"
     },
 
-    "clues_region": { "x": 1336, "y": 1142, "width": 200, "height": 110 },
+    "clues_region": { "x": 1336, "y": 1132, "width": 200, "height": 110 },
     "clues_font": {
         "font": "skill",
         "size": 115,
