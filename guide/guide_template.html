@@ -115,6 +115,7 @@
 		p {
 			margin: 0 0 .3em 0;
 			line-height: 1.2;
+			text-align: justify;
 		}
 
 		.chapter {
@@ -127,7 +128,6 @@
 		.resolution_box {
 			padding: 1em 0;
 			position: relative;
-			/*break-inside: avoid;*/
 		}
 		.resolution_box .glyph {
 			width: 100%;
@@ -189,6 +189,21 @@
 		.standalone_box h2 {
 			text-align: center;
 			border-bottom: 3px double #2d5b58;
+		}
+
+		/* general box stuff
+			h2 elements needs to be centeredto only have borders under content
+		*/
+		.content {
+			text-align: center;
+		}
+		.content h2 {
+			display: inline-block;
+			margin-top: 0;
+			margin-bottom: 1em;
+		}
+		.content > * {
+			text-align: left;
 		}
 
 		.story {
