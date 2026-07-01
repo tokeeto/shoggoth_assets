@@ -8,7 +8,7 @@
     "template_minimal": "enemy_full",
 
     "name": "<name>",
-    "name_region": { "x": 302, "y": 54, "width": 1050, "height": 110 },
+    "name_region": { "x": 302, "y": 64, "width": 1050, "height": 110 },
     "name_font": {
         "font": "title",
         "size": 110,
@@ -36,11 +36,11 @@
     },
 
     "text": "",
-    "text_region": { "x": 100, "y": 512, "width": 810, "height": 580, "attach_after": "flavor_text" },
+    "text_region": { "x": 100, "y": 532, "width": 810, "height": 580, "attach_after": "flavor_text" },
     "text_polygon": [
-        [272, 512],
-        [1342, 512],
-        [1342, 582],
+        [292, 532],
+        [1362, 532],
+        [1362, 582],
         [1482, 582],
         [1482, 948],
         [1432, 948],
@@ -48,9 +48,9 @@
         [212, 1092],
         [212, 912],
         [152, 912],
-        [152, 582],
-        [272, 582],
-        [272, 512]
+        [152, 682],
+        [292, 582],
+        [292, 532]
     ],
     "text_font": {
         "font": "regular",
@@ -85,7 +85,7 @@
     },
 
     "attack": "<dash>",
-    "attack_region": { "x": 490, "y": 308, "width": 110, "height": 90 },
+    "attack_region": { "x": 490, "y": 288, "width": 110, "height": 90 },
     "attack_font": {
         "font": "skill",
         "size": 90,
@@ -96,7 +96,7 @@
     },
 
     "evade": "<dash>",
-    "evade_region": { "x": 1045, "y": 308, "width": 110, "height": 90 },
+    "evade_region": { "x": 1045, "y": 288, "width": 110, "height": 90 },
     "evade_font": {
         "font": "skill",
         "size": 90,
@@ -108,7 +108,7 @@
 
     "draw_health_overlay": false,
     "health": "<dash>",
-    "health_region": { "x": 730, "y": 280, "width": 180, "height": 100 },
+    "health_region": { "x": 730, "y": 288, "width": 180, "height": 100 },
     "health_font": {
         "font": "skill",
         "size": 100,
@@ -191,7 +191,7 @@
     "illustrator_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
@@ -200,7 +200,7 @@
     "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
@@ -209,7 +209,7 @@
     "collection_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "right"
     }

@@ -24,7 +24,7 @@
     },
 
     "traits": "",
-    "traits_region": { "x": 416, "y": 1331, "width": 812, "height": 64 },
+    "traits_region": { "x": 416, "y": 1330, "width": 812, "height": 64 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -65,7 +65,7 @@
     "text": "",
     "text_region": {
         "x": 144,
-        "y": 1395,
+        "y": 1400,
         "width": 1356,
         "height": 470,
         "attach_after": "flavor_text"
@@ -154,19 +154,19 @@
     "icons": "",
 
     "illustrator": "",
-    "illustrator_region": { "x": 142, "y": 2120, "width": 1360, "height": 40 },
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 142, "y": 2120, "width": 1360, "height": 40 },
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
@@ -174,10 +174,10 @@
     "collection": "<exi>   <exn>",
     "collection_story": "<esn>/<est>        <exi> <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 142, "y": 2120, "width": 1360, "height": 40 },
+    "collection_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "right"
     },

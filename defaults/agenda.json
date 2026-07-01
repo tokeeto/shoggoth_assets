@@ -65,7 +65,7 @@
         "alignment": "center"
     },
 
-    "doom_region": { "x": 1032, "y": 1275, "width": 168, "height": 110 },
+    "doom_region": { "x": 1022, "y": 1275, "width": 168, "height": 110 },
     "doom_font": {
         "font": "skill",
         "size": 110,

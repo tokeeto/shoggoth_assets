@@ -4,7 +4,7 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 225, "y": 465, "width": 950, "height": 130 },
+    "name_region": { "x": 200, "y": 465, "width": 950, "height": 130 },
     "name_font": {
         "font": "title",
         "size": 98,
@@ -37,7 +37,7 @@
     "label": "%:AGENDA",
     "label_region": { 
         "x": 174,
-        "y": 198,
+        "y": 183,
         "width": 190,
         "height": 64
     },
@@ -50,7 +50,7 @@
     "index": "2b",
     "index_region": {
         "x": 174,
-        "y": 232,
+        "y": 217,
         "width": 190,
         "height": 64
     },
