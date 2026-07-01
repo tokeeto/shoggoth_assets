@@ -7,7 +7,7 @@
     "template_basic weakness": "chapter_1/event_weakness_subtitle",
     "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 72, "y": 1272, "width": 1500, "height": 94 },
+    "name_region": { "x": 72, "y": 1268, "width": 1500, "height": 94 },
     "name_font": {
         "font": "title",
         "size": 94,
@@ -17,7 +17,7 @@
     "traits_region_story weakness": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
     "traits_region_weakness": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
     "traits_region_basic weakness": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
-    "traits_region": { "x": 72, "y": 1391, "width": 1500, "height": 64 },
+    "traits_region": { "x": 72, "y": 1390, "width": 1500, "height": 64 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -147,7 +147,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 142, "y": 2108, "width": 1360, "height": 38 },
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
     "illustrator_font": {
         "font": "bold",
         "size": 38,
@@ -156,10 +156,10 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 142, "y": 2108, "width": 1360, "height": 38 },
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
@@ -167,10 +167,10 @@
     "collection": "<exi>   <exn>",
     "collection_story": "<esn>/<est>        <exi>   <exn>",
     "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 142, "y": 2108, "width": 1360, "height": 38 },
+    "collection_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "right"
     }
