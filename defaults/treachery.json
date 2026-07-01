@@ -27,19 +27,19 @@
     "subtitle_weakness": "%:WEAKNESS",
     "subtitle_encounter_weakness": "%:WEAKNESS",
     "subtitle_basic weakness": "%:BASIC WEAKNESS",
-    "subtitle_region_weakness": { "x": 192, "y": 1405, "width": 1260, "height": 60 },
-    "subtitle_region_basic weakness": { "x": 192, "y": 1405, "width": 1260, "height": 60 },
-    "subtitle_region_encounter_weakness": { "x": 192, "y": 1405, "width": 1260, "height": 60 },
+    "subtitle_region_weakness": { "x": 192, "y": 1398, "width": 1260, "height": 60 },
+    "subtitle_region_basic weakness": { "x": 192, "y": 1398, "width": 1260, "height": 60 },
+    "subtitle_region_encounter_weakness": { "x": 192, "y": 1398, "width": 1260, "height": 60 },
     "subtitle_font": {
-        "font": "bold",
+        "font": "semibold",
         "alignment": "center",
         "size": 60
     },
     
     "text": "",
-    "text_region_weakness": { "x": 192, "y": 1520, "width": 1260, "height": 565, "attach_after": "flavor_text" },
-    "text_region_basic weakness": { "x": 192, "y": 1520, "width": 1260, "height": 565, "attach_after": "flavor_text" },
-    "text_region_encounter_weakness": { "x": 192, "y": 1520, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_weakness": { "x": 192, "y": 1542, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_basic weakness": { "x": 192, "y": 1542, "width": 1260, "height": 565, "attach_after": "flavor_text" },
+    "text_region_encounter_weakness": { "x": 192, "y": 1542, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_region": { "x": 192, "y": 1470, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_font": {
         "font": "regular",
@@ -49,25 +49,25 @@
     },
     "text_polygon": [
         [192, 1470],
-        [1452, 1470],
-        [1452, 1980],
+        [1470, 1470],
+        [1470, 2030],
         [1052, 2077],
         [592, 2077],
-        [192, 1980],
+        [192, 2030],
         [192, 1470]
     ],
-    "text_polygon_weakness": [[192, 1520],[1452, 1520],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1520]],
-    "text_polygon_basic weakness": [[192, 1520],[1452, 1520],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1520]],
-    "text_polygon_encounter_weakness": [[192, 1520],[1452, 1520],[1452, 1970],[1000, 2077],[650, 2077],[192, 1970],[192, 1520]],
+    "text_polygon_weakness": [[192, 1520],[1470, 1520],[1470, 2000],[1198,2080],[450,2070],[192, 2000],[192, 1520]],
+    "text_polygon_basic weakness": [[92, 1520],[1470, 1520],[1470, 2000],[1198,2080],[450,2070],[192, 2000],[192, 1520]],
+    "text_polygon_encounter_weakness": [[192, 1520],[1470, 1520],[1470, 2000],[1198,2080],[450,2070],[192, 2000],[192, 1520]],
 
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
 
-    "traits_region": { "x": 192, "y": 1401, "width": 1272, "height": 64 },
-    "traits_region_basic weakness": { "x": 192, "y": 1464, "width": 1272, "height": 64 },
-    "traits_region_weakness": { "x": 192, "y": 1464, "width": 1272, "height": 64 },
-    "traits_region_encounter_weakness": { "x": 192, "y": 1464, "width": 1272, "height": 64 },
+    "traits_region": { "x": 192, "y": 1400, "width": 1272, "height": 64 },
+    "traits_region_basic weakness": { "x": 192, "y": 1472, "width": 1272, "height": 64 },
+    "traits_region_weakness": { "x": 192, "y": 1472, "width": 1272, "height": 64 },
+    "traits_region_encounter_weakness": { "x": 192, "y": 1472, "width": 1272, "height": 64 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -93,7 +93,7 @@
     },
 
     "victory": "",
-    "victory_region": { "x": 1072, "y": 1972, "width": 400, "height": 72 },
+    "victory_region": { "x": 582, "y": 1972, "width": 400, "height": 72 },
     "victory_font": {
         "font": "bold",
         "size": 72,
@@ -124,7 +124,7 @@
     "illustrator_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
@@ -133,7 +133,7 @@
     "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
@@ -142,7 +142,7 @@
     "collection_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "right"
     }
