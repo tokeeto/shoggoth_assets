@@ -4,7 +4,7 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 225, "y": 465, "width": 950, "height": 200 },
+    "name_region": { "x": 200, "y": 465, "width": 950, "height": 200 },
     "name_font": {
         "font": "title",
         "size": 98,
@@ -40,26 +40,26 @@
     "label": "%:ACT",
     "label_region": {
         "x": 174,
-        "y": 195,
-        "width": 190,
-        "height": 160
+        "y": 210,
+        "width": 120,
+        "height": 40
     },
     "label_font": {
         "font": "bold",
         "size": 40,
-        "alignment": "center"
+        "alignment": "right"
     },
 
     "index": "1b",
     "index_font":{
         "font": "bold",
         "size": 40,
-        "alignment": "center"
+        "alignment": "right"
     },
     "index_region": {
         "x": 174,
-        "y": 233,
-        "width": 190,
-        "height": 160
+        "y": 210,
+        "width": 170,
+        "height": 40
     }
 }
