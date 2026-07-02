@@ -7,8 +7,9 @@
     "illustration_region": { "x": 0, "y": 1328, "width": 1644, "height": 916 },
 
     "text_region": { "x": 200, "y": 550, "width": 1210, "height": 580, "attach_after": "flavor_text" }, "text_polygon": [        [272, 512],
-        [1342, 512],
-        [1342, 582],
+        [265, 532],
+        [1362, 532],
+        [1362, 582],
         [1482, 582],
         [1482, 948],
         [1432, 948],
@@ -16,14 +17,22 @@
         [212, 1092],
         [212, 912],
         [152, 912],
-        [152, 582],
-        [272, 582],
-        [272, 512]
+        [152, 652],
+        [265, 652],
+        [265, 532]
     ],
+
+    "label_region": { "x": 696, "y": 1290, "width": 244, "height": 48 },
 
     "victory_overlay": "ch2_enemy_victory.png",
     "victory_overlay_region": {"x": 72, "y": 72, "width": 1500, "height": 2100},
-    "victory_region": {"x": 1200, "y": 1280, "width": 300, "height": 80},
+    "victory_region": {"x": 1200, "y": 1258, "width": 300, "height": 80},
+
+    "traits_region": { "x": 272, "y": 482, "width": 1116, "height": 62 },
+
+    "attack_region": { "x": 490, "y": 300, "width": 110, "height": 90 },
+    "health_region": { "x": 730, "y": 290, "width": 180, "height": 100 },
+    "evade_region": { "x": 1045, "y": 300, "width": 110, "height": 90 },
 
     "damage1_region": {
         "x": 600,
