@@ -19,7 +19,7 @@
     "subtitle_basic_weakness": "BASIC WEAKNESS",
     "subtitle_weakness": "WEAKNESS",
     "subtitle_encounter_weakness": "WEAKNESS",
-    "subtitle_region": { "x": 72, "y": 204, "width": 1500, "height": 56 },
+    "subtitle_region": { "x": 72, "y": 198,"width": 1500, "height": 56 },
     "subtitle_font": {
         "font": "bold",
         "size": 56,
