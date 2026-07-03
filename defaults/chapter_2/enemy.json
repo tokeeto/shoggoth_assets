@@ -4,8 +4,6 @@
     "template_bleed": false,
     "editor": "enemy",
 
-    "illustration_region": { "x": 0, "y": 1328, "width": 1644, "height": 916 },
-
     "text_region": { "x": 200, "y": 550, "width": 1210, "height": 580, "attach_after": "flavor_text" }, "text_polygon": [        [272, 512],
         [265, 532],
         [1362, 532],
@@ -93,5 +91,65 @@
         "y": 1128,
         "width": 108,
         "height": 96
+    },
+
+    "illustrator": "",
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
+    "illustrator_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
+    },
+
+    "copyright": "<copyright>",
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
+    "copyright_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "center"
+    },
+
+    "text1": "<esn>/<est>",
+    "text1_region": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+    "text1_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+
+    "text2": "<exi>",
+    "text2_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "text2_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+
+    "text3": "<exn>",
+    "text3_region": {
+        "x": 1400,
+        "y": 2099,
+        "width": 180,
+        "height": 40
+    },
+    "text3_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
     }
 }

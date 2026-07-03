@@ -36,20 +36,53 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2100, "width": 1326, "height": 70 },
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
 
-    "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2100, "width": 1326, "height": 40 },
-    "collection_font": {
+    "text1": "<esn>/<est>",
+    "text1_region": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+    "text1_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "right"
+    },
+
+    "text2": "<exi>",
+    "text2_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "text2_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+
+    "text3": "<exn>",
+    "text3_region": {
+        "x": 1400,
+        "y": 2099,
+        "width": 180,
+        "height": 40
+    },
+    "text3_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
     }
 }

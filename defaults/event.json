@@ -147,7 +147,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 38,
@@ -156,7 +156,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 38,
@@ -164,14 +164,31 @@
         "alignment": "center"
     },
 
-    "collection": "<exi>   <exn>",
-    "collection_story": "<esn>/<est>        <exi>   <exn>",
-    "collection_story weakness": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
-    "collection_font": {
+    "text2": "<exi>",
+    "text2_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "text2_font": {
         "font": "bold",
         "size": 38,
         "color": "white",
         "alignment": "right"
+    },
+
+    "text3": "<exn>",
+    "text3_region": {
+        "x": 1400,
+        "y": 2099,
+        "width": 180,
+        "height": 40
+    },
+    "text3_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
     }
 }

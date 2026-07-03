@@ -20,7 +20,7 @@
         "attach_after": "flavor_text"
     },
 
-    "subtitle_region": { "x": 449, "y": 267, "width": 764, "height": 84 },
+    "subtitle_region": { "x": 449, "y": 240, "width": 764, "height": 84 },
     "subtitle_font": {
         "font": "bolditalic",
         "size": 64,
@@ -71,33 +71,6 @@
     "victory_font": {
         "font": "bold",
         "size": 72,
-        "alignment": "right"
-    },
-
-    "illustrator": "",
-    "illustrator_region": { "x": 132, "y": 2120, "width": 1326, "height": 70 },
-    "illustrator_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "left"
-    },
-
-    "copyright": "<copyright>",
-    "copyright_region": { "x": 72, "y": 2120, "width": 1500, "height": 70 },
-    "copyright_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "center"
-    },
-
-    "collection": "<esn>/<est>          <exi>      <exn>",
-    "collection_region": { "x": 72, "y": 2120, "width": 1430, "height": 70 },
-    "collection_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
         "alignment": "right"
     }
 }

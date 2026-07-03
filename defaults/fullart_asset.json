@@ -5,7 +5,7 @@
     "editor": "asset",
     "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
     "traits_region": { "x": 416, "y": 1680, "width": 812, "height": 75 },
-    "subtitle_region": {"x": 512, "y": 264, "width": 632, "height": 100},
+    "subtitle_region": {"x": 512, "y": 240, "width": 632, "height": 100},
     "label_region": { "x": 156, "y": 330, "width": 150, "height": 70 },
     "text_region": {
         "x": 132,
@@ -22,7 +22,6 @@
     "sanity_region": { "x": 252, "y":1520, "width": 180, "height": 160 },
     "slot_1_region": { "x": 1336, "y":1408, "width": 224, "height": 224 },
     "slot_2_region": { "x": 1132, "y":1488, "width": 224, "height": 224 },
-    "illustration_region": { "x": 0, "y": 0, "width": 1716, "height": 2316 },
     "illustrator_font": {
         "font": "bold",
         "size": 38,
@@ -31,14 +30,29 @@
     },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "#1c2b48",
         "alignment": "right"
     },
+    
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "#1c2b48",
         "alignment": "center"
+    },
+    "text1": null,
+    "text2_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "#1c2b48",
+        "alignment": "right"
+    },
+
+    "text3_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "#1c2b48",
+        "alignment": "left"
     }
 }

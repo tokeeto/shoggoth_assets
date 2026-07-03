@@ -27,7 +27,7 @@
     },
 
     "label": "%:ENEMY",
-    "label_region": { "x": 696, "y": 1285, "width": 244, "height": 48 },
+    "label_region": { "x": 696, "y": 1282, "width": 244, "height": 48 },
     "label_region_minimal": { "x": 696, "y": 1113, "width": 244, "height": 48 },
     "label_font": {
         "font": "semibold",
@@ -38,7 +38,7 @@
     "text": "",
     "text_region": { "x": 100, "y": 532, "width": 810, "height": 580, "attach_after": "flavor_text" },
     "text_polygon": [
-        [292, 532],
+        [282, 532],
         [1362, 532],
         [1362, 582],
         [1482, 582],
@@ -49,8 +49,8 @@
         [212, 912],
         [152, 912],
         [152, 682],
-        [292, 582],
-        [292, 532]
+        [282, 582],
+        [282, 532]
     ],
     "text_font": {
         "font": "regular",
@@ -119,7 +119,7 @@
     },
 
     "victory": "",
-    "victory_region": { "x": 372, "y": 1049, "width": 900, "height": 72 },
+    "victory_region": { "x": 372, "y": 1040, "width": 900, "height": 72 },
     "victory_font": {
         "font": "bold",
         "size": 72,
@@ -188,7 +188,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 38,
@@ -197,7 +197,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 38,
@@ -205,12 +205,45 @@
         "alignment": "center"
     },
 
-    "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
-    "collection_font": {
+    "text1": "<esn>/<est>",
+    "text1_region": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+    "text1_font": {
         "font": "bold",
         "size": 38,
         "color": "white",
         "alignment": "right"
+    },
+
+    "text2": "<exi>",
+    "text2_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "text2_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+
+    "text3": "<exn>",
+    "text3_region": {
+        "x": 1400,
+        "y": 2099,
+        "width": 180,
+        "height": 40
+    },
+    "text3_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
     }
 }

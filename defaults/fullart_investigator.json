@@ -40,14 +40,6 @@
         "color": "white"
     },
 
-    "illustrator_region": { "x": 92, "y": 1524, "width": 922, "height": 70 },
-    "illustrator_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "left"
-    },
-
     "willpower_region": { "x": 184, "y": 448, "width": 120, "height": 120 },
     "intellect_region": { "x": 184, "y": 630, "width": 120, "height": 120 },
     "combat_region": { "x": 184, "y": 816, "width": 120, "height": 120 },
@@ -56,11 +48,7 @@
     "health_region": { "x": 1540, "y": 172, "width": 120, "height": 160 },
     "sanity_region": { "x": 1714, "y": 172, "width": 200, "height": 160 },
 
-    "copyright_region": { "x": 72, "y": 1524, "width": 2100, "height": 70 },
-
     "class_symbol_3_region": { "x": 452, "y": 80, "width": 208, "height": 208 },
     "class_symbol_2_region": { "x": 272, "y": 80, "width": 208, "height": 208 },
-    "class_symbol_1_region": { "x": 92, "y": 80, "width": 208, "height": 208 },
-
-    "illustration_region": { "x": 0, "y": 0, "width": 2244, "height": 1622 }
+    "class_symbol_1_region": { "x": 92, "y": 80, "width": 208, "height": 208 }
 }

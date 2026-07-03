@@ -59,30 +59,12 @@
         "alignment": "right"
     },
 
-    "illustrator": "",
-    "illustrator_region": { "x": 132, "y": 2120, "width": 1326, "height": 70 },
-    "illustrator_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "left"
-    },
 
-    "copyright": "<copyright>",
-    "copyright_region": { "x": 72, "y": 2120, "width": 1500, "height": 70 },
-    "copyright_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "center"
-    },
+    "illustrator_region": null,
+    "copyright_region": null,
+    "collection_region": null,
+    "text1_region": null,
+    "text2_region": null,
+    "text3_region": null
 
-    "collection": "<esn>/<est>          <exi>      <exn>",
-    "collection_region": { "x": 72, "y": 2120, "width": 1430, "height": 70 },
-    "collection_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "right"
-    }
 }

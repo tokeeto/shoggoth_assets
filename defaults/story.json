@@ -52,7 +52,7 @@
     "copyright_region": { "x": 270, "y": 2019, "width": 400, "height": 40 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "alignment": "center"
     },
 
@@ -60,7 +60,7 @@
     "collection_region": { "x": 976, "y": 2019, "width": 400, "height": 40 },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "alignment": "center"
     }
 }

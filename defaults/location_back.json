@@ -26,21 +26,38 @@
         "rotation": null
     },
 
-    "illustration": "<copy>",
-    "illustration_pan_x": "<copy>",
-    "illustration_pan_y": "<copy>",
-    "illustration_zoom": "<copy>",
-
-    "connection": "<copy>",
-    "connections": "<copy>",
-
-    "collection": "<exi>        ",
-    "collection_region": { "x": 72, "y": 2116, "width": 1430, "height": 40 },
-    "collection_font": {
+    "illustrator": "",
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
+    "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
+    },
+    "copyright": "<copyright>",
+    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
+    "copyright_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "center"
+    },
+    "collection": "",
+
+    "text1": null,
+    "text2": "<exi>",
+    "text2_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "text2_font": {
+        "font": "bold",
+        "size": 38,
         "color": "white",
         "alignment": "right"
-    }
+    },
+    "text3": null
 
 }

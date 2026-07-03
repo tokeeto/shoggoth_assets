@@ -10,7 +10,7 @@
         "width": 108,
         "height": 108
     },
-    "label_region": { "x": 620, "y": 752, "width": 416, "height": 80 },
+    "label_region": { "x": 620, "y": 758, "width": 416, "height": 80 },
     "victory_region": { "x": 372, "y": 660, "width": 900, "height": 100 },
     "name_region": { "x": 302, "y": 64, "width": 1050, "height": 130 },
 
@@ -41,7 +41,6 @@
         "outline": 2,
         "outline_color": "#231f20"
     },
-
     "traits_region": { "x": 272, "y": 408, "width": 1116, "height": 120 },
     "text_region": { 
         "x": 272,
@@ -122,7 +121,5 @@
         "y": 546,
         "width": 108,
         "height": 96
-    },
-
-    "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 2244 }
+    }
 }
