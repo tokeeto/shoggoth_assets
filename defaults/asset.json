@@ -20,6 +20,9 @@
     "subtitle_region_weakness": {
         "x": 92, "y": 246, "width": 1500, "height": 56
     },
+    "subtitle_region_story weakness": {
+        "x": 92, "y": 246, "width": 1500, "height": 56
+    },
     "subtitle_font": {
         "font": "semibold",
         "size": 56,
@@ -194,6 +197,24 @@
         "color": "white",
         "alignment": "right"
     },
+
+
+    "collection_story weakness": "<esn>/<est>",
+
+    "collection_region_story weakness": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+
+    "collection_font_story weakness": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+
 
     "text2": "<exi>",
     "text2_region": {
