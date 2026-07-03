@@ -74,6 +74,8 @@
         "size": 38,
         "color": "white",
         "alignment": "center"
-    }
-
+    },
+    "text1_region": null,
+    "text2_region": null,
+    "text3_region": null
 }
