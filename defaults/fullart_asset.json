@@ -22,6 +22,8 @@
     "sanity_region": { "x": 252, "y":1520, "width": 180, "height": 160 },
     "slot_1_region": { "x": 1336, "y":1408, "width": 224, "height": 224 },
     "slot_2_region": { "x": 1132, "y":1488, "width": 224, "height": 224 },
+    "illustration_region": { "x": 0, "y": 0, "width": 1716, "height": 2316 },
+    
     "illustrator_font": {
         "font": "bold",
         "size": 38,

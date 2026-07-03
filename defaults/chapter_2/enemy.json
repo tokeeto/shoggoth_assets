@@ -4,6 +4,7 @@
     "template_bleed": false,
     "editor": "enemy",
 
+    "illustration_region": { "x": 0, "y": 1328, "width": 1644, "height": 916 },
     "text_region": { "x": 200, "y": 550, "width": 1210, "height": 580, "attach_after": "flavor_text" }, "text_polygon": [        [272, 512],
         [265, 532],
         [1362, 532],
