@@ -7,6 +7,7 @@
     "template_bleed": true,
     "name": "<name>",
     "name_region": { "x": 340, "y": 115, "width": 940, "height": 94 },
+    "name_region_story" : { "x": 360, "y": 125, "width": 940, "height": 94 },
     "name_font": {
         "font": "title",
         "size": 94,
