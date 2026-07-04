@@ -165,24 +165,23 @@
 
 		/* standalone mode instructions (aka green box) */
 		.standalone_box {
-			padding: 1em 0;
+			padding: 0;
 			position: relative;
-			/*break-inside: avoid;*/
 		}
 		.standalone_box .glyph {
 			width: 100%;
 			position: absolute;
 		}
 		.standalone_box .glyph.top {
-			top: 10%;
+			top: -10px;
 		}
 		.standalone_box .glyph.bottom {
-			bottom: 10%;
+			bottom: 12px;
 		}
 		.standalone_box .content {
-			border-radius: 3mm;
-			padding: 0 .5em;
-			margin: 2em;
+			border-radius: 5mm;
+			padding: .5em;
+			margin: 0 2em 2em 2em;
 			background-color: rgba(45, 91, 45, .2);
 			box-shadow: 0 0 1em 1em rgba(45, 91, 45, .2);
 		}
@@ -256,9 +255,8 @@
 			content: 'B';
 			color: #2d5b58;
 			font-family: AHLCGSymbol;
-			position: relative;
+			position: absolute;
 			left: -1.5em;
-			margin-right: -1.2em;
 		}
 		.resolution_box ul > li:before {
 			color: rgb(91, 45, 45);
