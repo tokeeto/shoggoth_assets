@@ -68,13 +68,13 @@
         "alignment": "center"
     },
 
-    "text_region_story weakness": {"x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" },
-    "text_region_basic weakness": {"x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" },
+    "text_region_story weakness": {"x": 212, "y": 1524, "width": 1152, "height": 528, "attach_after": "flavor_text" },
+    "text_region_basic weakness": {"x": 212, "y": 1524, "width": 1152, "height": 528, "attach_after": "flavor_text" },
     "text_region_weakness": {
         "x": 212,
         "y": 1524,
         "width": 1152,
-        "height": 530,
+        "height": 528,
         "attach_after": "flavor_text"
     },
     "text_region": {
