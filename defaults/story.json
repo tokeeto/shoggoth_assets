@@ -48,6 +48,19 @@
         "height": 140
     },
 
+    "victory": "",
+    "victory_region": {
+        "x": 220,
+        "y": 1910,
+        "width": 1200,
+        "height": 120
+    },
+    "victory_font": {
+        "font": "bold",
+        "size": 72,
+        "alignment": "center"
+    },
+
     "copyright": "<copyright>",
     "copyright_region": { "x": 270, "y": 2019, "width": 400, "height": 40 },
     "copyright_font": {
