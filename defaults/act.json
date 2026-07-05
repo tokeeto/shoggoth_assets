@@ -14,17 +14,17 @@
     "text_region": {
         "x": 112,
         "y": 472,
-        "width": 1056,
-        "height": 948,
+        "width": 1036,
+        "height": 900,
         "attach_before": "flavor_text"
     },
     "text_polygon": [
         [112, 472],
         [1148, 472],
-        [1148, 1200],
+        [1145, 1200],
         [1020, 1240],
-        [980, 1350],
-        [112, 1350],
+        [980, 1375],
+        [112, 1375],
         [112, 472]
     ],
     
@@ -34,6 +34,15 @@
         "alignment": "left"
     },
     "flavor_text": "",
+    "flavor_polygon": [
+        [112, 472],
+        [1148, 472],
+        [1145, 1200],
+        [1020, 1240],
+        [980, 1375],
+        [112, 1375],
+        [112, 472]
+    ],
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "<i>{value}</i>\n",
 

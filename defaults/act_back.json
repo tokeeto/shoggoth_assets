@@ -19,7 +19,7 @@
     "text": "",
     "text_region": {
         "x": 512,
-        "y": 227,
+        "y": 187,
         "width": 1460,
         "height": 1264,
         "attach_before": "flavor_text"
