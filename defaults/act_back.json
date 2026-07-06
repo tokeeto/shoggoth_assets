@@ -4,7 +4,7 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 200, "y": 465, "width": 950, "height": 200 },
+    "name_region": { "x": 200, "y": 465, "width": 950, "height": 160 },
     "name_font": {
         "font": "title",
         "size": 98,
