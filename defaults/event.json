@@ -163,6 +163,19 @@
         "color": "white",
         "alignment": "center"
     },
+    "collection_story weakness": "<esn>/<est>",
+    "collection_region_story weakness": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+    "collection_font_story weakness": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
 
     "text2": "<exi>",
     "text2_region": {
