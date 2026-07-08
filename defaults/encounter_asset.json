@@ -2,46 +2,37 @@
     "parent": "asset",
     "editor": "asset",
     "template": "chapter_1/asset_neutral<subtitle>",
-    "template_basic_weakness": "chapter_1/asset_weakness<subtitle>",
-    "template_weakness": "chapter_1/asset_weakness<subtitle>",
-    "template_bleed_basic_weakness": true,
     "template_bleed": true,
-    
     "classes": ["story"],
-
     "level": null,
-
     "text1_region": { "x": 416, "y": 1282, "width": 812, "height": 80 },
-    "text1_weakness": "WEAKNESS",
-    "text1_basic_weakness": "BASIC WEAKNESS",
-    "text1_font": {
-        "font": "semibold",
-        "size": 48,
-        "color": "#231f20",
-        "alignment": "center"
-    },
-
-    "encounter_overlay_basic_weakness": "basic_weakness_skill.png",
-    "encounter_overlay_region": {
-        "x": 1350,
-        "y": 96,
-        "width": 200,
-        "height": 200
-    },
-    "encounter_icon_region_basic_weakness": {
-        "x": 1392,
-        "y": 136,
-        "width": 112,
-        "height": 112
-    },
-    "encounter_icon_basic_weakness": "AHLCG-BasicWeakness.png",
-
+    "text1_font": { "font": "semibold", "size": 48, "color": "#231f20", "alignment": "center" },
+    "encounter_overlay_region": { "x": 1350, "y": 96, "width": 200, "height": 200 },
     "collection": "<esn>/<est>        <exi> <exn>",
-
-    "encounter_icon_region_story": {
-        "x": 1392,
-        "y": 136,
-        "width": 112,
-        "height": 112
-    }
+    "variants": [
+        {
+            "when": ["weakness", "basic_weakness"],
+            "set": { "template": "chapter_1/asset_weakness<subtitle>" }
+        },
+        {
+            "when": "weakness",
+            "set": { "text1": "WEAKNESS" }
+        },
+        {
+            "when": "basic_weakness",
+            "set": {
+                "text1": "BASIC WEAKNESS",
+                "template_bleed": true,
+                "encounter_overlay": "basic_weakness_skill.png",
+                "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 },
+                "encounter_icon": "AHLCG-BasicWeakness.png"
+            }
+        },
+        {
+            "when": "story",
+            "set": {
+                "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 }
+            }
+        }
+    ]
 }

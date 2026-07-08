@@ -1,62 +1,20 @@
 {
     "template": "chapter_1/event_<class>",
-    "template_multi": "chapter_1/event_<class>_<class_length>",
-    "template_story": "chapter_1/event_neutral",
-    "template_story weakness": "chapter_1/event_weakness_subtitle",
-    "template_weakness": "chapter_1/event_weakness_subtitle",
-    "template_basic weakness": "chapter_1/event_weakness_subtitle",
     "template_bleed": true,
     "name": "<name>",
     "name_region": { "x": 72, "y": 1268, "width": 1500, "height": 94 },
-    "name_font": {
-        "font": "title",
-        "size": 94,
-        "alignment": "center"
-    },
-
-    "traits_region_story weakness": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
-    "traits_region_weakness": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
-    "traits_region_basic weakness": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
+    "name_font": { "font": "title", "size": 94, "alignment": "center" },
     "traits_region": { "x": 72, "y": 1390, "width": 1500, "height": 64 },
-    "traits_font": {
-        "font": "bolditalic",
-        "size": 64,
-        "alignment": "center"
-    },
-
+    "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
     "victory": "",
     "victory_region": { "x": 0, "y": 1951, "width": 1644, "height": 64 },
-    "victory_font": {
-        "font": "bold",
-        "size": 64,
-        "alignment": "center"
-    },
-
+    "victory_font": { "font": "bold", "size": 64, "alignment": "center" },
     "label": "%:EVENT",
     "label_region": { "x": 155, "y": 322, "width": 151, "height": 38 },
-    "label_font": {
-        "font": "semibold",
-        "size": 38,
-        "color": "#231f20",
-        "alignment": "center"
-    },
-
-    "text1_story weakness": "%:WEAKNESS",
-    "text1_basic weakness": "%:BASIC WEAKNESS",
-    "text1_weakness": "%:WEAKNESS",
-    "text1_region_story weakness": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
-    "text1_region_basic weakness": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
-    "text1_region_weakness": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
-    "text1_font": {
-        "font": "bold",
-        "size": 64,
-        "alignment": "center"
-    },
-
+    "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
+    "text1_font": { "font": "bold", "size": 64, "alignment": "center" },
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
-
     "class": "guardian",
-
     "cost": "---",
     "cost_region": { "x": 156, "y": 100, "width": 140, "height": 128 },
     "cost_font": {
@@ -67,29 +25,8 @@
         "outline_color": "#231f20",
         "alignment": "center"
     },
-
-    "text_region_story weakness": {"x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" },
-    "text_region_basic weakness": {"x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" },
-    "text_region_weakness": {
-        "x": 212,
-        "y": 1524,
-        "width": 1152,
-        "height": 530,
-        "attach_after": "flavor_text"
-    },
-    "text_region": {
-        "x": 212,
-        "y": 1460,
-        "width": 1152,
-        "height": 575,
-        "attach_after": "flavor_text"
-    },
-    "text_font": {
-        "font": "regular",
-        "size": 74,
-        "color": "black",
-        "alignment": "left"
-    },
+    "text_region": { "x": 212, "y": 1460, "width": 1152, "height": 575, "attach_after": "flavor_text" },
+    "text_font": { "font": "regular", "size": 74, "color": "black", "alignment": "left" },
     "text_polygon": [
         [192, 1460],
         [1392, 1460],
@@ -105,73 +42,76 @@
         [168, 1638],
         [192, 1460]
     ],
-
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
-
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1152 },
-
-    "icons_box_story": "skill_box_neutral.png",
-    "icons_box_story weakness": "skill_box_weakness.png",
-    "icons_box_basic weakness": "skill_box_weakness.png",
-
     "class_symbol_3_region": { "x": 500, "y": 1090, "width": 208, "height": 208 },
     "class_symbol_2_region": { "x": 620, "y": 1090, "width": 208, "height": 208 },
     "class_symbol_1_region": { "x": 800, "y": 1090, "width": 208, "height": 208 },
-
-    "class_symbol_3_region_multi3": { "x": 544, "y": 1090, "width": 208, "height": 208 },
-    "class_symbol_2_region_multi3": { "x": 714, "y": 1090, "width": 208, "height": 208 },
-    "class_symbol_1_region_multi3": { "x": 884, "y": 1090, "width": 208, "height": 208 },
-
     "level_overlay": "{card_class}_{level}.png",
-    "level_overlay_story": "neutral_{level}.png",
-    "level_overlay_story weakness": "weakness_{level}.png",
-    "level_overlay_basic weakness": "weakness_{level}.png",
-    "encounter_overlay_story": "story_event_overlay.png",
-    "encounter_overlay_basic weakness": "basic_weakness_event.png",
-    "encounter_overlay_story weakness": "basic_weakness_event.png",
-    "encounter_icon_basic weakness": "basic_weakness_icon.png",
-
-    "encounter_overlay_region": {
-        "x": 732,
-        "y": 1072,
-        "width": 200,
-        "height": 200
-    },
-    "encounter_icon_region": {
-        "x": 774,
-        "y": 1114,
-        "width": 108,
-        "height": 108
-    },
-
+    "encounter_overlay_region": { "x": 732, "y": 1072, "width": 200, "height": 200 },
+    "encounter_icon_region": { "x": 774, "y": 1114, "width": 108, "height": 108 },
     "illustrator": "",
     "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
-    "illustrator_font": {
-        "font": "bold",
-        "size": 38,
-        "color": "white",
-        "alignment": "left"
-    },
-
+    "illustrator_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "copyright": "<copyright>",
     "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
-    "copyright_font": {
-        "font": "bold",
-        "size": 38,
-        "color": "white",
-        "alignment": "center"
-    },
-
+    "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
     "collection": "<exi>   <exn>",
-    "collection_story": "<esn>/<est>        <exi>   <exn>",
-    "collection_story weakness": "<esn>/<est>        <exi> <exn>",
     "collection_region": { "x": 142, "y": 2099, "width": 1360, "height": 38 },
-    "collection_font": {
-        "font": "bold",
-        "size": 38,
-        "color": "white",
-        "alignment": "right"
-    }
+    "collection_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "variants": [
+        {
+            "when": ["weakness", "story weakness", "basic weakness"],
+            "set": {
+                "template": "chapter_1/event_weakness_subtitle",
+                "traits_region": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
+                "text1_region": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
+                "text_region": { "x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" }
+            }
+        },
+        {
+            "when": ["weakness", "story weakness"],
+            "set": { "text1": "%:WEAKNESS" }
+        },
+        {
+            "when": ["story weakness", "basic weakness"],
+            "set": {
+                "icons_box": "skill_box_weakness.png",
+                "level_overlay": "weakness_{level}.png",
+                "encounter_overlay": "basic_weakness_event.png"
+            }
+        },
+        {
+            "when": "story weakness",
+            "set": { "collection": "<esn>/<est>        <exi> <exn>" }
+        },
+        {
+            "when": "basic weakness",
+            "set": { "text1": "%:BASIC WEAKNESS", "encounter_icon": "basic_weakness_icon.png" }
+        },
+        {
+            "when": "story",
+            "set": {
+                "template": "chapter_1/event_neutral",
+                "icons_box": "skill_box_neutral.png",
+                "level_overlay": "neutral_{level}.png",
+                "encounter_overlay": "story_event_overlay.png",
+                "collection": "<esn>/<est>        <exi>   <exn>"
+            }
+        },
+        {
+            "when": "multi",
+            "set": { "template": "chapter_1/event_<class>_<class_length>" }
+        },
+        {
+            "when": "multi3",
+            "set": {
+                "class_symbol_3_region": { "x": 544, "y": 1090, "width": 208, "height": 208 },
+                "class_symbol_2_region": { "x": 714, "y": 1090, "width": 208, "height": 208 },
+                "class_symbol_1_region": { "x": 884, "y": 1090, "width": 208, "height": 208 }
+            }
+        }
+    ]
 }

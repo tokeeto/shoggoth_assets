@@ -1,50 +1,21 @@
 {
     "template": "chapter_1/asset_<class><subtitle>",
-    "template_basic weakness": "chapter_1/asset_weakness<subtitle>",
-    "template_story weakness": "chapter_1/asset_weakness<subtitle>",
-    "template_story": "chapter_1/asset_neutral<subtitle>",
-    "template_bleed_basic weakness": true,
     "template_bleed": true,
     "name": "<name>",
     "name_region": { "x": 340, "y": 115, "width": 940, "height": 94 },
-    "name_font": {
-        "font": "title",
-        "size": 94,
-        "alignment": "center"
-    },
-
+    "name_font": { "font": "title", "size": 94, "alignment": "center" },
     "subtitle": null,
-    "subtitle_region": {
-        "x": 92, "y": 236, "width": 1500, "height": 56
-    },
-    "subtitle_font": {
-        "font": "semibold",
-        "size": 56,
-        "alignment": "center"
-    },
-
+    "subtitle_region": { "x": 92, "y": 236, "width": 1500, "height": 56 },
+    "subtitle_font": { "font": "semibold", "size": 56, "alignment": "center" },
     "traits": "",
     "traits_region": { "x": 416, "y": 1330, "width": 812, "height": 64 },
-    "traits_font": {
-        "font": "bolditalic",
-        "size": 64,
-        "alignment": "center"
-    },
-
+    "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
     "label": "%:ASSET",
     "label_region": { "x": 156, "y": 319, "width": 150, "height": 38 },
-    "label_font": {
-        "font": "semibold",
-        "size": 38,
-        "color": "#231f20",
-        "alignment": "center"
-    },
-
+    "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
     "classes": ["guardian"],
-
     "level": 0,
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
-
     "cost": "---",
     "cost_region": { "x": 144, "y": 105, "width": 160, "height": 128 },
     "cost_font": {
@@ -55,80 +26,24 @@
         "outline_color": "#231f20",
         "alignment": "center"
     },
-
     "level_overlay": "{card_class}_{level}.png",
-    "level_overlay_story": "neutral_{level}.png",
-    "level_overlay_basic weakness": "neutral_{level}.png",
-    "level_overlay_weakness": "neutral_{level}.png",
-    "level_overlay_story weakness": "neutral_{level}.png",
-
     "text": "",
-    "text_region": {
-        "x": 144,
-        "y": 1400,
-        "width": 1356,
-        "height": 470,
-        "attach_after": "flavor_text"
-    },
-    "text_font": {
-        "font": "regular",
-        "size": 72,
-        "color": "#231f20",
-        "alignment": "left"
-    },
-
-    "encounter_overlay_story": "story_event_overlay.png",
-    "icons_box_story": "skill_box_neutral.png",
-    "icons_box_basic weakness": "skill_box_weakness.png",
-
+    "text_region": { "x": 144, "y": 1400, "width": 1356, "height": 470, "attach_after": "flavor_text" },
+    "text_font": { "font": "regular", "size": 72, "color": "#231f20", "alignment": "left" },
     "illustration": "",
     "illustration_region": { "x": 0, "y": 232, "width": 1644, "height": 1032 },
-
     "class_symbol_3_region": { "x": 988, "y": 80, "width": 208, "height": 208 },
     "class_symbol_2_region": { "x": 1168, "y": 80, "width": 208, "height": 208 },
     "class_symbol_1_region": { "x": 1348, "y": 80, "width": 208, "height": 208 },
-
     "slot_1_region": { "x": 1348, "y": 1882, "width": 224, "height": 224 },
     "slot_2_region": { "x": 1140, "y": 1882, "width": 224, "height": 224 },
-
-    "text1_weakness": "%:WEAKNESS",
-    "text1_story weakness": "%:WEAKNESS",
-    "text1_basic weakness": "%:BASIC WEAKNESS",
-    "text1_region_story weakness": { "x": 416, "y": 1264, "width": 812, "height": 55 },
-    "text1_region_weakness": { "x": 416, "y": 1264, "width": 812, "height": 55 },
-    "text1_region_basic weakness": { "x": 416, "y": 1264, "width": 812, "height": 55 },
-    "text1_font_weakness": {"font": "semibold", "size": 47, "color": "#231f20", "alignment": "center"},
-    "text1_font_story weakness": {"font": "semibold", "size": 47, "color": "#231f20", "alignment": "center"},
-
-    "text1_font_basic weakness": {
-        "font": "semibold",
-        "size": 47,
-        "color": "#231f20",
-        "alignment": "center"
-    },
-    "encounter_overlay_basic weakness": "basic_weakness_skill.png",
-    "encounter_overlay_story weakness": "basic_weakness_skill.png",
-    "encounter_overlay_region": {
-        "x": 1350,
-        "y": 96,
-        "width": 200,
-        "height": 200
-    },
-    "encounter_icon_region_basic weakness": {"x": 1392,"y": 136,"width": 112,"height": 112},
-    "encounter_icon_region_story weakness": {"x": 1392,"y": 136,"width": 112,"height": 112},
-    "encounter_icon_basic weakness": "basic_weakness_icon.png",
-
+    "encounter_overlay_region": { "x": 1350, "y": 96, "width": 200, "height": 200 },
     "victory": "",
     "victory_region": { "x": 1200, "y": 1850, "width": 340, "height": 100 },
-    "victory_font": {
-        "font": "bold",
-        "size": 64,
-        "alignment": "right"
-    },
+    "victory_font": { "font": "bold", "size": 64, "alignment": "right" },
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
-
     "sanity": null,
     "health": null,
     "health_region": { "x": 659, "y": 1957, "width": 140, "height": 170 },
@@ -149,43 +64,61 @@
         "outline_color": "#1c2b48",
         "alignment": "center"
     },
-
     "slots": [],
     "icons": "",
-
     "illustrator": "",
     "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
-    "illustrator_font": {
-        "font": "bold",
-        "size": 38,
-        "color": "white",
-        "alignment": "left"
-    },
-
+    "illustrator_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "copyright": "<copyright>",
     "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
-    "copyright_font": {
-        "font": "bold",
-        "size": 38,
-        "color": "white",
-        "alignment": "center"
-    },
-
+    "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
     "collection": "<exi>   <exn>",
-    "collection_story": "<esn>/<est>        <exi> <exn>",
-    "collection_story weakness": "<esn>/<est>        <exi> <exn>",
     "collection_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
-    "collection_font": {
-        "font": "bold",
-        "size": 38,
-        "color": "white",
-        "alignment": "right"
-    },
-
-    "encounter_icon_region_story": {
-        "x": 1392,
-        "y": 136,
-        "width": 112,
-        "height": 112
-    }
+    "collection_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "variants": [
+        {
+            "when": ["weakness", "story weakness", "basic weakness"],
+            "set": {
+                "level_overlay": "neutral_{level}.png",
+                "text1_region": { "x": 416, "y": 1264, "width": 812, "height": 55 },
+                "text1_font": { "font": "semibold", "size": 47, "color": "#231f20", "alignment": "center" }
+            }
+        },
+        {
+            "when": ["weakness", "story weakness"],
+            "set": { "text1": "%:WEAKNESS" }
+        },
+        {
+            "when": ["story weakness", "basic weakness"],
+            "set": {
+                "template": "chapter_1/asset_weakness<subtitle>",
+                "encounter_overlay": "basic_weakness_skill.png",
+                "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 }
+            }
+        },
+        {
+            "when": "story weakness",
+            "set": { "collection": "<esn>/<est>        <exi> <exn>" }
+        },
+        {
+            "when": "basic weakness",
+            "set": {
+                "text1": "%:BASIC WEAKNESS",
+                "template_bleed": true,
+                "icons_box": "skill_box_weakness.png",
+                "encounter_icon": "basic_weakness_icon.png"
+            }
+        },
+        {
+            "when": "story",
+            "set": {
+                "template": "chapter_1/asset_neutral<subtitle>",
+                "level_overlay": "neutral_{level}.png",
+                "encounter_overlay": "story_event_overlay.png",
+                "icons_box": "skill_box_neutral.png",
+                "collection": "<esn>/<est>        <exi> <exn>",
+                "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 }
+            }
+        }
+    ]
 }

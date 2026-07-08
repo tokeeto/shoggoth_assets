@@ -1,5 +1,5 @@
 {
-    "template": "enemy_location"
+    "template": "enemy_location",
   "name": "<name>",
   "name_region": { "x": 0, "y": 10, "width": 750, "height": 100 },
   "name_font": {
