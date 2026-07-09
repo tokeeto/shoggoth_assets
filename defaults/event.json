@@ -12,7 +12,7 @@
     "label": "%:EVENT",
     "label_region": { "x": 155, "y": 322, "width": 151, "height": 38 },
     "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
-    "text1_font": { "font": "bold", "size": 64, "alignment": "center" },
+    "weakness_label_font": { "font": "bold", "size": 64, "alignment": "center" },
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
     "class": "guardian",
     "cost": "---",
@@ -63,42 +63,30 @@
     "collection_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
     "variants": [
         {
-            "when": ["weakness", "story weakness", "basic weakness"],
+            "when": ["weakness", "basic weakness"],
             "set": {
                 "template": "chapter_1/event_weakness_subtitle",
                 "traits_region": { "x": 72, "y": 1455, "width": 1500, "height": 64 },
-                "text1_region": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
-                "text_region": { "x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" }
-            }
-        },
-        {
-            "when": ["weakness", "story weakness"],
-            "set": { "text1": "%:WEAKNESS" }
-        },
-        {
-            "when": ["story weakness", "basic weakness"],
-            "set": {
+                "weakness_label_region": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
+                "text_region": { "x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" },
                 "icons_box": "skill_box_weakness.png",
                 "level_overlay": "weakness_{level}.png",
-                "encounter_overlay": "basic_weakness_event.png"
+                "weakness_label": "%:WEAKNESS"
             }
         },
         {
-            "when": "story weakness",
-            "set": { "collection": "<esn>/<est>        <exi> <exn>" }
-        },
-        {
-            "when": "basic weakness",
-            "set": { "text1": "%:BASIC WEAKNESS", "encounter_icon": "basic_weakness_icon.png" }
-        },
-        {
-            "when": "story",
+            "when": "encounter",
             "set": {
-                "template": "chapter_1/event_neutral",
-                "icons_box": "skill_box_neutral.png",
-                "level_overlay": "neutral_{level}.png",
                 "encounter_overlay": "story_event_overlay.png",
                 "collection": "<esn>/<est>        <exi>   <exn>"
+            }
+        },
+        {
+            "when": ["basic weakness"],
+            "set": {
+                "weakness_label": "%:BASIC WEAKNESS",
+                "encounter_overlay": "basic_weakness_event.png",
+                "encounter_icon": "basic_weakness_icon.png"
             }
         },
         {

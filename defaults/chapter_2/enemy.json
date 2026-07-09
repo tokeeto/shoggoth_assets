@@ -37,61 +37,51 @@
     "damage1_region": {
         "x": 600,
         "y": 1184,
-        "width": 76,
-        "height": 92
+        "width": 65, "height": 79
     },
     "damage2_region": {
         "x": 508,
         "y": 1170,
-        "width": 76,
-        "height": 92
+        "width": 65, "height": 79
     },
     "damage3_region": {
         "x": 416,
         "y": 1156,
-        "width": 76,
-        "height": 92
+        "width": 65, "height": 79
     },
     "damage4_region": {
         "x": 324,
         "y": 1142,
-        "width": 76,
-        "height": 92
+        "width": 65, "height": 79
     },
     "damage5_region": {
         "x": 232,
         "y": 1128,
-        "width": 76,
-        "height": 92
+        "width": 65, "height": 79
     },
     "horror1_region": {
         "x": 956,
         "y": 1184,
-        "width": 108,
-        "height": 96
+        "width": 83, "height": 70
     },
     "horror2_region": {
         "x": 1048,
         "y": 1170,
-        "width": 108,
-        "height": 96
+        "width": 83, "height": 70
     },
     "horror3_region": {
         "x": 1140,
         "y": 1156,
-        "width": 108,
-        "height": 96
+        "width": 83, "height": 70
     },
     "horror4_region": {
         "x": 1232,
         "y": 1142,
-        "width": 108,
-        "height": 96
+        "width": 83, "height": 70
     },
     "horror5_region": {
         "x": 1324,
         "y": 1128,
-        "width": 108,
-        "height": 96
+        "width": 83, "height": 70
     }
 }

@@ -150,32 +150,27 @@
     "horror1_region": {
         "x": 442,
         "y": 568,
-        "width": 54,
-        "height": 48
+        "width": 83, "height": 70
     },
     "horror2_region": {
         "x": 488,
         "y": 554,
-        "width": 54,
-        "height": 48
+        "width": 83, "height": 70
     },
     "horror3_region": {
         "x": 534,
         "y": 536,
-        "width": 54,
-        "height": 48
+        "width": 83, "height": 70
     },
     "horror4_region": {
         "x": 576,
         "y": 510,
-        "width": 54,
-        "height": 48
+        "width": 83, "height": 70
     },
     "horror5_region": {
         "x": 616,
         "y": 482,
-        "width": 54,
-        "height": 48
+        "width": 83, "height": 70
     },
 
     "illustrator": "",
