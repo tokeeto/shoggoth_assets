@@ -18,7 +18,7 @@
         "y": 1210,
         "width": 1960,
         "height": 225,
-        "attach_after": "flavor_text"
+        "attach_before": "flavor_text"
     },
 
     "text_font": {
