@@ -15,7 +15,7 @@
         "x": 112,
         "y": 472,
         "width": 1056,
-        "height": 948,
+        "height": 928,
         "attach_before": "flavor_text"
     },
     "text_polygon": [
@@ -23,8 +23,9 @@
         [1140, 472],
         [1140, 1200],
         [1000, 1240],
-        [970, 1350],
-        [112, 1370],
+        [970, 1370],
+        [870, 1400],
+        [112, 1400],
         [112, 472]
     ],
     
@@ -36,6 +37,8 @@
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "<i>{value}</i>\n",
+
+    
 
     "illustration_region": { "x": 912, "y": 0, "width": 1332, "height": 1644 },
 
@@ -76,7 +79,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 1512, "width": 1062, "height": 40 },
+    "illustrator_region": { "x": 156, "y": 1500, "width": 1062, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 40,
@@ -85,7 +88,7 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 1512, "width": 1062, "height": 40 },
+    "copyright_region": { "x": 156, "y": 1500, "width": 1062, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 40,
@@ -93,12 +96,30 @@
         "alignment": "center"
     },
 
-    "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 1512, "width": 1062, "height": 40 },
+    "collection": "<esn>/<est>",
+    "collection_region": { "x": 721, "y": 1500, "width": 350, "height": 40 },
     "collection_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+
+    "collection_icon": "<exi>",
+    "collection_icon_region": {"x": 1086,"y": 1500,"width": 80,"height": 40 },
+    "collection_icon_font": { 
         "font": "bold",
         "size": 40,
         "color": "white",
-        "alignment": "right"
+        "alignment": "right" 
+    },
+    
+    "collection_number": "<exn>",
+    "collection_number_region": {"x": 1186,"y": 1500,"width": 170,"height": 40},
+    "collection_number_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
     }
 }
