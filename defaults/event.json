@@ -75,7 +75,7 @@
                 "weakness_label_region": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
                 "text_region": { "x": 212, "y": 1524, "width": 1152, "height": 530, "attach_after": "flavor_text" },
                 "icons_box": "skill_box_weakness.png",
-                "level_overlay": "weakness_{level}.png",
+                "level_overlay": "weakness_no_level.png",
                 "weakness_label": "%:WEAKNESS"
             }
         },
@@ -105,6 +105,21 @@
                 "class_symbol_3_region": { "x": 544, "y": 1090, "width": 208, "height": 208 },
                 "class_symbol_2_region": { "x": 714, "y": 1090, "width": 208, "height": 208 },
                 "class_symbol_1_region": { "x": 884, "y": 1090, "width": 208, "height": 208 }
+            }
+        },
+        {   "when": "story",
+            "set": {
+                "template": "chapter_1/event_neutral",
+                "level_overlay": "neutral_no_level.png",
+                "encounter_overlay": "story_event_overlay.png",
+                "collection_total": "<esn>/<est>",
+                "collection_total_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
+                "collection_total_font": {
+                    "font": "bold",
+                    "size": 38,
+                    "color": "white",
+                    "alignment": "right"
+                }
             }
         }
     ]
