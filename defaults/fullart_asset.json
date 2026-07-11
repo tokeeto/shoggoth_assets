@@ -3,9 +3,10 @@
 	"template": "fullart/asset_<class><subtitle>",
     "template_bleed": true,
     "editor": "asset",
+    "name_region" : {"x": 340, "y": 125, "width": 940, "height": 94},
     "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
     "traits_region": { "x": 416, "y": 1680, "width": 812, "height": 75 },
-    "subtitle_region": {"x": 512, "y": 264, "width": 632, "height": 100},
+    "subtitle_region": {"x": 512, "y": 254, "width": 632, "height": 100},
     "label_region": { "x": 156, "y": 330, "width": 150, "height": 70 },
     "text_region": {
         "x": 132,
@@ -22,6 +23,7 @@
     "sanity_region": { "x": 252, "y":1520, "width": 180, "height": 160 },
     "slot_1_region": { "x": 1336, "y":1408, "width": 224, "height": 224 },
     "slot_2_region": { "x": 1132, "y":1488, "width": 224, "height": 224 },
+    "victory_region": { "x": 1200, "y": 1670, "width": 340, "height": 100},
     "illustration_region": { "x": 0, "y": 0, "width": 1716, "height": 2316 },
     "illustrator_font": {
         "font": "bold",
@@ -31,14 +33,27 @@
     },
     "collection_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "#1c2b48",
         "alignment": "right"
     },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "#1c2b48",
         "alignment": "center"
+    },
+    "collection_total": null,
+    "collection_icon_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "#1c2b48",
+        "alignment": "right"
+    },
+    "collection_number_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "#1c2b48",
+        "alignment": "left"
     }
 }

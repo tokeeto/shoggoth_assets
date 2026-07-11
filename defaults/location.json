@@ -107,7 +107,7 @@
     },
 
     "victory": "",
-    "victory_region": { "x": 1236, "y": 1842, "width": 300, "height": 72 },
+    "victory_region": { "x": 1236, "y": 1802, "width": 300, "height": 72 },
     "victory_font": {
         "font": "bold",
         "size": 72,
@@ -115,29 +115,64 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 132, "y": 2116, "width": 1326, "height": 40 },
+    "illustrator_region": { "x": 142, "y": 2099, "width": 1326, "height": 40 },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
-
     "copyright": "<copyright>",
-    "copyright_region": { "x": 72, "y": 2116, "width": 1500, "height": 70 },
+    "copyright_region": {
+        "x": 142,
+        "y": 2099,
+        "width": 1360,
+        "height": 40
+    },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
-
-    "collection": "<esn>/<est>          <exi>      <exn>",
-    "collection_region": { "x": 72, "y": 2116, "width": 1430, "height": 70 },
-    "collection_font": {
+    "collection": "",
+    "collection_total": "<esn>/<est>",
+    "collection_total_region": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+    "collection_total_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "right"
+    },
+    "collection_icon": "<exi>",
+    "collection_icon_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "collection_icon_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
+    "collection_number": "<exn>",
+    "collection_number_region": {
+        "x": 1400,
+        "y": 2099,
+        "width": 170,
+        "height": 40
+    },
+    "collection_number_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
     }
 }

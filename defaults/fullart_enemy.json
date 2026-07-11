@@ -10,7 +10,7 @@
         "width": 108,
         "height": 108
     },
-    "label_region": { "x": 620, "y": 752, "width": 416, "height": 80 },
+    "label_region": { "x": 620, "y": 758, "width": 416, "height": 80 },
     "victory_region": { "x": 372, "y": 660, "width": 900, "height": 100 },
     "name_region": { "x": 302, "y": 64, "width": 1050, "height": 130 },
 
@@ -47,72 +47,72 @@
         "x": 272,
         "y": 452,
         "width": 1100,
-        "height": 260,
+        "height": 220,
         "attach_after": "flavor_text"
     },
     "text_polygon": [
         [360, 492],
-        [1360, 492],
-        [1370, 552],
-        [1382, 604],
-        [1140, 728],
-        [612, 728],
-        [300, 604],
-        [270, 552],
+        [1330, 492],
+        [1330, 552],
+        [1330, 580],
+        [1140, 680],
+        [502, 680],
+        [350, 604],
+        [340, 552],
         [300, 552],
         [300, 492]
     ],
 
-    "damage1_region": {
-        "x": 600,
-        "y": 698,
-        "width": 65, "height": 79
-    },
-    "damage2_region": {
-        "x": 508,
-        "y": 675,
-        "width": 65, "height": 79
-    },
-    "damage3_region": {
-        "x": 416,
-        "y": 644,
-        "width": 65, "height": 79
-    },
-    "damage4_region": {
-        "x": 332,
-        "y": 601,
-        "width": 65, "height": 79
-    },
-    "damage5_region": {
-        "x": 252,
-        "y": 550,
-        "width": 65, "height": 79
-    },
-    "horror1_region": {
-        "x": 976,
-        "y": 698,
-        "width": 83, "height": 70
-    },
-    "horror2_region": {
-        "x": 1068,
-        "y": 675,
-        "width": 83, "height": 70
-    },
-    "horror3_region": {
-        "x": 1160,
-        "y": 644,
-        "width": 83, "height": 70
-    },
-    "horror4_region": {
-        "x": 1244,
-        "y": 597,
-        "width": 83, "height": 70
-    },
-    "horror5_region": {
-        "x": 1324,
-        "y": 546,
-        "width": 83, "height": 70
-    },
+"damage1_region": {
+    "x": 600,
+    "y": 708,
+    "width": 47, "height": 58
+},
+"damage2_region": {
+    "x": 508,
+    "y": 685,
+    "width": 47, "height": 58
+},
+"damage3_region": {
+    "x": 416,
+    "y": 654,
+    "width": 47, "height": 58
+},
+"damage4_region": {
+    "x": 332,
+    "y": 611,
+    "width": 47, "height": 58
+},
+"damage5_region": {
+    "x": 252,
+    "y": 560,
+    "width": 47, "height": 58
+},
+"horror1_region": {
+    "x": 976,
+    "y": 708,
+    "width": 61, "height": 51
+},
+"horror2_region": {
+    "x": 1068,
+    "y": 695,
+    "width": 61, "height": 51
+},
+"horror3_region": {
+    "x": 1160,
+    "y": 664,
+    "width": 61, "height": 51
+},
+"horror4_region": {
+    "x": 1244,
+    "y": 627,
+    "width": 61, "height": 51
+},
+"horror5_region": {
+    "x": 1324,
+    "y": 576,
+    "width": 61, "height": 51
+},
 
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 2244 }
 }

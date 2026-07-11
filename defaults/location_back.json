@@ -25,7 +25,6 @@
         "alignment": "center",
         "rotation": null
     },
-
     "illustration": "<copy>",
     "illustration_pan_x": "<copy>",
     "illustration_pan_y": "<copy>",
@@ -34,13 +33,8 @@
     "connection": "<copy>",
     "connections": "<copy>",
 
-    "collection": "<exi>        ",
-    "collection_region": { "x": 72, "y": 2116, "width": 1430, "height": 40 },
-    "collection_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "right"
-    }
-
+    "collection": "",
+    "collection_total": null,
+    "collection_icon": "<copy>",
+    "collection_number": null
 }

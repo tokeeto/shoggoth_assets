@@ -5,8 +5,8 @@
     "template_bleed": true,
     "classes": ["story"],
     "level": null,
-    "text1_region": { "x": 416, "y": 1282, "width": 812, "height": 80 },
-    "text1_font": { "font": "semibold", "size": 48, "color": "#231f20", "alignment": "center" },
+    "weakeness_type_region": { "x": 416, "y": 1282, "width": 812, "height": 80 },
+    "weakeness_type_font": { "font": "semibold", "size": 48, "color": "#231f20", "alignment": "center" },
     "encounter_overlay_region": { "x": 1350, "y": 96, "width": 200, "height": 200 },
     "collection": "<esn>/<est>        <exi> <exn>",
     "variants": [
@@ -16,12 +16,12 @@
         },
         {
             "when": "weakness",
-            "set": { "text1": "WEAKNESS" }
+            "set": { "weakeness_type": "%:WEAKNESS" }
         },
         {
             "when": "basic_weakness",
             "set": {
-                "text1": "BASIC WEAKNESS",
+                "weakeness_type": "%:BASIC WEAKNESS",
                 "template_bleed": true,
                 "encounter_overlay": "basic_weakness_skill.png",
                 "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 },
