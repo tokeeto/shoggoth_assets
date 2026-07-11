@@ -54,17 +54,31 @@
         "alignment": "center"
     },
     "illustrator": "",
-    "illustrator_region": { "x": 1224, "y": 1511, "width": 922, "height": 40 },
-    "illustrator_font": { "font": "bold", "size": 40, "color": "white", "alignment": "left" },
+    "illustrator_region": { "x": 1224, "y": 1499, "width": 922, "height": 40 },
+    "illustrator_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "copyright": "<copyright>",
-    "copyright_region": { "x": 1224, "y": 1511, "width": 922, "height": 40 },
-    "copyright_font": { "font": "bold", "size": 40, "color": "white", "alignment": "center" },
+    "copyright_region": { "x": 1224, "y": 1499, "width": 922, "height": 40 },
+    "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
     "encounter_icon_region": { "x": 130, "y": 138, "width": 115, "height": 115 },
     "encounter_overlay": "story_encounter_overlay.png",
     "encounter_overlay_region": { "x": 65, "y": 86, "width": 241, "height": 241 },
     "collection": "<exi> <exn>",
-    "collection_region": { "x": 1224, "y": 1511, "width": 922, "height": 40 },
-    "collection_font": { "font": "bold", "size": 40, "color": "white", "alignment": "right" },
+    "collection_icon": "<exi>",
+    "collection_icon_region": {"x": 1970,"y": 1499,"width": 80,"height": 40 },
+    "collection_icon_font": { 
+        "font": "bold",
+        "size": 40,
+        "color": "white",
+        "alignment": "right" 
+    },
+    "collection_number": "<exn>",
+    "collection_number_region": {"x": 2070,"y": 1499,"width": 170,"height": 40},
+    "collection_number_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "left"
+    },
     "variants": [
         {
             "when": [
