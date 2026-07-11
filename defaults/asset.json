@@ -70,11 +70,14 @@
     "illustrator_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
     "illustrator_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "copyright": "<copyright>",
-    "copyright_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
+    "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
-    "collection": "<exi>   <exn>",
-    "collection_region": { "x": 142, "y": 2099, "width": 1360, "height": 40 },
-    "collection_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "collection_icon": "<exi>",
+    "collection_icon_region": {"x": 1300,"y": 2099,"width": 80,"height": 40 },
+    "collection_icon_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "collection_number": "<exn>",
+    "collection_number_region": {"x": 1400,"y": 2099,"width": 180,"height": 40},
+    "collection_number_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "variants": [
         {
             "when": ["weakness", "story weakness", "basic weakness"],
@@ -95,10 +98,14 @@
                 "encounter_overlay": "basic_weakness_skill.png",
                 "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 }
             }
-        },
+    },
         {
             "when": "story weakness",
-            "set": { "collection": "<esn>/<est>        <exi> <exn>" }
+            "set": {     
+                "collection_total": "<esn>/<est>",
+                "collection_total_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
+                "collection_total_font": {"font": "bold", "size": 38, "color": "white", "alignment": "right"} 
+            }
         },
         {
             "when": "basic weakness",
@@ -116,9 +123,11 @@
                 "level_overlay": "neutral_{level}.png",
                 "encounter_overlay": "story_event_overlay.png",
                 "icons_box": "skill_box_neutral.png",
-                "collection": "<esn>/<est>        <exi> <exn>",
+                "collection_total": "<esn>/<est>",
+                "collection_total_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
+                "collection_total_font": {"font": "bold", "size": 38, "color": "white", "alignment": "right"},
                 "encounter_icon_region": { "x": 1392, "y": 136, "width": 112, "height": 112 }
-            }
-        }
+    }
+}
     ]
 }
