@@ -154,11 +154,11 @@
         "x": 1300,
         "y": 2099,
         "width": 80,
-        "height": 40
+        "height": 50
     },
     "collection_icon_font": {
         "font": "bold",
-        "size": 38,
+        "size": 50,
         "color": "white",
         "alignment": "right"
     },

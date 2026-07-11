@@ -1,0 +1,257 @@
+{
+    "parent": "enemy",
+    "template": "chapter_2/enemy<subtitle>",
+    "template_bleed": false,
+    "editor": "enemy",
+    "illustration_region": {
+        "x": 0,
+        "y": 1328,
+        "width": 1644,
+        "height": 916
+    },
+    "text_region": {
+        "x": 240,
+        "y": 1765,
+        "width": 1210,
+        "height": 280,
+        "attach_after": "flavor_text"
+    },
+    "text_polygon": [
+        [
+            350,
+            1780
+        ],
+        [
+            1330,
+            1780
+        ],
+        [
+            1360,
+            1820
+        ],
+        [
+            1420,
+            1820
+        ],
+        [
+            1440,
+            1880
+        ],
+        [
+            1440,
+            2100
+        ],
+        [
+            1420,
+            2100
+        ],
+        [
+            200,
+            2100
+        ],
+        [
+            200,
+            1890
+        ],
+        [
+            240,
+            1880
+        ],
+        [
+            260,
+            1820
+        ],
+        [
+            260,
+            1820
+        ],
+        [
+            300,
+            1820
+        ],
+        [
+            350,
+            1780
+        ]
+    ],
+    "encounter_icon_region": {
+        "x": 762,
+        "y": 1534,
+        "width": 112,
+        "height": 112
+    },
+    "label_region": {
+        "x": 696,
+        "y": 1660,
+        "width": 244,
+        "height": 48
+    },
+    "victory_overlay": "ch2_enemy_victory.png",
+    "victory_overlay_region": {
+        "x": 72,
+        "y": 325,
+        "width": 1500,
+        "height": 2100
+    },
+    "victory_region": {
+        "x": 1200,
+        "y": 1510,
+        "width": 300,
+        "height": 80
+    },
+    "traits_region": {
+        "x": 72,
+        "y": 1525,
+        "width": 580,
+        "height": 70
+    },
+    "traits_overlay": "ch2_enemy_trait.png",
+    "traits_overlay_region": {
+        "x": -95,
+        "y": 330,
+        "width": 1500,
+        "height": 2100
+    },
+    "attack_region": {
+        "x": 490,
+        "y": 300,
+        "width": 110,
+        "height": 90
+    },
+    "health_region": {
+        "x": 730,
+        "y": 290,
+        "width": 180,
+        "height": 100
+    },
+    "evade_region": {
+        "x": 1045,
+        "y": 300,
+        "width": 110,
+        "height": 90
+    },
+    "damage1_region": {
+        "x": 600,
+        "y": 1620,
+        "width": 76,
+        "height": 92
+    },
+    "damage2_region": {
+        "x": 510,
+        "y": 1620,
+        "width": 76,
+        "height": 92
+    },
+    "damage3_region": {
+        "x": 420,
+        "y": 1620,
+        "width": 76,
+        "height": 92
+    },
+    "damage4_region": {
+        "x": 330,
+        "y": 1620,
+        "width": 76,
+        "height": 92
+    },
+    "damage5_region": {
+        "x": 240,
+        "y": 1620,
+        "width": 76,
+        "height": 92
+    },
+    "horror1_region": {
+        "x": 980,
+        "y": 1625,
+        "width": 108,
+        "height": 96
+    },
+    "horror2_region": {
+        "x": 1080,
+        "y": 1625,
+        "width": 108,
+        "height": 96
+    },
+    "horror3_region": {
+        "x": 1180,
+        "y": 1625,
+        "width": 108,
+        "height": 96
+    },
+    "horror4_region": {
+        "x": 1280,
+        "y": 1625,
+        "width": 108,
+        "height": 96
+    },
+    "horror5_region": {
+        "x": 1380,
+        "y": 1625,
+        "width": 108,
+        "height": 96
+    },
+    "illustrator": "",
+    "illustrator_region": {
+        "x": 142,
+        "y": 2099,
+        "width": 1360,
+        "height": 40
+    },
+    "illustrator_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "black",
+        "alignment": "left"
+    },
+    "copyright": "<copyright>",
+    "copyright_region": {
+        "x": 142,
+        "y": 2099,
+        "width": 1360,
+        "height": 40
+    },
+    "copyright_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "black",
+        "alignment": "center"
+    },
+    "collection_total": "<esn>/<est>",
+    "collection_total_region": {
+        "x": 935,
+        "y": 2099,
+        "width": 350,
+        "height": 40
+    },
+    "collection_total_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "black",
+        "alignment": "right"
+    },
+    "collection_icon": "<exi>",
+    "collection_icon_region": {
+        "x": 1300,
+        "y": 2099,
+        "width": 80,
+        "height": 40
+    },
+    "collection_icon_font": {
+        "size": 38,
+        "color": "black",
+        "alignment": "right"
+    },
+    "collection_number": "<exn>",
+    "collection_number_region": {
+        "x": 1400,
+        "y": 2099,
+        "width": 180,
+        "height": 40
+    },
+    "collection_number_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "black",
+        "alignment": "left"
+    }
+}
