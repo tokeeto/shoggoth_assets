@@ -12,19 +12,22 @@
     "label_region": { "x": 696, "y": 1285, "width": 244, "height": 48 },
     "label_font": { "font": "semibold", "size": 48, "alignment": "center" },
     "text": "",
-    "text_region": { "x": 100, "y": 532, "width": 810, "height": 580, "attach_after": "flavor_text" },
+    "text_region": { "x": 100, "y": 532, "width": 780, "height": 580, "attach_after": "flavor_text" },
     "text_polygon": [
         [292, 532],
         [1362, 532],
         [1362, 582],
         [1482, 582],
         [1482, 948],
-        [1432, 948],
-        [1432, 1092],
-        [212, 1092],
-        [212, 912],
+        [1442, 988],
+        [1302, 1010],
+        [1200, 1120],
+        [422, 1120],
+        [300, 1012],
+        [200, 1012],
         [152, 912],
         [152, 682],
+        [152, 642],
         [292, 582],
         [292, 532]
     ],
@@ -87,21 +90,34 @@
     "copyright": "<copyright>",
     "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
     "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
-    "collection": "<esn>/<est>        <exi> <exn>",
-    "collection_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
-    "collection_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "collection_total": "<esn>/<est>",
+    "collection_total_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
+    "collection_total_font": {"font": "bold", "size": 38, "color": "white", "alignment": "right"},
+    "collection_icon": "<exi>",
+    "collection_icon_region": {"x": 1300,"y": 2099,"width": 80,"height": 40 },
+    "collection_icon_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "collection_number": "<exn>",
+    "collection_number_region": {"x": 1400,"y": 2099,"width": 180,"height": 40},
+    "collection_number_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "variants": [
         {
-            "when": ["weakness", "basic_weakness"],
+            "when": ["weakness", "basic weakness"],
             "set": { "template": "chapter_1/enemy_weakness" }
         },
         {
-            "when": ["weakness", "encounter_weakness"],
-            "set": { "subtitle": "WEAKNESS" }
+            "when": ["weakness"],
+            "set": { "encounter_icon_region": null }
         },
         {
-            "when": "basic_weakness",
-            "set": { "subtitle": "BASIC WEAKNESS", "encounter_icon": "AHLCG-BasicWeakness.png" }
+            "when": ["weakness", "encounter_weakness"],
+            "set": { "subtitle": "%:WEAKNESS" }
+        },
+        {
+            "when": "basic weakness",
+            "set": { "subtitle": "%:BASIC WEAKNESS", 
+            "encounter_icon": "basic_weakness_icon.png",
+            "template": "chapter_1/enemy_weakness_story"
+        }
         },
         {
             "when": "encounter_weakness",
@@ -112,7 +128,7 @@
             "set": {
                 "template": "enemy_full",
                 "label_region": { "x": 696, "y": 1113, "width": 244, "height": 48 }
-            }
-        }
+    }
+}
     ]
 }
