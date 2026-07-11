@@ -14,16 +14,16 @@
     "text_region": {
         "x": 112,
         "y": 472,
-        "width": 1056,
-        "height": 928,
+        "width": 1036,
+        "height": 930,
         "attach_before": "flavor_text"
     },
     "text_polygon": [
         [112, 472],
         [1140, 472],
         [1140, 1200],
-        [1000, 1240],
-        [970, 1370],
+        [1040, 1240],
+        [980, 1360],
         [870, 1400],
         [112, 1400],
         [112, 472]
@@ -79,43 +79,64 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 156, "y": 1500, "width": 1062, "height": 40 },
+    "illustrator_region": {
+        "x": 156,
+        "y": 1499,
+        "width": 1062,
+        "height": 40
+    },
     "illustrator_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "left"
     },
-
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 1500, "width": 1062, "height": 40 },
+    "copyright_region": {
+        "x": 156,
+        "y": 1499,
+        "width": 1062,
+        "height": 40
+    },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "color": "white",
         "alignment": "center"
     },
-
-    "collection": "<esn>/<est>",
-    "collection_region": { "x": 721, "y": 1500, "width": 350, "height": 40 },
-    "collection_font": {
+    "collection_total": "<esn>/<est>",
+    "collection_total_region": {
+        "x": 721,
+        "y": 1500,
+        "width": 350,
+        "height": 40
+    },
+    "collection_total_font": {
         "font": "bold",
         "size": 38,
         "color": "white",
         "alignment": "right"
     },
-
     "collection_icon": "<exi>",
-    "collection_icon_region": {"x": 1086,"y": 1500,"width": 80,"height": 40 },
-    "collection_icon_font": { 
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "right" 
+    "collection_icon_region": {
+        "x": 1086,
+        "y": 1500,
+        "width": 80,
+        "height": 40
     },
-    
+    "collection_icon_font": {
+        "font": "bold",
+        "size": 38,
+        "color": "white",
+        "alignment": "right"
+    },
     "collection_number": "<exn>",
-    "collection_number_region": {"x": 1186,"y": 1500,"width": 170,"height": 40},
+    "collection_number_region": {
+        "x": 1186,
+        "y": 1500,
+        "width": 170,
+        "height": 40
+    },
     "collection_number_font": {
         "font": "bold",
         "size": 38,
