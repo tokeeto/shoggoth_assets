@@ -12,12 +12,6 @@
     "illustration_pan_x": "<copy>",
     "illustration_pan_y": "<copy>",
     "illustration_zoom": "<copy>",
-    "collection": "          <exi>        ",
-    "collection_region": { "x": 72, "y": 2120, "width": 1430, "height": 70 },
-    "collection_font": {
-        "font": "bold",
-        "size": 40,
-        "color": "white",
-        "alignment": "right"
-    }
+    "collection_total": null,
+    "collection_number": null
 }
