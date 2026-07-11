@@ -6,7 +6,7 @@
     "name": "<name>",
     "name_region": {
         "x": 220,
-        "y": 189,
+        "y": 199,
         "width": 1000,
         "height": 96
     },
@@ -48,19 +48,34 @@
         "height": 140
     },
 
+    "victory": "",
+    "victory_region": {
+        "x": 220,
+        "y": 1910,
+        "width": 1200,
+        "height": 120
+    },
+    "victory_font": {
+        "font": "bold",
+        "size": 72,
+        "alignment": "center"
+    },
+
     "copyright": "<copyright>",
     "copyright_region": { "x": 270, "y": 2019, "width": 400, "height": 40 },
     "copyright_font": {
         "font": "bold",
-        "size": 40,
+        "size": 38,
         "alignment": "center"
     },
 
-    "collection": "<esn>/<est>        <exi>   <exn>",
-    "collection_region": { "x": 976, "y": 2019, "width": 400, "height": 40 },
-    "collection_font": {
-        "font": "bold",
-        "size": 40,
-        "alignment": "center"
-    }
+    "collection_total": "<esn>/<est>",
+    "collection_total_region": { "x": 765, "y": 2019, "width": 350, "height": 40 },
+    "collection_total_font": { "font": "bold", "size": 38, "color": "black", "alignment": "right" },
+    "collection_icon": "<exi>",
+    "collection_icon_region": { "x": 1130, "y": 2019, "width": 80, "height": 40 },
+    "collection_icon_font": { "font": "bold", "size": 38, "color": "black", "alignment": "right" },
+    "collection_number": "<exn>",
+    "collection_number_region": { "x": 1230, "y": 2019, "width": 180, "height": 40 },
+    "collection_number_font": { "font": "bold", "size": 38, "color": "black", "alignment": "left" }
 }
