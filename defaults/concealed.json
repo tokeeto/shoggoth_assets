@@ -1,24 +1,10 @@
 {
-  "template": "concealed.png",
-  "ahlcg_concealedback_default_template": "ArkhamHorrorLCG/templates/AHLCG-ConcealedBack.jp2",
-  "name_region": {
-    "x": 31,
-    "y": 256,
-    "width": 186,
-    "height": 65
-  },
-  "decoyname_region": {
-    "x": 51,
-    "y": 212,
-    "width": 146,
-    "height": 63
-  },
-  "portrait_portrait_template": "ArkhamHorrorLCG/default-portraits/DefaultTexture.jp2",
-  "portrait_portrait_pany": 0,
-  "portrait_portrait_clip_region": {
-    "x": 0,
-    "y": 10,
-    "width": 244,
-    "height": 244
-  }
+    "template": "concealed",
+    "card_size": "mini",
+    "name": "<name>",
+
+    "name_region": { "x": 199, "y": 1121, "width": 762, "height": 266 },
+    "name_font": { "font": "title", "size": 90, "alignment": "center" },
+
+    "illustration_region": { "x": 72, "y": 113, "width": 1000, "height": 1000 }
 }
