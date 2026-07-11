@@ -7,8 +7,8 @@
     "label": "%:SKILL",
     "label_region": { "x": 130, "y": 316, "width": 200, "height": 44 },
     "label_font": { "font": "semibold", "size": 44, "min_size": 8, "alignment": "center" },
-    "text1_region": { "x": 360, "y": 1434, "width": 890, "height": 64 },
-    "text1_font": { "font": "semibold", "size": 64, "min_size": 8, "alignment": "center" },
+    "weakeness_type_region": { "x": 360, "y": 1434, "width": 890, "height": 64 },
+    "weakeness_type_font": { "font": "semibold", "size": 64, "min_size": 8, "alignment": "center" },
     "traits_region": { "x": 422, "y": 1449, "width": 812, "height": 64 },
     "traits_region_weakness": { "x": 422, "y": 1514, "width": 812, "height": 64 },
     "traits_region_basic weakness": { "x": 422, "y": 1514, "width": 812, "height": 64 },
@@ -59,7 +59,7 @@
         },
         {
             "when": "weakness",
-            "set": { "text1": "WEAKNESS" }
+            "set": { "weakeness_type": "%:WEAKNESS" }
         },
         {
             "when": "story weakness",
@@ -72,7 +72,7 @@
         {
             "when": "basic weakness",
             "set": {
-                "text1": "BASIC WEAKNESS",
+                "weakeness_type": "%:BASIC WEAKNESS",
                 "template": "chapter_1/skill_weakness",
                 "encounter_icon": "basic_weakness_icon.png",
                 "encounter_overlay_region": { "x": 1330, "y": 84, "width": 200, "height": 200 },

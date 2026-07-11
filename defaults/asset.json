@@ -83,13 +83,13 @@
             "when": ["weakness", "story weakness", "basic weakness"],
             "set": {
                 "level_overlay": "neutral_{level}.png",
-                "text1_region": { "x": 416, "y": 1264, "width": 812, "height": 55 },
-                "text1_font": { "font": "semibold", "size": 47, "color": "#231f20", "alignment": "center" }
+                "weakeness_type_region": { "x": 416, "y": 1264, "width": 812, "height": 55 },
+                "weakeness_type_font": { "font": "semibold", "size": 47, "color": "#231f20", "alignment": "center" }
             }
         },
         {
             "when": ["weakness", "story weakness"],
-            "set": { "text1": "%:WEAKNESS" }
+            "set": { "weakeness_type": "%:WEAKNESS" }
         },
         {
             "when": ["story weakness", "basic weakness"],
@@ -110,7 +110,7 @@
         {
             "when": "basic weakness",
             "set": {
-                "text1": "%:BASIC WEAKNESS",
+                "weakeness_type": "%:BASIC WEAKNESS",
                 "template_bleed": true,
                 "icons_box": "skill_box_weakness.png",
                 "encounter_icon": "basic_weakness_icon.png"

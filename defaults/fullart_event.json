@@ -79,7 +79,7 @@
         },
         {
             "when": "weakness",
-            "set": { "text1": "WEAKNESS" }
+            "set": { "weakeness_type": "%:WEAKNESS" }
         },
         {
             "when": "story weakness",
@@ -92,7 +92,7 @@
         {
             "when": "basic weakness",
             "set": {
-                "text1": "BASIC WEAKNESS",
+                "weakeness_type": "%:BASIC WEAKNESS",
                 "template": "chapter_1/skill_weakness",
                 "encounter_icon": "basic_weakness_icon.png",
                 "encounter_overlay_region": { "x": 1330, "y": 84, "width": 200, "height": 200 },
