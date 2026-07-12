@@ -9,7 +9,7 @@
   "KEY": "SCHLÜSSEL",
   "LOCATION": "ORT",
   "SKILL": "<margin 6><size 15>FERTIGKEIT</size>",
-  "STORY": "HANDLUNG",
+  "STORY": "<size 40>HANDLUNG",
   "TREACHERY": "VERRAT",
   "ASSET": "VORTEIL",
   "WEAKNESS": "SCHWÄCHE",
