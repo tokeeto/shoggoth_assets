@@ -232,12 +232,12 @@
     "collection_icon": "<exi>",
     "collection_icon_region": {
         "x": 1300,
-        "y": 2099,
+        "y": 2094,
         "width": 80,
-        "height": 40
+        "height": 50
     },
     "collection_icon_font": {
-        "size": 38,
+        "size": 50,
         "color": "black",
         "alignment": "right"
     },

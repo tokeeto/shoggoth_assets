@@ -60,7 +60,7 @@
     "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
 
     "collection_icon": "<exi>",
-    "collection_icon_region": {"x": 1300,"y": 2099,"width": 80,"height": 50 },
+    "collection_icon_region": {"x": 1300,"y": 2094,"width": 80,"height": 50 },
     "collection_icon_font": { "font": "bold", "size": 50, "color": "white", "alignment": "right" },
     "collection_number": "<exn>",
     "collection_number_region": {"x": 1400,"y": 2099,"width": 180,"height": 40},
