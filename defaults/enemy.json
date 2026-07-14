@@ -6,7 +6,7 @@
     "name_region": { "x": 302, "y": 64, "width": 1050, "height": 110 },
     "name_font": { "font": "title", "size": 110, "alignment": "center" },
     "subtitle": "",
-    "subtitle_region": { "x": 72, "y": 204, "width": 1500, "height": 56 },
+    "subtitle_region": { "x": 72, "y": 197, "width": 1500, "height": 56 },
     "subtitle_font": { "font": "bold", "size": 56, "alignment": "center" },
     "label": "%:ENEMY",
     "label_region": { "x": 696, "y": 1285, "width": 244, "height": 48 },
@@ -94,15 +94,18 @@
     "collection_total_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
     "collection_total_font": {"font": "bold", "size": 38, "color": "white", "alignment": "right"},
     "collection_icon": "<exi>",
-    "collection_icon_region": {"x": 1300,"y": 2099,"width": 80,"height": 40 },
-    "collection_icon_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "collection_icon_region": {"x": 1300,"y": 2094,"width": 80,"height": 50 },
+    "collection_icon_font": { "font": "bold", "size": 50, "color": "white", "alignment": "right" },
     "collection_number": "<exn>",
     "collection_number_region": {"x": 1400,"y": 2099,"width": 180,"height": 40},
     "collection_number_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
     "variants": [
         {
             "when": ["weakness", "basic weakness"],
-            "set": { "template": "chapter_1/enemy_weakness" }
+            "set": { 
+                "template": "chapter_1/enemy_weakness",
+                "collection_total": null
+            }
         },
         {
             "when": ["weakness"],

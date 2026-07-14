@@ -64,10 +64,10 @@
     "encounter_overlay_region": { "x": 65, "y": 86, "width": 241, "height": 241 },
     "collection": "<exi> <exn>",
     "collection_icon": "<exi>",
-    "collection_icon_region": {"x": 1970,"y": 1499,"width": 80,"height": 40 },
+    "collection_icon_region": {"x": 1970,"y": 1494,"width": 80,"height": 50 },
     "collection_icon_font": { 
         "font": "bold",
-        "size": 40,
+        "size": 50,
         "color": "white",
         "alignment": "right" 
     },

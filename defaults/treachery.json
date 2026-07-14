@@ -35,8 +35,8 @@
     "collection_total_region": { "x": 935, "y": 2099, "width": 350, "height": 40 },
     "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
     "collection_icon": "<exi>",
-    "collection_icon_region": { "x": 1300, "y": 2099, "width": 80, "height": 40 },
-    "collection_icon_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
+    "collection_icon_region": { "x": 1300, "y": 2094, "width": 80, "height": 50 },
+    "collection_icon_font": { "font": "bold", "size": 50, "color": "white", "alignment": "right" },
     "collection_number": "<exn>",
     "collection_number_region": { "x": 1400, "y": 2099, "width": 180, "height": 40 },
     "collection_number_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
@@ -52,7 +52,10 @@
         },
         {
             "when": ["weakness", "basic weakness"],
-            "set": { "encounter_overlay": "basic_weakness.png" }
+            "set": { 
+                "encounter_overlay": "basic_weakness.png",
+                "collection_total": null 
+            }
         },
         {
             "when": ["weakness", "encounter_weakness"],
@@ -60,6 +63,10 @@
                 "subtitle": "%:WEAKNESS",
                 "text_polygon": [[192, 1520], [1470, 1520], [1470, 2000], [1198, 2080], [450, 2070], [192, 2000], [192, 1520]]
             }
+        },
+        {
+            "when": ["encounter_weakness"],
+            "set": { "collection_total": "<esn>/<est>"}
         },
         {
             "when": "basic weakness",
