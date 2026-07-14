@@ -52,7 +52,10 @@
         },
         {
             "when": ["weakness", "basic weakness"],
-            "set": { "encounter_overlay": "basic_weakness.png" }
+            "set": { 
+                "encounter_overlay": "basic_weakness.png",
+                "collection_total": null 
+            }
         },
         {
             "when": ["weakness", "encounter_weakness"],

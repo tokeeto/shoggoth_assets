@@ -102,7 +102,10 @@
     "variants": [
         {
             "when": ["weakness", "basic weakness"],
-            "set": { "template": "chapter_1/enemy_weakness" }
+            "set": { 
+                "template": "chapter_1/enemy_weakness",
+                "collection_total": null
+            }
         },
         {
             "when": ["weakness"],
