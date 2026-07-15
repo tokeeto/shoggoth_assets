@@ -65,7 +65,7 @@
             }
         },
         {
-            "when": ["encounter_weakness"],
+            "when": ["encounter"],
             "set": { "collection_total": "<esn>/<est>"}
         },
         {
