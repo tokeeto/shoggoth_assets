@@ -3,14 +3,14 @@
 	"template": "fullart/skill_<class><subtitle>",
     "template_bleed": true,
     "editor": "skill",
-    "name_region": { "x": 384, "y": 132, "width": 1176, "height": 160 },
+    "name_region": { "x": 384, "y": 115, "width": 1176, "height": 90 },
     "label_region": { "x": 146, "y": 310, "width": 152, "height": 44 },
-    "traits_region": { "x": 422, "y": 1770, "width": 812, "height": 100 },
+    "traits_region": { "x": 422, "y": 1750, "width": 812, "height": 64 },
     "text_region": {
         "x": 100,
-        "y": 1842,
+        "y": 1812,
         "width": 1444,
-        "height": 220,
+        "height": 205,
         "attach_after": "flavor_text"
     },
     "text_font": {
