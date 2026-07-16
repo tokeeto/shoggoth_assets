@@ -4,7 +4,7 @@
     "template_bleed": true,
     "editor": "skill",
     "name_region": { "x": 384, "y": 132, "width": 1176, "height": 160 },
-    "label_region": { "x": 146, "y": 315, "width": 152, "height": 44 },
+    "label_region": { "x": 146, "y": 310, "width": 152, "height": 44 },
     "traits_region": { "x": 422, "y": 1770, "width": 812, "height": 100 },
     "text_region": {
         "x": 100,
