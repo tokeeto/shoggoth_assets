@@ -3,30 +3,35 @@
 	"template": "fullart/event_<class>",
     "template_bleed": true,
     "editor": "event",
+
     "icons_box": "fullart/icon_box_<class>.png",
     "icons_region": {"x": 170, "y": 424, "width": 0, "height": 164},
     "icons_box_region": { "x": -55, "y": -53, "width": 212, "height": 212},
+
     "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
-    "name_region": { "x": 282, "y": 1730, "width": 1080, "height": 100 },
-    "traits_region": { "x": 302, "y": 1850, "width": 1040, "height": 72 },
+    "name_region": { "x": 282, "y": 1730, "width": 1080, "height": 94 },
+    "traits_region": { "x": 302, "y": 1850, "width": 1040, "height": 64 },
     "label_region": { "x": 155, "y": 330, "width": 151, "height": 38 },
     "cost_region": { "x": 156, "y": 110, "width": 140, "height": 128 },
+
     "text_region": {
         "x": 272,
-        "y": 1925,
+        "y": 1916,
         "width": 1100,
-        "height": 250,
+        "height": 235,
         "attach_after": "flavor_text"
     },
     "text_polygon": [
-        [272, 1925],
-        [1372, 1925],
+        [272, 1916],
+        [1372, 1916],
         [1402, 2059],
-        [1372, 2184],
-        [272, 2184],
+        [1372, 2160],
+        [272, 2160],
         [242, 2059],
-        [272, 1925]
+        [272, 1916]
     ],
+    "illustration_region": {"x": 0, "y": 0, "width": 1644, "height": 2244},
+
     "illustrator_region": {
         "x": 82, "y": 152, "width": 2000, "height": 90,
         "attach_after": "copyright"
@@ -61,8 +66,8 @@
         "color": "white",
         "alignment": "center"
     },
-    "collection_icon_region": "null",
-    "collection_number_region": "null",
+    "collection_icon_region": null,
+    "collection_number_region": null,
     "encounter_icon_region":null,
     "variants": [
         {
