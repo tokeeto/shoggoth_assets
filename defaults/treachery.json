@@ -12,7 +12,7 @@
     "text": "",
     "text_region": { "x": 192, "y": 1470, "width": 1260, "height": 565, "attach_after": "flavor_text" },
     "text_font": { "font": "regular", "size": 68, "color": "black", "alignment": "left" },
-    "text_polygon": [[192, 1470], [1470, 1470], [1470, 2030], [1052, 2077], [592, 2077], [192, 2030], [192, 1470]],
+    "text_polygon": [[192, 1470], [1450, 1470], [1450, 2030], [1052, 2077], [592, 2077], [192, 2030], [192, 1470]],
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
@@ -65,7 +65,7 @@
             }
         },
         {
-            "when": ["encounter_weakness"],
+            "when": ["encounter"],
             "set": { "collection_total": "<esn>/<est>"}
         },
         {
