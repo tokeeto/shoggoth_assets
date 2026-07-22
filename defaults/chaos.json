@@ -13,7 +13,7 @@
     "difficulty_region": { "x": 184, "y": 568, "width": 1276, "height": 56 },
     "difficulty_font": { "font": "bold", "alignment": "center", "size": 56 },
 
-    "chaos_region": { "x": 248, "y": 696, "width": 1300, "height": 1220 },
+    "chaos_region": { "x": 248, "y": 626, "width": 1170, "height": 1270 },
     "chaos_font": {
         "font": "regular",
         "size": 64,
