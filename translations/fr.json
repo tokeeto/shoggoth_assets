@@ -8,7 +8,7 @@
 	"EVENT": "ÉVÈNEMENT",
 	"KEY": "CLÉ",
 	"LOCATION": "LIEU",
-	"SKILL": " <size 26>COMPÉTENCE</size> ",
+	"SKILL": "<size 25>COMPÉTENCE",
 	"STORY": "<size 48>HISTOIRE</size>",
 	"TREACHERY": "TRAÎTRISE",
 	"ASSET": "SOUTIEN",
@@ -20,5 +20,6 @@
 	"<rev>": "<b>Révélation –</b>",
 	"<spawn>": "<b>Génération –</b>",
 	"<obj>": "<b>Objectif –</b>",
-	"<objective>": "<b>Objectif –</b>"
+	"<objective>": "<b>Objectif –</b>",
+	"VICTORY": "Victoire"
 }

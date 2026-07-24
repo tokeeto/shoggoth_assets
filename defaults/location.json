@@ -20,7 +20,7 @@
 
     "text_region": {
         "x": 152,
-        "y": 1320,
+        "y": 1330,
         "width": 1344,
         "height": 525,
         "attach_after": "flavor_text"
@@ -32,19 +32,21 @@
         "alignment": "left"
     },
     "text_polygon": [
-        [240,1320],
+        [240,1330],
         [1400,1320],
-        [1400,1390],
-        [1490,1390],
+        [1400,1400],
+        [1490,1400],
         [1490,1845],
         [150,1845],
-        [150,1390],
-        [240,1390],
-        [240,1320]
+        [150,1400],
+        [240,1400],
+        [240,1330]
     ],
 
     "flavor_text_region": { "attached": true },
+    "flavor_text_font" : { "size": 60},
     "flavor_text_format": "\n<center><i>{value}</i>",
+
 
     "subtitle_region": { "x": 449, "y": 217, "width": 764, "height": 64 },
     "subtitle_font": {
