@@ -18,10 +18,10 @@
 
     "text": "",
     "text_region": {
-        "x": 512,
-        "y": 187,
-        "width": 1460,
-        "height": 1264,
+        "x": 534,
+        "y": 214,
+        "width": 1500,
+        "height": 1238,
         "attach_before": "flavor_text"
     },
     "text_font": {
@@ -29,6 +29,17 @@
         "size": 64,
         "alignment": "left"
     },
+    "text_polygon": [
+        [534,214],
+        [2000,214],
+        [2000,354],
+        [2034,354],
+        [2034,1290],
+        [2000,1290],
+        [2000,1450],
+        [534,1450],
+        [534,214]
+    ],
 
     "encounter_icon_region": {
         "x": 200,
@@ -39,8 +50,8 @@
 
     "label": "%:ACT",
     "label_region": {
-        "x": 174,
-        "y": 210,
+        "x": 168,
+        "y": 206,
         "width": 120,
         "height": 40
     },
@@ -57,8 +68,8 @@
         "alignment": "right"
     },
     "index_region": {
-        "x": 174,
-        "y": 210,
+        "x": 168,
+        "y": 206,
         "width": 170,
         "height": 40
     }
