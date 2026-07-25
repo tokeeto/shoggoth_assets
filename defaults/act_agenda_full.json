@@ -39,10 +39,10 @@
     },
 
     "clues": "<dash>",
-    "clues_region": { "x": 1895, "y": 898, "width": 160, "height": 160  },
+    "clues_region": { "x": 1895, "y": 910, "width": 160, "height": 160  },
     "clues_font": {
         "font": "skill",
-        "size": 110,
+        "size": 116,
         "color": "white",
         "outline": 4,
         "outline_color": "#462f40",
@@ -51,8 +51,8 @@
 
     "illustrator": "",
     "illustrator_region": {
-        "x": 116,
-        "y": 1499,
+        "x": 140,
+        "y": 1480,
         "width": 2010,
         "height": 60
     },
@@ -64,8 +64,8 @@
     },
     "copyright": "<copyright>",
     "copyright_region": {
-        "x": 116,
-        "y": 1499,
+        "x": 112,
+        "y": 1480,
         "width": 2010,
         "height": 60
     },
@@ -76,12 +76,7 @@
         "alignment": "center"
     },
     "collection_total": "<esn>/<est>",
-    "collection_total_region": {
-        "x": 1535,
-        "y": 1500,
-        "width": 350,
-        "height": 40
-    },
+    "collection_total_region": { "x": 1532, "y": 1480, "width": 350, "height": 40},
     "collection_total_font": {
         "font": "bold",
         "size": 38,
@@ -89,12 +84,7 @@
         "alignment": "right"
     },
     "collection_icon": "<exi>",
-    "collection_icon_region": {
-        "x": 1900,
-        "y": 1496,
-        "width": 80,
-        "height": 50
-    },
+    "collection_icon_region": { "x": 1918, "y": 1477, "width": 80, "height": 50},
     "collection_icon_font": {
         "font": "bold",
         "size": 50,
@@ -102,11 +92,7 @@
         "alignment": "right"
     },
     "collection_number": "<exn>",
-    "collection_number_region": {
-        "x": 2000,
-        "y": 1500,
-        "width": 170,
-        "height": 40
+    "collection_number_region": { "x": 2025, "y": 1480, "width": 170, "height": 40
     },
     "collection_number_font": {
         "font": "bold",
