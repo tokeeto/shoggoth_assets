@@ -1,12 +1,8 @@
 {
     "parent": "location",
     "template": "chapter_1/location_back<subtitle>",
-    "name_region": { "x": 292, "y": 66, "width": 1070, "height": 110 },
-    "name_font": {
-        "font": "title",
-        "size": 110,
-        "alignment": "center"
-    },
+    "name_region": "<copy>",
+    "name_font": "<copy>",
 
     "encounter_overlay_region": {
         "x": 724,
@@ -16,15 +12,8 @@
     },
 
     "traits": "<copy>",
-    "traits_region": { "x": 315, "y": 1250, "width": 1010, "height": 64 },
-    "traits_font": {
-        "font": "bolditalic",
-        "size": 64,
-        "outline": null,
-        "outline_color": null,
-        "alignment": "center",
-        "rotation": null
-    },
+    "traits_region": "<copy>",
+    "traits_font": "<copy>",
     "illustration": "<copy>",
     "illustration_pan_x": "<copy>",
     "illustration_pan_y": "<copy>",
