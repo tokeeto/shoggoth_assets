@@ -3,15 +3,22 @@
     "template_bleed": true,
     "grouping": "location",
     "name": "<name>",
-    "name_region": { "x": 292, "y": 66, "width": 1070, "height": 110 },
+    "name_region": { "x": 282, "y": 71, "width": 1070, "height": 110 },
     "name_font": {
         "font": "title",
         "size": 110,
         "alignment": "center"
     },
 
+    "subtitle_region": { "x": 449, "y": 214, "width": 764, "height": 64 },
+    "subtitle_font": {
+        "font": "bold",
+        "size": 64,
+        "alignment": "center"
+    },
+
     "label": "%:LOCATION",
-    "label_region": { "x": 614, "y": 1172, "width": 406, "height": 48 },
+    "label_region": { "x": 614, "y": 1173, "width": 406, "height": 48 },
     "label_font": {
         "font": "semibold",
         "size": 48,
@@ -20,7 +27,7 @@
 
     "text_region": {
         "x": 152,
-        "y": 1330,
+        "y": 1327,
         "width": 1344,
         "height": 525,
         "attach_after": "flavor_text"
@@ -32,15 +39,15 @@
         "alignment": "left"
     },
     "text_polygon": [
-        [240,1330],
-        [1400,1320],
+        [225,1327],
+        [1400,1327],
         [1400,1400],
         [1490,1400],
         [1490,1845],
         [150,1845],
         [150,1400],
-        [240,1400],
-        [240,1330]
+        [225,1400],
+        [225,1327]
     ],
 
     "flavor_text_region": { "attached": true },
@@ -48,12 +55,7 @@
     "flavor_text_format": "\n<center><i>{value}</i>",
 
 
-    "subtitle_region": { "x": 449, "y": 217, "width": 764, "height": 64 },
-    "subtitle_font": {
-        "font": "bolditalic",
-        "size": 64,
-        "alignment": "center"
-    },
+
 
     "encounter_icon_region": {
         "x": 766,
@@ -68,7 +70,7 @@
         "height": 200
     },
 
-    "traits_region": { "x": 315, "y": 1250, "width": 1010, "height": 64 },
+    "traits_region": { "x": 315, "y": 1252, "width": 1010, "height": 64 },
     "traits_font": {
         "font": "bolditalic",
         "size": 64,
@@ -80,7 +82,7 @@
 
     "illustration_region": { "x": 0, "y": 220, "width": 1644, "height": 1200 },
 
-    "connection_region": { "x": 98, "y": 80, "width": 144, "height": 140 },
+    "connection_region": { "x": 119, "y": 90, "width": 144, "height": 140 },
     "connection_1_region": { "x": 328, "y": 1923, "width": 140, "height": 140 },
     "connection_2_region": { "x": 492, "y": 1891, "width": 140, "height": 140 },
     "connection_3_region": { "x": 656, "y": 1879, "width": 140, "height": 140 },
@@ -88,20 +90,20 @@
     "connection_5_region": { "x": 984, "y": 1893, "width": 140, "height": 140 },
     "connection_6_region": { "x": 1148, "y": 1925, "width": 140, "height": 140 },
 
-    "shroud_region": { "x": 110, "y": 1132, "width": 205, "height": 110 },
+    "shroud_region": { "x": 108, "y": 1130, "width": 205, "height": 110 },
     "shroud_font": {
         "font": "skill",
-        "size": 110,
+        "size": 120,
         "color": "#faf4e6",
         "outline": 4,
         "outline_color": "#231f20",
         "alignment": "center"
     },
 
-    "clues_region": { "x": 1336, "y": 1132, "width": 200, "height": 110 },
+    "clues_region": { "x": 1333, "y": 1128, "width": 200, "height": 110 },
     "clues_font": {
         "font": "skill",
-        "size": 115,
+        "size": 120,
         "color": "#231f20",
         "outline": 4,
         "outline_color": "#faf4e6",
@@ -109,7 +111,7 @@
     },
 
     "victory": "",
-    "victory_region": { "x": 1236, "y": 1802, "width": 300, "height": 72 },
+    "victory_region": { "x": 1234, "y": 1813, "width": 300, "height": 72 },
     "victory_font": {
         "font": "bold",
         "size": 72,
@@ -117,7 +119,7 @@
     },
 
     "illustrator": "",
-    "illustrator_region": { "x": 142, "y": 2099, "width": 1326, "height": 40 },
+    "illustrator_region": { "x": 153, "y": 2097, "width": 1326, "height": 40 },
     "illustrator_font": {
         "font": "bold",
         "size": 38,
@@ -127,7 +129,7 @@
     "copyright": "<copyright>",
     "copyright_region": {
         "x": 142,
-        "y": 2099,
+        "y": 2097,
         "width": 1360,
         "height": 40
     },
@@ -140,8 +142,8 @@
     "collection": "",
     "collection_total": "<esn>/<est>",
     "collection_total_region": {
-        "x": 935,
-        "y": 2099,
+        "x": 938,
+        "y": 2096,
         "width": 350,
         "height": 40
     },
@@ -153,8 +155,8 @@
     },
     "collection_icon": "<exi>",
     "collection_icon_region": {
-        "x": 1300,
-        "y": 2099,
+        "x": 1315,
+        "y": 2093,
         "width": 80,
         "height": 50
     },
@@ -166,8 +168,8 @@
     },
     "collection_number": "<exn>",
     "collection_number_region": {
-        "x": 1400,
-        "y": 2099,
+        "x": 1411,
+        "y": 2096,
         "width": 170,
         "height": 40
     },
