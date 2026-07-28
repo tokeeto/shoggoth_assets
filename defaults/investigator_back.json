@@ -3,13 +3,13 @@
     "template": "chapter_1/investigator_back_<class>",
     "template_bleed": true,
     "name": "<unique><name>",
-    "name_region": { "x": 1058, "y": 105, "width": 1010, "height": 90 },
-    "name_font": { "font": "title", "size": 90, "alignment": "center" },
+    "name_region": { "x": 1058, "y": 100, "width": 1010, "height": 100 },
+    "name_font": { "font": "title", "size": 110, "alignment": "center" },
     "classes": "<copy>",
     "subtitle": "<copy>",
     "subtitle_region": { "x": 1058, "y": 224, "width": 1010, "height": 56 },
     "subtitle_font": { "font": "bold", "alignment": "center", "size": 56 },
-    "text_region": { "x": 192, "y": 352, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
+    "text_region": { "x": 192, "y": 372, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
     "text_font": { "font": "regular", "size": 68, "color": "black", "alignment": "left" },
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
@@ -23,7 +23,7 @@
     ],
     "illustration_rotation": -16,
     "illustration_region": { "x": 72, "y": 72, "width": 824, "height": 824 },
-    "text_polygon": [[832, 372], [2060, 372], [2060, 1480], [152, 1480], [152, 1124], [300, 1012], [772, 992], [832, 372]],
+    "text_polygon": [[862, 392], [2060, 392], [2060, 1480], [202, 1480], [202, 1012], [742, 1012], [802, 972], [862, 392]],
     "variants": [
         {
             "when": "story",
@@ -37,48 +37,9 @@
             }
         },
         {
-            "when": "seeker",
-            "set": {
-                "text_polygon": [[832, 372], [2060, 372], [2060, 1480], [192, 1480], [192, 1012], [712, 1012], [742, 972], [832, 372]]
-            }
-        },
-        {
-            "when": "guardian",
-            "set": {
-                "text_polygon": [
-                    [832, 372],
-                    [2060, 372],
-                    [2060, 1480],
-                    [152, 1480],
-                    [152, 1012],
-                    [552, 1012],
-                    [552, 942],
-                    [792, 942],
-                    [832, 372]
-                ]
-            }
-        },
-        {
-            "when": "survivor",
-            "set": {
-                "text_polygon": [
-                    [825, 363],
-                    [2085, 363],
-                    [2085, 1445],
-                    [165, 1445],
-                    [165, 1089],
-                    [351, 997],
-                    [635, 997],
-                    [771, 927],
-                    [825, 363]
-                ]
-            }
-        },
-        {
             "when": "neutral",
             "set": {
-                "text_region": { "x": 192, "y": 390, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
-                "text_polygon": [[940, 380], [2060, 380], [2060, 1480], [180, 1480], [180, 920], [840, 920], [940, 380]]
+                "text_polygon": [[940, 380], [2060, 380], [2060, 1480], [180, 1480], [180, 920], [872, 920], [940, 380]]
             }
         }
     ]

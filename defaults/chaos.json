@@ -2,7 +2,7 @@
     "template": "chapter_1/scenario",
     "template_bleed": true,
     "name": "<dbl><name></dbl>",
-    "name_region": { "x": 184, "y": 418, "width": 1276, "height": 110 },
+    "name_region": { "x": 184, "y": 422, "width": 1276, "height": 110 },
     "name_font": {
         "font": "title",
         "size": 110,
@@ -10,7 +10,7 @@
     },
 
     "difficulty": "EASY/STANDARD",
-    "difficulty_region": { "x": 184, "y": 568, "width": 1276, "height": 56 },
+    "difficulty_region": { "x": 184, "y": 570, "width": 1276, "height": 56 },
     "difficulty_font": { "font": "bold", "alignment": "center", "size": 56 },
 
     "chaos_region": { "x": 248, "y": 626, "width": 1170, "height": 1270 },
@@ -36,15 +36,16 @@
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 156, "y": 2099, "width": 1326, "height": 40 },
-    "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
-    "collection_total": "<esn>/<est>",
-    "collection_total_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
-    "collection_total_font": {"font": "bold", "size": 38, "color": "white", "alignment": "right"},
+    "copyright_region": { "x": 178, "y": 2097, "width": 1360, "height": 40 },
+    "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
+    "collection": "",
     "collection_icon": "<exi>",
-    "collection_icon_region": {"x": 1300,"y": 2094,"width": 80,"height": 50 },
+    "collection_icon_region": { "x": 1315, "y": 2093, "width": 80, "height": 50 },
     "collection_icon_font": { "font": "bold", "size": 50, "color": "white", "alignment": "right" },
     "collection_number": "<exn>",
-    "collection_number_region": {"x": 1400,"y": 2099,"width": 180,"height": 40},
-    "collection_number_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" }
+    "collection_number_region": { "x": 1411, "y": 2096, "width": 180, "height": 40 },
+    "collection_number_font": { "font": "bold", "size": 38, "color": "white", "alignment": "left" },
+    "collection_total": "<esn>/<est>",
+    "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
+    "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" }
 }

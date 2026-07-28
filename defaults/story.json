@@ -6,7 +6,7 @@
     "name": "<name>",
     "name_region": {
         "x": 240,
-        "y": 199,
+        "y": 210,
         "width": 1000,
         "height": 96
     },
@@ -19,13 +19,13 @@
     "label": "%:STORY",
     "label_region": {
         "x": 708,
-        "y": 2069,
+        "y": 2065,
         "width": 225,
         "height": 52
     },
     "label_font": {
         "font": "bold",
-        "size": 52,
+        "size": 50,
         "alignment": "center"
     },
 
@@ -35,8 +35,8 @@
         "size": 64
     },
     "text_region": {
-        "x": 220,
-        "y": 479,
+        "x": 230,
+        "y": 485,
         "width": 1170,
         "height": 1480
     },
@@ -51,18 +51,18 @@
     "victory": "",
     "victory_region": {
         "x": 220,
-        "y": 1910,
+        "y": 1930,
         "width": 1200,
         "height": 120
     },
     "victory_font": {
         "font": "bold",
-        "size": 72,
+        "size": 66,
         "alignment": "center"
     },
 
     "copyright": "<copyright>",
-    "copyright_region": { "x": 270, "y": 2019, "width": 400, "height": 40 },
+    "copyright_region": { "x": 260, "y": 2010, "width": 400, "height": 40 },
     "copyright_font": {
         "font": "bold",
         "size": 38,
@@ -70,12 +70,12 @@
     },
 
     "collection_total": "<esn>/<est>",
-    "collection_total_region": { "x": 765, "y": 2019, "width": 350, "height": 40 },
+    "collection_total_region": { "x": 750, "y": 2010, "width": 350, "height": 40 },
     "collection_total_font": { "font": "bold", "size": 38, "color": "black", "alignment": "right" },
     "collection_icon": "<project.icon>",
-    "collection_icon_region": { "x": 1130, "y": 2014, "width": 80, "height": 50 },
+    "collection_icon_region": { "x": 1130, "y": 2010, "width": 80, "height": 50 },
     "collection_icon_font": { "font": "bold", "size": 50, "color": "black", "alignment": "right" },
     "collection_number": "<exn>",
-    "collection_number_region": { "x": 1230, "y": 2019, "width": 180, "height": 40 },
+    "collection_number_region": { "x": 1230, "y": 2010, "width": 180, "height": 40 },
     "collection_number_font": { "font": "bold", "size": 38, "color": "black", "alignment": "left" }
 }
