@@ -5,15 +5,15 @@
     "name_region": { "x": 384, "y": 120, "width": 1176, "height": 90 },
     "name_font": { "font": "title", "size": 90, "alignment": "left" },
     "label": "%:SKILL",
-    "label_region": { "x": 146, "y": 316, "width": 160, "height": 44 },
-    "label_font": { "font": "semibold", "size": 42, "alignment": "center" },
+    "label_region": { "x": 145, "y": 316, "width": 160, "height": 44 },
+    "label_font": { "font": "semibold", "size": 40, "alignment": "center" },
     "weakeness_type_region": { "x": 360, "y": 1434, "width": 890, "height": 64 },
     "weakeness_type_font": { "font": "semibold", "size": 64, "min_size": 8, "alignment": "center" },
     "traits_region": { "x": 422, "y": 1450, "width": 812, "height": 64 },
     "traits_region_weakness": { "x": 422, "y": 1514, "width": 812, "height": 64 },
     "traits_region_basic weakness": { "x": 422, "y": 1514, "width": 812, "height": 64 },
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
-    "level_region": { "x": 106, "y": 100, "width": 242, "height": 242 },
+    "level_region": { "x": 106, "y": 95, "width": 242, "height": 242 },
     "level_overlay": "skill_{level}.png",
     "text_region": { "x": 252, "y": 1516, "width": 1208, "height": 480, "attach_after": "flavor_text" },
     "text_polygon": [[252, 1519], [1422, 1516], [1460, 1702], [1460, 1870], [1426, 2042], [252, 2042], [272, 1874], [276, 1754], [266, 1606], [252, 1516]],
@@ -88,13 +88,6 @@
                 "encounter_overlay_region": { "x": 130, "y": 84, "width": 200, "height": 200 },
                 "encounter_icon_region": { "x": 170, "y": 129, "width": 110, "height": 110 } 
                 
-            }
-        },
-        {
-            "when": "neutral",
-            "set":{
-                "label_region": { "x": 146, "y": 312, "width": 160, "height": 44 },
-                "level_region": { "x": 106, "y": 92, "width": 242, "height": 242 }
             }
         }
     ]
