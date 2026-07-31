@@ -12,11 +12,13 @@
 		@page {
 			size: A4;
 			padding: 0;
-			margin: 15mm;
-			margin-bottom: 10mm;
+			margin: 18mm;
+			margin-bottom: 19mm;
 			background-image: url("file://{{a4_empty}}");
 			background-size: cover;
+			background-attachment: fixed bleed;
 			background-repeat: no-repeat;
+			bleed: 3mm;
 			@bottom-center {
 		    	content: counter(page);
 		    	font-family: Bolton;
