@@ -8,14 +8,18 @@
     "subtitle_region": { "x": 92, "y": 236, "width": 1500, "height": 56 },
     "subtitle_font": { "font": "semibold", "size": 56, "alignment": "center" },
     "traits": "",
-    "traits_region": { "x": 416, "y": 1330, "width": 812, "height": 64 },
+    "traits_region": { "x": 158, "y": 1330, "width": 1346, "height": 64 },
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
+
     "label": "%:ASSET",
     "label_region": { "x": 156, "y": 319, "width": 150, "height": 38 },
     "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
+
     "classes": ["guardian"],
+
     "level": 0,
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
+
     "cost": "---",
     "cost_region": { "x": 144, "y": 105, "width": 160, "height": 128 },
     "cost_font": {
@@ -26,25 +30,32 @@
         "outline_color": "#231f20",
         "alignment": "center"
     },
+
     "level_overlay": "{card_class}_{level}.png",
+
     "text": "",
     "text_region": { "x": 158, "y": 1405, "width": 1346, "height": 460, "attach_after": "flavor_text" },
     "text_font": { "font": "regular", "size": 72, "color": "#231f20", "alignment": "left" },
+    "flavor_text": "",
+    "flavor_text_region": { "attached": true },
+    "flavor_text_format": "\n<center><i>{value}</i>",
+    "sanity": null,
+
     "illustration": "",
     "illustration_region": { "x": 0, "y": 232, "width": 1644, "height": 1032 },
+
     "class_symbol_3_region": { "x": 988, "y": 80, "width": 208, "height": 208 },
     "class_symbol_2_region": { "x": 1168, "y": 80, "width": 208, "height": 208 },
     "class_symbol_1_region": { "x": 1348, "y": 80, "width": 208, "height": 208 },
     "slot_1_region": { "x": 1300, "y": 1875, "width": 224, "height": 224 },
     "slot_2_region": { "x": 1060, "y": 1875, "width": 224, "height": 224 },
+
     "encounter_overlay_region": { "x": 1350, "y": 96, "width": 200, "height": 200 },
+
     "victory": "",
     "victory_region": { "x": 1174, "y": 1825, "width": 340, "height": 100 },
     "victory_font": { "font": "bold", "size": 66, "alignment": "right" },
-    "flavor_text": "",
-    "flavor_text_region": { "attached": true },
-    "flavor_text_format": "\n<center><i>{value}</i>",
-    "sanity": null,
+
     "health": null,
     "health_region": { "x": 662, "y": 1950, "width": 140, "height": 170 },
     "sanity_region": { "x": 857, "y": 1947, "width": 188, "height": 159 },
