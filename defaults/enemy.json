@@ -2,15 +2,18 @@
     "template": "chapter_1/enemy<subtitle>",
     "grouping": "enemy",
     "template_bleed": true,
+
     "name": "<name>",
     "name_region": { "x": 302, "y": 62, "width": 1050, "height": 110 },
     "name_font": { "font": "title", "size": 110, "alignment": "center" },
     "subtitle": "",
     "subtitle_region": { "x": 72, "y": 197, "width": 1500, "height": 56 },
     "subtitle_font": { "font": "bold", "size": 56, "alignment": "center" },
+
     "label": "%:ENEMY",
     "label_region": { "x": 696, "y": 1285, "width": 244, "height": 48 },
     "label_font": { "font": "semibold", "size": 48, "alignment": "center" },
+
     "text": "",
     "text_region": { "x": 150, "y": 546, "width": 1280, "height": 580, "attach_after": "flavor_text" },
     "text_polygon": [
@@ -35,13 +38,17 @@
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
+
     "traits": "",
     "traits_region": { "x": 272, "y": 468, "width": 1116, "height": 62 },
     "traits_font": { "font": "bolditalic", "size": 62, "alignment": "center" },
+
     "illustration_region": { "x": 0, "y": 1036, "width": 1644, "height": 1136 },
+
     "encounter_icon_region": { "x": 762, "y": 1164, "width": 112, "height": 112 },
+
     "attack": "<dash>",
-    "attack_region": { "x": 492, "y": 288, "width": 110, "height": 90 },
+    "attack_region": { "x": 492, "y": 295, "width": 110, "height": 90 },
     "attack_font": {
         "font": "skill",
         "size": 90,
@@ -51,7 +58,7 @@
         "outline_color": "#231f20"
     },
     "evade": "<dash>",
-    "evade_region": { "x": 1048, "y": 288, "width": 110, "height": 90 },
+    "evade_region": { "x": 1048, "y": 295, "width": 110, "height": 90 },
     "evade_font": {
         "font": "skill",
         "size": 90,
@@ -62,10 +69,10 @@
     },
     "draw_health_overlay": false,
     "health": "<dash>",
-    "health_region": { "x": 734, "y": 284, "width": 180, "height": 100 },
+    "health_region": { "x": 734, "y": 284, "width": 180, "height": 105 },
     "health_font": {
         "font": "skill",
-        "size": 114,
+        "size": 105,
         "color": "white",
         "alignment": "center",
         "outline": 4,
