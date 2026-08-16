@@ -2,18 +2,24 @@
     "orientation": "horizontal",
     "template": "chapter_1/investigator_back_<class>",
     "template_bleed": true,
+
     "name": "<unique><name>",
     "name_region": { "x": 1058, "y": 100, "width": 1010, "height": 100 },
     "name_font": { "font": "title", "size": 110, "alignment": "center" },
+
     "classes": "<copy>",
+
     "subtitle": "<copy>",
     "subtitle_region": { "x": 1058, "y": 224, "width": 1010, "height": 56 },
     "subtitle_font": { "font": "bold", "alignment": "center", "size": 56 },
+
     "text_region": { "x": 192, "y": 372, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
     "text_font": { "font": "regular", "size": 68, "color": "black", "alignment": "left" },
+
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<i>{value}</i>",
+
     "entries": [
         ["<b>Deck Size:</b>", "30"],
         ["<b>Secondary Class Choice:</b>", ""],
@@ -23,23 +29,39 @@
     ],
     "illustration_rotation": -16,
     "illustration_region": { "x": 72, "y": 72, "width": 824, "height": 824 },
-    "text_polygon": [[862, 392], [2060, 392], [2060, 1480], [202, 1480], [202, 1012], [742, 1012], [802, 972], [862, 392]],
+    "text_polygon": [
+        [862, 372],
+        [2060, 372],
+        [2060, 1480],
+        [202, 1480],
+        [202, 1012],
+        [742, 1012],
+        [802, 972],
+        [862, 372]
+    ],
     "variants": [
         {
-            "when": "story",
+            "when": ["encounter"],
             "set": {
                 "template": "chapter_1/investigator_back_neutral",
                 "encounter_overlay": "story_event_overlay.png",
                 "encounter_overlay_region": { "x": 950, "y": 80, "width": 200, "height": 200 },
                 "encounter_icon_region": { "x": 995, "y": 120, "width": 115, "height": 115 },
-                "text_region": { "x": 192, "y": 390, "width": 1880, "height": 1092, "attach_after": "flavor_text" },
-                "text_polygon": [[940, 380], [2060, 380], [2060, 1480], [180, 1480], [180, 920], [840, 920], [940, 380]]
+                "text_region": { "x": 192, "y": 390, "width": 1880, "height": 1092, "attach_after": "flavor_text" }
             }
         },
         {
-            "when": "neutral",
+            "when": ["neutral"],
             "set": {
-                "text_polygon": [[940, 380], [2060, 380], [2060, 1480], [180, 1480], [180, 920], [872, 920], [940, 380]]
+                "text_polygon": [
+                    [940, 372],
+                    [2060, 372],
+                    [2060, 1480],
+                    [180, 1480],
+                    [180, 920],
+                    [872, 920],
+                    [940, 372]
+                ]
             }
         }
     ]
