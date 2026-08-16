@@ -13,13 +13,17 @@
 			size: A4;
 			padding: 0;
 			margin: 15mm;
-			margin-bottom: 10mm;
+			margin-bottom: 12mm;
 			background-image: url("file://{{a4_empty}}");
 			background-size: cover;
+			background-attachment: fixed bleed;
 			background-repeat: no-repeat;
+			bleed: 3mm;
 			@bottom-center {
 		    	content: counter(page);
 		    	font-family: Bolton;
+		    	margin-bottom: 7.5mm;
+		    	font-size: 150%;
 		 	}
 		}
 
@@ -114,7 +118,7 @@
 		}
 		p {
 			margin: 0 0 .3em 0;
-			line-height: 1.2;
+			line-height: 1.18;
 			text-align: justify;
 		}
 
@@ -302,6 +306,11 @@
 		.toc .title {
 			white-space: nowrap;
 		}
+		.toc {
+			width: 88%;
+			margin-left: 6%;
+			margin-top: -15px;
+		}
 		.encounter-icon {
 			height: 3em;
 		}
@@ -319,7 +328,7 @@
 		}
 		.trait {
 			font-weight: bold;
-			text-style: italic;
+			font-style: italic;
 		}
 	</style>
 	<style>

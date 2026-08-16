@@ -37,6 +37,7 @@
         "color": "#1c2b48",
         "alignment": "right"
     },
+    "collection_icon": "<project.icon>",
     "copyright_font": {
         "font": "bold",
         "size": 38,
