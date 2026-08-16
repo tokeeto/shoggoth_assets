@@ -68,7 +68,6 @@
         "size": 38,
         "alignment": "center"
     },
-
     "collection_total": "<esn>/<est>",
     "collection_total_region": { "x": 750, "y": 2010, "width": 350, "height": 40 },
     "collection_total_font": { "font": "bold", "size": 38, "color": "black", "alignment": "right" },
