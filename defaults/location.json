@@ -82,13 +82,13 @@
 
     "illustration_region": { "x": 0, "y": 220, "width": 1644, "height": 1200 },
 
-    "connection_region": { "x": 119, "y": 90, "width": 144, "height": 140 },
-    "connection_1_region": { "x": 328, "y": 1923, "width": 140, "height": 140 },
-    "connection_2_region": { "x": 492, "y": 1891, "width": 140, "height": 140 },
-    "connection_3_region": { "x": 656, "y": 1879, "width": 140, "height": 140 },
-    "connection_4_region": { "x": 820, "y": 1879, "width": 140, "height": 140 },
-    "connection_5_region": { "x": 984, "y": 1893, "width": 140, "height": 140 },
-    "connection_6_region": { "x": 1148, "y": 1925, "width": 140, "height": 140 },
+    "connection_region": { "x": 119, "y": 90, "width": 140, "height": 140 },
+    "connection_1_region": { "x": 328, "y": 1922, "width": 140, "height": 140 },
+    "connection_2_region": { "x": 492, "y": 1890, "width": 140, "height": 140 },
+    "connection_3_region": { "x": 656, "y": 1877, "width": 140, "height": 140 },
+    "connection_4_region": { "x": 820, "y": 1877, "width": 140, "height": 140 },
+    "connection_5_region": { "x": 983, "y": 1890, "width": 140, "height": 140 },
+    "connection_6_region": { "x": 1147, "y": 1922, "width": 140, "height": 140 },
 
     "shroud_region": { "x": 108, "y": 1130, "width": 205, "height": 110 },
     "shroud_font": {
