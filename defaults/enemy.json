@@ -40,7 +40,7 @@
     "flavor_text_format": "\n<center><i>{value}</i>",
 
     "traits": "",
-    "traits_region": { "x": 271, "y": 468, "width": 1116, "height": 62 },
+    "traits_region": { "x": 271, "y": 468, "width": 1100, "height": 62 },
     "traits_font": { "font": "bolditalic", "size": 62, "alignment": "center" },
 
     "illustration_region": { "x": 0, "y": 1036, "width": 1644, "height": 1136 },
