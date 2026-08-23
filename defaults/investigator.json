@@ -3,24 +3,32 @@
     "grouping": "investigator",
     "template": "chapter_1/investigator_<class>",
     "template_bleed": true,
+
     "name": "<unique><name>",
     "name_region": { "x": 264, "y": 100, "width": 848, "height": 100 },
     "name_font": { "font": "title", "size": 110, "alignment": "center" },
+
     "subtitle": "",
     "subtitle_region": { "x": 360, "y": 228, "width": 700, "height": 56 },
     "subtitle_font": { "font": "semibold", "alignment": "center", "size": 56 },
+
     "classes": ["guardian"],
+
     "text": "",
     "text_region": { "x": 1300, "y": 450, "width": 800, "height": 820, "attach_after": "flavor_text" },
     "text_font": { "font": "regular", "size": 64, "alignment": "left" },
+
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "\n<center><i>{value}</i>",
+
     "traits": "",
     "traits_region": { "x": 1275, "y": 375, "width": 860, "height": 64 },
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
+
     "illustration": "",
     "illustration_region": { "x": 72, "y": 312, "width": 1120, "height": 1260 },
+
     "willpower": "3",
     "willpower_region": { "x": 1226, "y": 150, "width": 120, "height": 96 },
     "willpower_font": { "font": "skill", "size": 96, "alignment": "center" },
@@ -33,7 +41,9 @@
     "agility": "3",
     "agility_region": { "x": 1939, "y": 150, "width": 120, "height": 96 },
     "agility_font": { "font": "skill", "size": 96, "alignment": "center" },
+
     "health": "7",
+    "draw_health_overlay": false,
     "health_region": { "x": 1530, "y": 1304, "width": 140, "height": 170 },
     "health_font": {
         "font": "skill",
@@ -44,6 +54,7 @@
         "alignment": "center"
     },
     "sanity": "7",
+    "draw_sanity_overlay": false,
     "sanity_region": { "x": 1714, "y": 1304, "width": 200, "height": 160 },
     "sanity_font": {
         "font": "skill",
@@ -53,7 +64,8 @@
         "outline_color": "#1c2b48",
         "alignment": "center"
     },
-        "illustrator": "",
+
+    "illustrator": "",
     "illustrator_region": { "x": 1238, "y": 1480, "width": 562, "height": 40 },
     "illustrator_font": {
         "font": "bold",
@@ -87,9 +99,11 @@
         "color": "white",
         "alignment": "left"
     },
+
     "encounter_icon_region": { "x": 130, "y": 138, "width": 115, "height": 115 },
     "encounter_overlay": "story_encounter_overlay.png",
     "encounter_overlay_region": { "x": 65, "y": 86, "width": 241, "height": 241 },
+
     "variants": [
         {
             "when": [
