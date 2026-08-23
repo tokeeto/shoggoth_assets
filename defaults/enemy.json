@@ -12,7 +12,7 @@
 
     "label": "%:ENEMY",
     "label_region": { "x": 696, "y": 1285, "width": 244, "height": 48 },
-    "label_font": { "font": "semibold", "size": 48, "alignment": "center" },
+    "label_font": { "font": "displaybold", "size": 48, "alignment": "center" },
 
     "text": "",
     "text_region": { "x": 150, "y": 546, "width": 1280, "height": 580, "attach_after": "flavor_text" },

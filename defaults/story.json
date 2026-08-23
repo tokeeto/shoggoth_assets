@@ -48,6 +48,9 @@
         "height": 140
     },
 
+    "tracking": "",
+    "tracking_font": {"font": "title", "size": 72, "alignment": "center"},
+
     "victory": "",
     "victory_region": {
         "x": 220,

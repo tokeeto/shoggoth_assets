@@ -12,7 +12,14 @@
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
 
     "label": "%:ASSET",
-    "label_region": { "x": 156, "y": 319, "width": 150, "height": 38 },
+    "label_region": { "x": 130, "y": 314, "width": 195, "height": 54 },
+    "label_polygon": [
+        [157, 314],
+        [301, 314],
+        [325, 368],
+        [130, 368],
+        [157, 314]
+    ],
     "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
 
     "classes": ["guardian"],
