@@ -8,7 +8,7 @@
 	"EVENT": "<margin 27><size 29>ÉVÉNEMENT",
 	"KEY": "CLÉ",
 	"LOCATION": "LIEU",
-	"SKILL": "<size 25>COMPÉTENCE",
+	"SKILL": "<size 26><margin 26>COMPÉTENCE",
 	"STORY": "<size 48>HISTOIRE</size>",
 	"TREACHERY": "TRAÎTRISE",
 	"ASSET": "<margin 10>SOUTIEN",

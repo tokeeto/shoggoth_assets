@@ -124,18 +124,18 @@
             "set": { "subtitle": "%:WEAKNESS" }
         },
         {
-            "when": "basic weakness",
-            "set": { "subtitle": "%:BASIC WEAKNESS", 
+            "when": ["basic weakness"],
+            "set": { "subtitle": "%:BASIC WEAKNESS",
             "encounter_icon": "basic_weakness_icon.png",
             "template": "chapter_1/enemy_weakness_story"
         }
         },
         {
-            "when": "encounter_weakness",
+            "when": ["encounter & weakness"],
             "set": { "template": "chapter_1/enemy_weakness_story" }
         },
         {
-            "when": "minimal",
+            "when": ["minimal"],
             "set": {
                 "template": "enemy_full",
                 "label_region": { "x": 696, "y": 1113, "width": 244, "height": 48 }
