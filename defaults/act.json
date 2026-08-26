@@ -38,8 +38,6 @@
     "flavor_text_region": { "attached": true },
     "flavor_text_format": "<i>{value}</i>\n",
 
-    
-
     "illustration_region": { "x": 912, "y": 0, "width": 1332, "height": 1644 },
 
     "encounter_icon_region": {
@@ -68,7 +66,7 @@
     },
 
     "clues": "<dash>",
-    "clues_region": { "x": 1054, "y": 1278, "width": 168, "height": 120  },
+    "clues_region": { "x": 1044, "y": 1270, "width": 168, "height": 120  },
     "clues_font": {
         "font": "skill",
         "size": 118,

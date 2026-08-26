@@ -52,25 +52,17 @@
     "label_region": {
         "x": 168,
         "y": 206,
-        "width": 120,
-        "height": 40
+        "width": 200,
+        "height": 55,
+        "attach_after": "index"
     },
     "label_font": {
         "font": "bold",
         "size": 40,
-        "alignment": "right"
+        "alignment": "center"
     },
 
     "index": "1b",
-    "index_font":{
-        "font": "bold",
-        "size": 40,
-        "alignment": "right"
-    },
-    "index_region": {
-        "x": 168,
-        "y": 206,
-        "width": 170,
-        "height": 40
-    }
+    "index_format": " {value}",
+    "index_region": {"is_attached": true}
 }

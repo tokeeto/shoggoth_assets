@@ -1,6 +1,10 @@
 {
-    "template": "mini_investigator",
+    "parent": "mini_investigator",
     "card_size": "mini",
+    "illustration": "<copy>",
+    "illustration_pan_x": "<copy>",
+    "illustration_pan_y": "<copy>",
+    "illustration_scale": "<copy>",
     "illustration_above_template": true,
     "illustration_greyscale": true,
 

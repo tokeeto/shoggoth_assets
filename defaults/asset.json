@@ -4,9 +4,11 @@
     "name": "<name>",
     "name_region": { "x": 340, "y": 115, "width": 940, "height": 94 },
     "name_font": { "font": "title", "size": 94, "alignment": "center" },
+
     "subtitle": null,
-    "subtitle_region": { "x": 92, "y": 236, "width": 1500, "height": 56 },
-    "subtitle_font": { "font": "semibold", "size": 56, "alignment": "center" },
+    "subtitle_region": { "x": 92, "y": 240, "width": 1500, "height": 52 },
+    "subtitle_font": { "font": "semibold", "size": 52, "alignment": "center" },
+
     "traits": "",
     "traits_region": { "x": 158, "y": 1330, "width": 1346, "height": 64 },
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },

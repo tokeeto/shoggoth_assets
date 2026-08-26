@@ -11,7 +11,7 @@
   "SKILL": "<size 28>FERTIGKEIT",
   "STORY": "<size 40>HANDLUNG",
   "TREACHERY": "VERRAT",
-  "ASSET": "VORTEIL",
+  "ASSET": "<margin 8>VORTEIL",
   "WEAKNESS": "SCHWÄCHE",
   "BASIC WEAKNESS": "GRUNDSCHWÄCHE",
   "<forced>": "<b>Erzwungen –</b>",

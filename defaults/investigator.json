@@ -44,7 +44,7 @@
 
     "health": "7",
     "draw_health_overlay": false,
-    "health_region": { "x": 1530, "y": 1304, "width": 140, "height": 170 },
+    "health_region": { "x": 1524, "y": 1290, "width": 140, "height": 170 },
     "health_font": {
         "font": "skill",
         "size": 120,
@@ -55,7 +55,7 @@
     },
     "sanity": "7",
     "draw_sanity_overlay": false,
-    "sanity_region": { "x": 1714, "y": 1304, "width": 200, "height": 160 },
+    "sanity_region": { "x": 1710, "y": 1290, "width": 200, "height": 160 },
     "sanity_font": {
         "font": "skill",
         "size": 120,
