@@ -57,7 +57,7 @@
         "attach_after": "index"
     },
     "label_font": {
-        "font": "bold",
+        "font": "displaybold",
         "size": 40,
         "alignment": "center"
     },

@@ -20,7 +20,7 @@
     "label": "%:LOCATION",
     "label_region": { "x": 614, "y": 1173, "width": 406, "height": 48 },
     "label_font": {
-        "font": "semibold",
+        "font": "displaybold",
         "size": 48,
         "alignment": "center"
     },

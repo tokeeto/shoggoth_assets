@@ -14,7 +14,7 @@
         [130, 368],
         [157, 314]
     ],
-    "label_font": { "font": "semibold", "size": 42, "alignment": "center" },
+    "label_font": { "font": "displaybold", "size": 42, "alignment": "center" },
 
     "weakeness_type_region": { "x": 360, "y": 1434, "width": 890, "height": 64 },
     "weakeness_type_font": { "font": "semibold", "size": 64, "min_size": 8, "alignment": "center" },
@@ -95,18 +95,18 @@
                 "encounter_overlay_region": { "x": 1330, "y": 84, "width": 200, "height": 200 },
                 "encounter_icon_region": { "x": 1375, "y": 129, "width": 110, "height": 110 }
             }
-        },        
+        },
         {
             "when": "weakness&encounter",
-            "set": { 
+            "set": {
                 "level_overlay": null,
                 "label_region": { "x": 146, "y": 308, "width": 160, "height": 44 },
                 "collection_total": "<esn>/<est>",
                 "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
                 "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
                 "encounter_overlay_region": { "x": 130, "y": 84, "width": 200, "height": 200 },
-                "encounter_icon_region": { "x": 170, "y": 129, "width": 110, "height": 110 } 
-                
+                "encounter_icon_region": { "x": 170, "y": 129, "width": 110, "height": 110 }
+
             }
         },
         {

@@ -11,7 +11,7 @@
         "alignment": "center",
         "rotation": 90
     },
-    
+
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
     "flavor_text_font": {
@@ -19,7 +19,7 @@
         "size": 70
     },
     "flavor_text_format": "<blockquote>{value}</blockquote>\n",
-    
+
     "text": "",
     "text_region": { "x": 532, "y": 212, "width": 1460, "height": 1224, "attach_before": "flavor_text" },
     "text_font": {
@@ -35,14 +35,14 @@
     },
 
     "label": "%:AGENDA",
-    "label_region": { 
+    "label_region": {
         "x": 174,
         "y": 183,
         "width": 190,
         "height": 64
     },
     "label_font": {
-        "font": "bold",
+        "font": "displaybold",
         "size": 42,
         "alignment": "center"
     },

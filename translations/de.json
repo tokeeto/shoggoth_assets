@@ -5,7 +5,7 @@
   "AGENDA": "AGENDA",
   "UPGRADES": "VERBESSERUNG",
   "ENEMY": "GEGNER",
-  "EVENT": "EREIGNIS",
+  "EVENT": "<margin 8>EREIGNIS",
   "KEY": "SCHLÜSSEL",
   "LOCATION": "ORT",
   "SKILL": "<size 28>FERTIGKEIT",

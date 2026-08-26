@@ -12,7 +12,7 @@
     "label": "%:UPGRADES",
     "label_region": { "x": 692, "y": 2064, "width": 260, "height": 56 },
     "label_font": {
-        "font": "semibold",
+        "font": "displaybold",
         "size": 48,
         "alignment": "center"
     },

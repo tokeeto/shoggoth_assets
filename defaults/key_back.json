@@ -21,7 +21,7 @@
     "label": "%:KEY",
     "label_region": { "x": 652, "y": 104, "width": 76, "height": 28 },
     "label_font": {
-        "font": "semibold",
+        "font": "displaybold",
         "size": 24,
         "color": "black",
         "alignment": "center"

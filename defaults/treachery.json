@@ -10,7 +10,7 @@
 
     "label": "%:TREACHERY",
     "label_region": { "x": 620, "y": 1200, "width": 416, "height": 48 },
-    "label_font": { "font": "semibold", "size": 48, "alignment": "center" },
+    "label_font": { "font": "displaybold", "size": 48, "alignment": "center" },
 
     "text": "",
     "text_region": { "x": 192, "y": 1475, "width": 1260, "height": 565, "attach_after": "flavor_text" },
@@ -75,9 +75,9 @@
         },
         {
             "when": ["basic weakness"],
-            "set": { 
+            "set": {
                 "encounter_overlay": "basic_weakness.png",
-                "collection_total": null 
+                "collection_total": null
             }
         },
         {

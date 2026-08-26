@@ -11,7 +11,7 @@
     "label": "%:TREACHERY",
     "label_region": { "x": 274, "y": 574, "width": 208, "height": 40 },
     "label_font": {
-        "font": "semibold",
+        "font": "displaybold",
         "size": 24,
         "alignment": "center"
     },
@@ -29,7 +29,7 @@
     "text_font": {
         "font": "regular",
         "size": 34,
-        "alignment": "left" 
+        "alignment": "left"
     },
 
     "flavor_text": "",

@@ -22,7 +22,7 @@
         [130, 368],
         [157, 314]
     ],
-    "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
+    "label_font": { "font": "displaybold", "size": 38, "color": "#231f20", "alignment": "center" },
 
     "classes": ["guardian"],
 
@@ -133,7 +133,7 @@
         },
         {
             "when" :["encounter&weakness"],
-            "set": {  
+            "set": {
                 "icons_box": "skill_box_weakness.png",
                 "subtitle_region": { "x": 92, "y": 246, "width": 1500, "height": 56 }
             }

@@ -22,7 +22,7 @@
         [130, 368],
         [157, 314]
     ],
-    "label_font": { "font": "semibold", "size": 38, "color": "#231f20", "alignment": "center" },
+    "label_font": { "font": "displaybold", "size": 38, "color": "#231f20", "alignment": "center" },
 
     "weakness_label_font": { "font": "bold", "size": 58, "alignment": "center" },
 
