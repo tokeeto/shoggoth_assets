@@ -6,7 +6,7 @@
 
     "illustration_region": { "x": 0, "y": 0, "width": 1144, "height": 1681 },
 
-    "illustrator": "<illustrator>",
+    "illustrator": "",
     "illustrator_region": { "x": 100, "y": 1550, "width": 944, "height": 40 },
     "illustrator_font": { "font": "bold", "size": 30, "color": "white", "alignment": "left" }
 }
