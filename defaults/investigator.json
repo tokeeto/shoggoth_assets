@@ -100,7 +100,7 @@
         "alignment": "left"
     },
 
-    "encounter_icon_region": { "x": 130, "y": 138, "width": 115, "height": 115 },
+    "encounter_icon_region": { "x": 122, "y": 134, "width": 128, "height": 128 },
     "encounter_overlay": "story_encounter_overlay.png",
     "encounter_overlay_region": { "x": 65, "y": 86, "width": 241, "height": 241 },
 

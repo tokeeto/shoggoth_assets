@@ -42,7 +42,7 @@
     "copyright_font": { "font": "bold", "size": 38, "color": "white", "alignment": "center" },
 
     "collection": "",
-    "collection_total": "<esn>/<est>",
+    "collection_total": "",
     "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
     "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
     "collection_icon": "<exi>",

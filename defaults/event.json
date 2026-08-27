@@ -75,7 +75,7 @@
     "level_overlay": "{card_class}_{level}.png",
 
     "encounter_overlay_region": { "x": 732, "y": 1072, "width": 200, "height": 200 },
-    "encounter_icon_region": { "x": 774, "y": 1114, "width": 108, "height": 108 },
+    "encounter_icon_region": { "x": 768, "y": 1100, "width": 128, "height": 128 },
 
     "illustrator": "",
     "illustrator_region": { "x": 153, "y": 2097, "width": 1360, "height": 40 },
