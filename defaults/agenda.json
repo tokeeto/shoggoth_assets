@@ -42,10 +42,10 @@
     "illustration_region": { "x": 0, "y": 0, "width": 1332, "height": 1644 },
 
     "encounter_icon_region": {
-        "x": 1540,
-        "y": 205,
-        "width": 100,
-        "height": 100
+        "x": 1526,
+        "y": 192,
+        "width": 122,
+        "height": 122
     },
 
     "label": "%:Agenda",

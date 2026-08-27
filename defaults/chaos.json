@@ -29,10 +29,10 @@
     "chaos_extra_font": {"font": "title", "size": 72, "alignment": "center"},
 
     "encounter_icon_region": {
-        "x": 772,
-        "y": 322,
-        "width": 102,
-        "height": 102
+        "x": 759,
+        "y": 310,
+        "width": 128,
+        "height": 128
     },
 
     "copyright": "<copyright>",

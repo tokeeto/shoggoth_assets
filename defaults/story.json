@@ -42,10 +42,10 @@
     },
 
     "encounter_icon_region": {
-        "x": 1295,
-        "y": 200,
-        "width": 140,
-        "height": 140
+        "x": 1288,
+        "y": 196,
+        "width": 144,
+        "height": 144
     },
 
     "tracking": "",

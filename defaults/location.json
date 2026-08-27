@@ -59,9 +59,9 @@
 
     "encounter_icon_region": {
         "x": 766,
-        "y": 1052,
-        "width": 110,
-        "height": 110
+        "y": 1056,
+        "width": 108,
+        "height": 108
     },
     "encounter_overlay_region": {
         "x": 724,

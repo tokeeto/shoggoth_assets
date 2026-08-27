@@ -74,8 +74,8 @@
 
     "level_overlay": "{card_class}_{level}.png",
 
-    "encounter_overlay_region": { "x": 732, "y": 1072, "width": 200, "height": 200 },
-    "encounter_icon_region": { "x": 768, "y": 1100, "width": 128, "height": 128 },
+    "encounter_overlay_region": { "x": 722, "y": 1052, "width": 220, "height": 220 },
+    "encounter_icon_region": { "x": 768, "y": 1090, "width": 128, "height": 128 },
 
     "illustrator": "",
     "illustrator_region": { "x": 153, "y": 2097, "width": 1360, "height": 40 },
@@ -95,6 +95,19 @@
 
     "variants": [
         {
+            "when": ["encounter"],
+            "set": {
+                "template": "chapter_1/event_neutral",
+                "level_overlay": "neutral_no_level.png",
+                "encounter_overlay": "story_event_overlay.png",
+                "collection": "<esn>/<est>",
+                "collection_region": {"x": 935,"y": 2099,"width": 350,"height": 40},
+                "collection_total": "<esn>/<est>",
+                "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
+                "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" }
+            }
+        },
+        {
             "when": ["weakness", "basic weakness"],
             "set": {
                 "template": "chapter_1/event_weakness_subtitle",
@@ -108,16 +121,6 @@
             }
         },
         {
-            "when": "encounter",
-            "set": {
-                "template": "chapter_1/event_neutral",
-                "level_overlay": "neutral_no_level.png",
-                "encounter_overlay": "story_event_overlay.png",
-                "collection": "<esn>/<est>",
-                "collection_region": {"x": 935,"y": 2099,"width": 350,"height": 40}
-            }
-        },
-        {
             "when": ["basic weakness"],
             "set": {
                 "weakness_label": "%:BASIC WEAKNESS",
@@ -126,25 +129,21 @@
             }
         },
         {
-            "when": "multi",
+            "when": ["multi"],
             "set": { "template": "chapter_1/event_<class>_<class_length>" }
         },
         {
-            "when": "multi3",
+            "when": ["multi3"],
             "set": {
                 "class_symbol_3_region": { "x": 544, "y": 1090, "width": 208, "height": 208 },
                 "class_symbol_2_region": { "x": 714, "y": 1090, "width": 208, "height": 208 },
                 "class_symbol_1_region": { "x": 884, "y": 1090, "width": 208, "height": 208 }
             }
         },
-        {   "when": "story",
+        {
+            "when": ["encounter & weakness"],
             "set": {
-                "template": "chapter_1/event_neutral",
-                "level_overlay": "neutral_no_level.png",
-                "encounter_overlay": "story_event_overlay.png",
-                "collection_total": "<esn>/<est>",
-                "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
-                "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" }
+                "encounter_overlay": "basic_weakness_event.png"
             }
         }
     ]
