@@ -126,7 +126,7 @@
             "set": {
                 "icons_box": "skill_box_neutral.png",
                 "collection_total": "<esn>/<est>",
-                "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
+                "collection_total_region": { "x": 938, "y": 2096, "width": 350, "height": 40 },
                 "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right" },
                 "encounter_icon_region": { "x": 1386, "y": 124, "width": 128, "height": 128 }
             }
