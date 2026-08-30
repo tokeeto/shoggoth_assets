@@ -1,5 +1,6 @@
 {
 	"parent": "event",
 	"template": "chapter_2/event_<class>",
+	"editor": "event",
     "name_region": { "x": 72, "y": 1270, "width": 1500, "height": 94 }
 }
