@@ -26,7 +26,7 @@
 
     "illustration_region": { "x": 0, "y": 0, "width": 1644, "height": 1272 },
 
-    "encounter_overlay_region": { "x": 690, "y": 1052, "width": 264, "height": 164 },
+    "encounter_overlay_region": { "x": 690, "y": 1042, "width": 264, "height": 164 },
     "encounter_icon_region": { "x": 769, "y": 1087, "width": 108, "height": 108 },
 
     "victory": "",
@@ -90,7 +90,7 @@
         {
             "when": ["encounter & weakness"],
             "set": {
-                "encounter_overlay": "basic_weakness.png",
+                "encounter_overlay": "basic_weakness.png"
             }
         },
         {
