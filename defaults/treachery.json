@@ -82,6 +82,7 @@
         },
         {
             "when": ["encounter"],
+            "encounter_overlay": "basic_weakness.png",
             "set": { "collection_total": "<esn>/<est>"}
         },
         {
