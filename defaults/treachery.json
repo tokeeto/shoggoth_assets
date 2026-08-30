@@ -77,20 +77,20 @@
             "when": ["basic weakness"],
             "set": {
                 "encounter_overlay": "basic_weakness.png",
-                "collection_total": null
+                "subtitle": "%:BASIC WEAKNESS",
+                "text_polygon": [[92, 1520], [1470, 1520], [1470, 2000], [1198, 2080], [450, 2070], [192, 2000], [192, 1520]],
+                "collection_total": null,
+                "encounter_icon": "basic_weakness_icon.png"
             }
         },
         {
             "when": ["encounter"],
-            "encounter_overlay": "basic_weakness.png",
             "set": { "collection_total": "<esn>/<est>"}
         },
         {
-            "when": ["basic weakness"],
+            "when": ["encounter & weakness"],
             "set": {
-                "subtitle": "%:BASIC WEAKNESS",
-                "text_polygon": [[92, 1520], [1470, 1520], [1470, 2000], [1198, 2080], [450, 2070], [192, 2000], [192, 1520]],
-                "encounter_icon": "basic_weakness_icon.png"
+                "encounter_overlay": "basic_weakness.png",
             }
         },
         {
