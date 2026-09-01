@@ -60,16 +60,16 @@
                 "subtitle": "%:WEAKNESS",
                 "subtitle_region": { "x": 192, "y": 1398, "width": 1260, "height": 60 },
                 "subtitle_font": { "font": "semibold", "alignment": "center", "size": 54 },
-                "text_region": { "x": 192, "y": 1548, "width": 1260, "height": 525, "attach_after": "flavor_text" },
+                "text_region": { "x": 192, "y": 1538, "width": 1260, "height": 535, "attach_after": "flavor_text" },
                 "traits_region": { "x": 192, "y": 1474, "width": 1272, "height": 64 },
                 "text_polygon": [
-                    [192, 1530],
-                    [1470, 1530],
+                    [192, 1538],
+                    [1470, 1538],
                     [1470, 2000],
-                    [1198, 2070],
-                    [450, 2070],
+                    [1198, 2073],
+                    [450, 2073],
                     [192, 2000],
-                    [192, 1530]
+                    [192, 1538]
                 ]
             }
         },
