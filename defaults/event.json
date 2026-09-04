@@ -145,6 +145,13 @@
             "set": {
                 "encounter_overlay": "basic_weakness_event.png"
             }
+        },
+        {
+            "when": ["reward"],
+            "set": {
+                "template": "chapter_1/asset_neutral<subtitle>",
+                "icons_box": "skill_box_neutral.png"
+            }
         }
     ]
 }

@@ -70,25 +70,18 @@
                 "template": "chapter_1/skill_weakness<subtitle>",
                 "label_region": { "x": 146, "y": 312, "width": 160, "height": 44 },
                 "level_region": { "x": 106, "y": 96, "width": 242, "height": 242 },
-                "subtitle": null,
                 "subtitle_region": { "x": 92, "y": 246, "width": 1500, "height": 56 },
                 "subtitle_font": { "font": "semibold", "size": 56, "alignment": "center" },
                 "traits_region": { "x": 422, "y": 1514, "width": 812, "height": 64 },
                 "encounter_overlay": "basic_weakness_skill.png",
                 "text_region": { "x": 252, "y": 1590, "width": 1208, "height": 440, "attach_after": "flavor_text" },
-                "text_polygon": [[252, 1590], [1422, 1590], [1460, 1702], [1460, 1870], [1426, 2022], [252, 2022], [272, 1874], [276, 1754], [266, 1606], [252, 1590]]
+                "text_polygon": [[252, 1590], [1422, 1590], [1460, 1702], [1460, 1870], [1426, 2022], [252, 2022], [272, 1874], [276, 1754], [266, 1606], [252, 1590]],
+                "weakeness_type": "%:WEAKNESS",
+                "icons_box": "skill_box_weakness.png"
             }
         },
         {
-            "when": ["story weakness", "basic weakness"],
-            "set": { "icons_box": "skill_box_weakness.png" }
-        },
-        {
-            "when": "weakness",
-            "set": { "weakeness_type": "%:WEAKNESS" }
-        },
-        {
-            "when": "basic weakness",
+            "when": ["basic weakness"],
             "set": {
                 "weakeness_type": "%:BASIC WEAKNESS",
                 "encounter_icon": "basic_weakness_icon.png",
@@ -97,9 +90,8 @@
             }
         },
         {
-            "when": "weakness&encounter",
+            "when": ["encounter & weakness"],
             "set": {
-                "level_overlay": null,
                 "label_region": { "x": 146, "y": 308, "width": 160, "height": 44 },
                 "collection_total": "<esn>/<est>",
                 "collection_total_region": { "x": 918, "y": 2096, "width": 350, "height": 40 },
@@ -110,10 +102,10 @@
             }
         },
         {
-            "when": "neutral",
-            "set":{
-                "label_region": { "x": 146, "y": 312, "width": 160, "height": 44 },
-                "level_region": { "x": 106, "y": 92, "width": 242, "height": 242 }
+            "when": ["reward"],
+            "set": {
+                "template": "chapter_1/asset_neutral<subtitle>",
+                "icons_box": "skill_box_neutral.png"
             }
         }
     ]

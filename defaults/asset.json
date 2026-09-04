@@ -132,10 +132,17 @@
             }
         },
         {
-            "when" :["encounter&weakness"],
+            "when": ["encounter & weakness"],
             "set": {
                 "icons_box": "skill_box_weakness.png",
                 "subtitle_region": { "x": 92, "y": 246, "width": 1500, "height": 56 }
+            }
+        },
+        {
+            "when": ["reward"],
+            "set": {
+                "template": "chapter_1/asset_neutral<subtitle>",
+                "icons_box": "skill_box_neutral.png"
             }
         }
     ]
