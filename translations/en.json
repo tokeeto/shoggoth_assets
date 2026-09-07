@@ -5,7 +5,7 @@
 	"AGENDA": "AGENDA",
 	"UPGRADES": "UPGRADES",
 	"ENEMY": "ENEMY",
-	"EVENT": "EVENT",
+	"EVENT": "<margin 6>EVENT",
 	"KEY": "KEY",
 	"LOCATION": "LOCATION",
 	"SKILL": "<margin 4>SKILL",
