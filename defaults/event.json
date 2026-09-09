@@ -32,7 +32,7 @@
     "cost": "---",
     "cost_region": { "x": 156, "y": 100, "width": 140, "height": 128 },
     "cost_font": {
-        "font": "title",
+        "font": "cost",
         "size": 128,
         "color": "white",
         "outline": 6,
