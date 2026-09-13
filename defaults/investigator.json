@@ -9,7 +9,7 @@
     "name_font": { "font": "title", "size": 110, "alignment": "center" },
 
     "subtitle": "",
-    "subtitle_region": { "x": 360, "y": 228, "width": 700, "height": 56 },
+    "subtitle_region": { "x": 360, "y": 232, "width": 700, "height": 56 },
     "subtitle_font": { "font": "semibold", "alignment": "center", "size": 56 },
 
     "classes": ["guardian"],
@@ -27,19 +27,19 @@
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },
 
     "illustration": "",
-    "illustration_region": { "x": 72, "y": 312, "width": 1120, "height": 1260 },
+    "illustration_region": { "x": 0, "y": 312, "width": 1192, "height": 1260 },
 
     "willpower": "3",
-    "willpower_region": { "x": 1226, "y": 150, "width": 120, "height": 96 },
+    "willpower_region": { "x": 1226, "y": 150, "width": 80, "height": 96 },
     "willpower_font": { "font": "skill", "size": 96, "alignment": "center" },
     "intellect": "3",
-    "intellect_region": { "x": 1453, "y": 150, "width": 120, "height": 96 },
+    "intellect_region": { "x": 1465, "y": 150, "width": 80, "height": 96 },
     "intellect_font": { "font": "skill", "size": 96, "alignment": "center" },
     "combat": "3",
-    "combat_region": { "x": 1698, "y": 150, "width": 120, "height": 96 },
+    "combat_region": { "x": 1707, "y": 150, "width": 80, "height": 96 },
     "combat_font": { "font": "skill", "size": 96, "alignment": "center" },
     "agility": "3",
-    "agility_region": { "x": 1939, "y": 150, "width": 120, "height": 96 },
+    "agility_region": { "x": 1946, "y": 150, "width": 80, "height": 96 },
     "agility_font": { "font": "skill", "size": 96, "alignment": "center" },
 
     "health": "7",
