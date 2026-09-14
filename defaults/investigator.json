@@ -130,6 +130,10 @@
         {
             "when": "rogue",
             "set": {"illustration_region": { "x": 0, "y": 312, "width": 1231, "height": 1260 }}
+        },
+        {
+            "when": "neutral",
+            "set": {"illustration_region": { "x": 0, "y": 310, "width": 1220, "height": 1260 }}
         }
     ]
 }
