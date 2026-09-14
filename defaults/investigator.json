@@ -134,6 +134,10 @@
         {
             "when": "neutral",
             "set": {"illustration_region": { "x": 0, "y": 310, "width": 1220, "height": 1260 }}
+        },
+        {
+            "when": "seeker",
+            "set": {"illustration_region": { "x": 0, "y": 313, "width": 1185, "height": 1260 }}
         }
     ]
 }
