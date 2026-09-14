@@ -126,6 +126,10 @@
         {
             "when": "story",
             "set": { "template": "chapter_1/investigator_neutral", "collection": "<esn>/<est>      <exi>    <exn>" }
+        },
+        {
+            "when": "rogue",
+            "set": {"illustration_region": { "x": 0, "y": 312, "width": 1231, "height": 1260 }}
         }
     ]
 }
