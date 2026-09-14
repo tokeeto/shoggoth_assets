@@ -27,6 +27,7 @@
         ["<b>Deckbuilding Requirements</b> (do not count toward deck size):", ""],
         ["<b>Deckbuilding Restrictions:</b>", ""]
     ],
+    "illustration": "<copy>",
     "illustration_rotation": -16,
     "illustration_region": { "x": 72, "y": 72, "width": 824, "height": 824 },
     "text_polygon": [
