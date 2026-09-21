@@ -4,8 +4,8 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 302, "y": 62, "width": 1050, "height": 110 },
-    "name_font": { "font": "title", "size": 110, "alignment": "center" },
+    "name_region": { "x": 302, "y": 72, "width": 1050, "height": 100 },
+    "name_font": { "font": "title", "size": 100, "alignment": "center" },
     "subtitle": "",
     "subtitle_region": { "x": 72, "y": 197, "width": 1500, "height": 56 },
     "subtitle_font": { "font": "bold", "size": 56, "alignment": "center" },

@@ -30,7 +30,7 @@
     "class": "guardian",
 
     "cost": "---",
-    "cost_region": { "x": 156, "y": 100, "width": 140, "height": 128 },
+    "cost_region": { "x": 156, "y": 105, "width": 140, "height": 128 },
     "cost_font": {
         "font": "cost",
         "size": 128,
