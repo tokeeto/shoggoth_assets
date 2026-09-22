@@ -1,0 +1,16 @@
+{
+  "template": "guide/guide_template.html",
+  "a4_empty": "guide/guide_a4_empty.webp",
+  "a4_title": "guide/guide_a4_title.webp",
+  "resolution_glyph_top": "guide/resolution_glyph_top.png",
+  "resolution_glyph_bottom": "guide/resolution_glyph_bottom.png",
+  "text_glyph_top": "guide/text_glyph_top.png",
+  "text_glyph_bottom": "guide/text_glyph_bottom.png",
+  "arno_pro": "fonts/Arno Pro/arnopro_regular.otf",
+  "arno_pro_bold": "fonts/Arno Pro/arnopro_bold.otf",
+  "arno_pro_bolditalic": "fonts/Arno Pro/arnopro_bolditalic.otf",
+  "arno_pro_italic": "fonts/Arno Pro/arnopro_italic.otf",
+  "teutonic": "fonts/Arkhamic.ttf",
+  "ahlcgsymbol": "fonts/AHLCGSymbol.otf",
+  "bolton": "fonts/Bolton.ttf"
+}

@@ -54,9 +54,6 @@
     "flavor_text_font" : { "size": 60},
     "flavor_text_format": "\n<center><i>{value}</i>",
 
-
-
-
     "encounter_icon_region": {
         "x": 766,
         "y": 1056,

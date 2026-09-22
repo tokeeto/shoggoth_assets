@@ -1,0 +1,3 @@
+{
+  "_comment": "Overrides for guide/ch1.json and guide/ch2.json manifest keys in this language. Only include keys that need to change (e.g. a translated title/empty-page art asset); paths are relative to the asset pack root, same as the base manifest."
+}
