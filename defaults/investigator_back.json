@@ -4,7 +4,7 @@
     "template_bleed": true,
 
     "name": "<unique><name>",
-    "name_region": { "x": 1056, "y": 100, "width": 1010, "height": 100 },
+    "name_region": { "x": 1056, "y": 92, "width": 1010, "height": 100 },
     "name_font": { "font": "title", "size": 110, "alignment": "center" },
 
     "classes": "<copy>",
