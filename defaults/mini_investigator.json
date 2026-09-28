@@ -2,7 +2,7 @@
     "template": "mini_investigator",
     "template_bleed": true,
     "card_size": "mini",
-    "illustration_above_template": true,
+    "illustration_on_top": true,
 
     "illustration_region": { "x": 0, "y": 0, "width": 1144, "height": 1681 },
 
