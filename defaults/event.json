@@ -116,6 +116,7 @@
                 "weakness_label_region": { "x": 72, "y": 1384, "width": 1500, "height": 64 },
                 "text_region": { "x": 240, "y": 1540, "width": 1152, "height": 500, "attach_after": "flavor_text" },
                 "icons_box": "skill_box_weakness.png",
+                "icons_pattern": "weakness_skill_icon_{icon}.svg",
                 "level_overlay": "weakness_no_level.png",
                 "weakness_label": "%:WEAKNESS"
             }

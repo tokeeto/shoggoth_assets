@@ -77,6 +77,7 @@
                 "text_region": { "x": 252, "y": 1590, "width": 1208, "height": 440, "attach_after": "flavor_text" },
                 "text_polygon": [[252, 1590], [1422, 1590], [1460, 1702], [1460, 1870], [1426, 2022], [252, 2022], [272, 1874], [276, 1754], [266, 1606], [252, 1590]],
                 "weakeness_type": "%:WEAKNESS",
+                "icons_pattern": "weakness_skill_icon_{icon}.svg",
                 "icons_box": "skill_box_weakness.png"
             }
         },
