@@ -29,7 +29,7 @@
     ],
     "illustration": "<copy>",
     "illustration_rotation": -16,
-    "illustration_region": { "x": 72, "y": 72, "width": 824, "height": 824 },
+    "illustration_region": { "x": 85, "y": 80, "width": 600, "height": 600 },
     "text_polygon": [
         [862, 372],
         [2060, 372],
