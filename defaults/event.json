@@ -1,4 +1,5 @@
 {
+    "card_type": "event",
     "template": "chapter_1/event_<class>",
     "template_bleed": true,
 

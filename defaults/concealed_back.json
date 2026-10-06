@@ -1,4 +1,5 @@
 {
+    "card_type": "concealed",
     "template": "concealed_back",
     "card_size": "mini"
 }

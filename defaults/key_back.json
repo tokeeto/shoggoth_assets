@@ -1,4 +1,5 @@
 {
+    "card_type": "key",
     "template": "key_back",
     "name": "<name>",
     "name_region": { "x": 130, "y": 932, "width": 487, "height": 80 },

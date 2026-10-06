@@ -1,4 +1,5 @@
 {
+    "card_type": "concealed",
     "template": "concealed",
     "card_size": "mini",
     "name": "<name>",

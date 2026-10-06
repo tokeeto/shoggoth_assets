@@ -1,6 +1,6 @@
 {
+    "card_type": "treachery",
     "template": "chapter_1/treachery",
-    "grouping": "treachery",
     "template_bleed": true,
 
     "name": "<name>",
@@ -78,7 +78,6 @@
             "set": {
                 "encounter_overlay": "basic_weakness.png",
                 "subtitle": "%:BASIC WEAKNESS",
-                "text_polygon": [[92, 1520], [1470, 1520], [1470, 2000], [1198, 2080], [450, 2070], [192, 2000], [192, 1520]],
                 "collection_total": null,
                 "encounter_icon": "basic_weakness_icon.png"
             }

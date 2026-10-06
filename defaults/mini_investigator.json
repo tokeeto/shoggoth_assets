@@ -1,4 +1,5 @@
 {
+    "card_type": "mini_investigator",
     "template": "mini_investigator",
     "template_bleed": true,
     "card_size": "mini",

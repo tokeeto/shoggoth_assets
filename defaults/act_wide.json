@@ -1,4 +1,5 @@
 {
+    "card_type": "act",
     "orientation": "horizontal",
     "template": "chapter_1/act",
     "template_bleed": true,

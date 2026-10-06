@@ -1,4 +1,5 @@
 {
+    "card_type": "treachery",
     "parent": "treachery",
     "template": "fullart/treachery",
     "template_bleed": true,

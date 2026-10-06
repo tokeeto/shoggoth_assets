@@ -1,4 +1,5 @@
 {
+    "card_type": "agenda",
     "orientation": "horizontal",
     "template": "chapter_1/agenda_back",
     "template_bleed": true,

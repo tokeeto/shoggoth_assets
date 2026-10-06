@@ -1,6 +1,6 @@
 {
+    "card_type": "enemy",
     "template": "chapter_1/enemy<subtitle>",
-    "grouping": "enemy",
     "template_bleed": true,
 
     "name": "<name>",

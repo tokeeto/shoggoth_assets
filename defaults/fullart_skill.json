@@ -1,4 +1,5 @@
 {
+	"card_type": "skill",
 	"parent": "skill",
 	"template": "fullart/skill_<class><subtitle>",
     "template_bleed": true,

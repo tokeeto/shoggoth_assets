@@ -1,6 +1,6 @@
 {
+    "card_type": "agenda",
     "orientation": "horizontal",
-    "grouping": "agenda",
     "template": "chapter_1/agenda",
     "template_bleed": true,
     

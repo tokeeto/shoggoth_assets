@@ -1,4 +1,5 @@
 {
+    "card_type": "story",
     "template": "chapter_1/story_<class>",
     "template_bleed": [36, 36],
     "classes": ["neutral"],

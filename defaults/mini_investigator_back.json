@@ -1,4 +1,5 @@
 {
+    "card_type": "mini_investigator",
     "parent": "mini_investigator",
     "card_size": "mini",
     "illustration": "<copy>",

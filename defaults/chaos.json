@@ -1,4 +1,5 @@
 {
+    "card_type": "chaos",
     "template": "chapter_1/scenario",
     "template_bleed": true,
     "name": "<dbl><name></dbl>",

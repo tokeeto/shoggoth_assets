@@ -1,4 +1,5 @@
 {
+    "card_type": "scenario",
     "default_template": "scenario",
     "name_region": {
         "x": 51,

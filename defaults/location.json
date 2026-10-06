@@ -1,7 +1,7 @@
 {
+    "card_type": "location",
     "template": "chapter_1/location<subtitle>",
     "template_bleed": true,
-    "grouping": "location",
     "name": "<name>",
     "name_region": { "x": 282, "y": 71, "width": 1070, "height": 110 },
     "name_font": {

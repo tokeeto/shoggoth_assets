@@ -1,4 +1,5 @@
 {
+	"card_type": "event",
 	"parent": "event",
 	"template": "chapter_2/event_<class>",
 	"editor": "event",

@@ -1,4 +1,5 @@
 {
+    "card_type": "customizable",
     "template": "chapter_1/customizable",
     "template_bleed": true,
     "name": "<name>",

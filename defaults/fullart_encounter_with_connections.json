@@ -1,4 +1,5 @@
 {
+    "card_type": "location",
     "parent": "fullart_scanning",
     "template": "fullart/encounter_with_connections",
     "editor": "location",

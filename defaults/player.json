@@ -1,4 +1,5 @@
 {
+  "card_type": "player",
   "template": "chapter_1/player",
   "template_bleed": true
 }

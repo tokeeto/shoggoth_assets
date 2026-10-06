@@ -1,4 +1,5 @@
 {
+    "card_type": "ultimatum",
     "template": "ultimatums/Boon-Common-Small",
     "template_bleed": true,
 

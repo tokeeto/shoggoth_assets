@@ -1,4 +1,6 @@
 {
+    "card_type": "act",
+    "card_types": ["act", "agenda"],
     "orientation": "horizontal",
     "editor": "act",
     "template": "chapter_1/act_agenda_full_front",

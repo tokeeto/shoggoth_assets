@@ -1,4 +1,5 @@
 {
+	"card_type": "enemy",
 	"parent": "enemy",
 	"template": "fullart/enemy<subtitle>",
     "template_bleed": true,

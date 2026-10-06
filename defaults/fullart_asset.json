@@ -1,4 +1,5 @@
 {
+	"card_type": "asset",
 	"parent": "asset",
 	"template": "fullart/asset_<class><subtitle>",
     "template_bleed": true,

@@ -1,6 +1,6 @@
 {
+    "card_type": "investigator",
     "orientation": "horizontal",
-    "grouping": "investigator",
     "template": "chapter_1/investigator_<class>",
     "template_bleed": true,
 

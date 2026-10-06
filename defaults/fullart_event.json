@@ -1,4 +1,5 @@
 {
+	"card_type": "event",
 	"parent": "event",
 	"template": "fullart/event_<class>",
     "template_bleed": true,

@@ -1,4 +1,5 @@
 {
+    "card_type": "treachery",
     "template": "weakness_treachery",
     "name": "<name>",
     "name_region": { "x": 78, "y": 619, "width": 598, "height": 80 },

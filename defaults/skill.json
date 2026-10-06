@@ -1,4 +1,5 @@
 {
+    "card_type": "skill",
     "template": "chapter_1/skill_<class>",
     "template_bleed": true,
     "name": "<name>",

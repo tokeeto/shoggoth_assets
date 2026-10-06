@@ -1,4 +1,5 @@
 {
+    "card_type": "enemy",
     "template": "weakness_enemy_encounter",
     "template_bleed": false,
 

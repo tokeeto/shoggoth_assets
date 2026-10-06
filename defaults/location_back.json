@@ -1,4 +1,5 @@
 {
+    "card_type": "location",
     "parent": "location",
     "template": "chapter_1/location_back<subtitle>",
     "name_region": "<copy>",
@@ -18,6 +19,7 @@
     "illustration_pan_x": "<copy>",
     "illustration_pan_y": "<copy>",
     "illustration_scale": "<copy>",
+    "illustration_mirror": "<copy>",
 
     "connection": "<copy>",
     "connections": "<copy>",

@@ -1,4 +1,5 @@
 {
+    "card_type": "asset",
     "parent": "asset",
     "editor": "asset",
     "template": "chapter_1/asset_neutral<subtitle>",

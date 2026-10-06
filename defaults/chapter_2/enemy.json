@@ -1,4 +1,5 @@
 {
+	"card_type": "enemy",
 	"parent": "enemy",
 	"template": "chapter_2/enemy<subtitle>",
     "template_bleed": false,

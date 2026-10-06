@@ -1,6 +1,7 @@
 {
+    "card_type": "location",
+    "card_types": ["location", "enemy"],
     "template": "enemy_location<subtitle>",
-    "grouping": "enemy",
     "template_bleed": true,
 
     "name": "<name>",
