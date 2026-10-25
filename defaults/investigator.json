@@ -124,8 +124,17 @@
             }
         },
         {
-            "when": "story",
-            "set": { "template": "chapter_1/investigator_neutral", "collection": "<esn>/<est>      <exi>    <exn>" }
+            "when": "encounter",
+            "set": { "template": "chapter_1/investigator_neutral", 
+                "collection_total": "<esn>/<est>",
+                "collection_total_region": { "x": 1562, "y": 1480, "width": 350, "height": 40},
+                "collection_total_font": {
+                    "font": "bold",
+                    "size": 38,
+                    "color": "white",
+                    "alignment": "right"
+                 } 
+            }
         },
         {
             "when": "rogue",
