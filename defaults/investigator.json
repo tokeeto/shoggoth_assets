@@ -107,16 +107,16 @@
     "variants": [
         {
             "when": [
-                "guardian_parallel",
-                "seeker_parallel",
-                "rogue_parallel",
-                "mystic_parallel",
-                "survivor_parallel",
-                "neutral_parallel"
+                "parallel_guardian",
+                "parallel_seeker",
+                "parallel_rogue",
+                "parallel_mystic",
+                "parallel_survivor",
+                "parallel_neutral"
             ],
             "set": {
                 "name_font": { "font": "title", "size": 90, "alignment": "center", "color": "white" },
-                "subtitle_font": { "font": "semibold", "alignment": "center", "size": 56 },
+                "subtitle_font": { "font": "semibold", "alignment": "center", "size": 56, "color": "white" },
                 "willpower_font": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
                 "intellect_font": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
                 "combat_font": { "font": "skill", "size": 90, "alignment": "center", "color": "white" },
