@@ -4,8 +4,10 @@
     "template_bleed": true,
 
     "name": "<name>",
-    "name_region": { "x": 72, "y": 1260, "width": 1500, "height": 94 },
     "name_font": { "font": "title", "size": 94, "alignment": "center" },
+    "name_region": { "x": 72, "y": 1260, "width": 1500, "height": 94, "attach_before": "name_unique" },
+    "name_unique": "",
+    "name_unique_format": "{value}",
 
     "traits_region": { "x": 72, "y": 1390, "width": 1500, "height": 64 },
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },

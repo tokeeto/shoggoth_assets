@@ -13,7 +13,9 @@
     },
     "label_region": { "x": 620, "y": 758, "width": 416, "height": 80 },
     "victory_region": { "x": 372, "y": 660, "width": 900, "height": 100 },
-    "name_region": { "x": 302, "y": 64, "width": 1050, "height": 130 },
+    "name_region": { "x": 302, "y": 64, "width": 1050, "height": 130, "attach_before": "name_unique" },
+    "name_unique": "",
+    "name_unique_format": "{value}",
 
     "attack_region": { "x": 565, "y": 282, "width": 104, "height": 140 },
     "evade_region": { "x": 986, "y": 282, "width": 104, "height": 140 },
@@ -44,7 +46,7 @@
     },
 
     "traits_region": { "x": 272, "y": 408, "width": 1116, "height": 120 },
-    "text_region": { 
+    "text_region": {
         "x": 280,
         "y": 482,
         "width": 1050,

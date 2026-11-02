@@ -3,7 +3,9 @@
     "template": "chapter_1/skill_<class>",
     "template_bleed": true,
     "name": "<name>",
-    "name_region": { "x": 384, "y": 120, "width": 1176, "height": 90 },
+    "name_region": { "x": 384, "y": 120, "width": 1176, "height": 90, "attach_before": "name_unique" },
+    "name_unique": "",
+    "name_unique_format": "{value}",
     "name_font": { "font": "title", "size": 90, "alignment": "left" },
 
     "label": "%:SKILL",
@@ -40,10 +42,24 @@
 
     "sanity": null,
     "health": null,
-    "stamina_region": { "x": 734, "y": 1992, "width": 120, "height": 160 },
+    "health_region": { "x": 734, "y": 1992, "width": 120, "height": 160 },
     "sanity_region": { "x": 968, "y": 1992, "width": 180, "height": 160 },
-    "stamina_font": { "font": "skill", "size": 90, "color": "white", "outline": 4, "outline_color": "#cb540d", "alignment": "center" },
-    "sanity_font": { "font": "skill", "size": 90, "color": "white", "outline": 4, "outline_color": "#2c4b96", "alignment": "center" },
+    "health_font": {
+        "font": "skill",
+        "size": 114,
+        "color": "white",
+        "outline": 6,
+        "outline_color": "#cb270d",
+        "alignment": "center"
+    },
+    "sanity_font": {
+        "font": "skill",
+        "size": 114,
+        "color": "white",
+        "outline": 6,
+        "outline_color": "#1c2b48",
+        "alignment": "center"
+    },
 
     "illustrator": "",
     "illustrator_region": { "x": 153, "y": 2097, "width": 1360, "height": 40 },

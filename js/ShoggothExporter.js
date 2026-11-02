@@ -483,7 +483,7 @@ function convert_card(path, collection, image_folder) {
 
     // cost / level / slot
     if (settings.get("ResourceCost") != null)
-        out["front"]["cost"] = String(settings.get("ResourceCost").replace("-", "<dash>"));
+        out["front"]["cost"] = String(settings.get("ResourceCost").replace("-", "---"));
     if (settings.get("Level") != null)
         out["front"]["level"] = String(settings.get("Level"));
     if (has_value(settings.get("Slot"))) {

@@ -2,12 +2,14 @@
     "card_type": "enemy",
     "template": "enemy_full",
     "name": "<name>",
-    "name_region": { "x": 124, "y": 14, "width": 504, "height": 100 },
     "name_font": {
         "font": "title",
         "size": 45,
         "alignment": "center"
     },
+    "name_region": { "x": 124, "y": 14, "width": 504, "height": 100, "attach_before": "name_unique" },
+    "name_unique": "",
+    "name_unique_format": "{value}",
 
     "subtitle": "",
     "subtitle_region": { "x": 0, "y": 0, "width": 0, "height": 0 },

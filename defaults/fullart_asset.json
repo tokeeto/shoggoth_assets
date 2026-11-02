@@ -4,7 +4,10 @@
 	"template": "fullart/asset_<class><subtitle>",
     "template_bleed": true,
     "editor": "asset",
-    "name_region" : {"x": 340, "y": 125, "width": 940, "height": 94},
+    "name_region" : {"x": 340, "y": 125, "width": 940, "height": 94, "attach_before": "name_unique" },
+    "name_unique": "",
+    "name_unique_format": "{value}",
+
     "level_region": { "x": 105, "y": 102, "width": 242, "height": 242 },
     "traits_region": { "x": 416, "y": 1680, "width": 812, "height": 75 },
     "subtitle_region": {"x": 512, "y": 254, "width": 632, "height": 100},
