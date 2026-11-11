@@ -11,7 +11,7 @@
 	"SKILL": "<margin 4>НАВЫК",
 	"STORY": "СЮЖЕТ",
 	"TREACHERY": "НАПАСТЬ",
-	"ASSET": "<margin 6>АКТИВ",
+	"ASSET": "<size 45>АКТИВ",
 	"WEAKNESS": "СЛАБОСТЬ",
 	"BASIC WEAKNESS": "БАЗОВАЯ СЛАБОСТЬ",
 	"<forced>": "<b>Обязательно –</b>",
