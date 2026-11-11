@@ -19,7 +19,7 @@
 
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
-    "flavor_text_format": "\n<center><i>{value}</i>",
+    "flavor_text_format": "\n<valign><center><i>{value}</i>",
 
     "traits_region": { "x": 192, "y": 1402, "width": 1272, "height": 64 },
     "traits_font": { "font": "bolditalic", "size": 64, "alignment": "center" },

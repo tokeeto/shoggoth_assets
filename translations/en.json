@@ -14,5 +14,9 @@
 	"TREACHERY": "TREACHERY",
 	"ASSET": "ASSET",
 	"WEAKNESS": "WEAKNESS",
-	"BASIC WEAKNESS": "BASIC WEAKNESS"
+	"BASIC WEAKNESS": "BASIC WEAKNESS",
+	"CONCEALED_DECOY": "DECOY",
+	"CONCEALED_CARD": "Concealed Card",
+	"CONCEALED_TEXT": "(You may expose this card instead of damage it, evading it, or discovering a clue<br>at this location.)",
+	"CONCEALED_SHROUD": "shroud"
 }

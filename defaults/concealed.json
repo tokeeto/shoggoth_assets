@@ -1,9 +1,10 @@
 {
     "card_type": "concealed",
-    "template": "concealed",
+    "template": "chapter_1/concealed",
+    "template_bleed": true,
     "card_size": "mini",
-    "name": "<name>",
 
+    "name": "<name>",
     "name_region": { "x": 199, "y": 1121, "width": 762, "height": 266 },
     "name_font": { "font": "title", "size": 90, "alignment": "center" },
 

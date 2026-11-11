@@ -36,7 +36,7 @@
 
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
-    "flavor_text_format": "\n<center><i>{value}</i>",
+    "flavor_text_format": "\n<valign><center><i>{value}</i>",
     "illustration_region": { "x": 85, "y": 232, "width": 1460, "height": 1215 },
     "class": "guardian",
 

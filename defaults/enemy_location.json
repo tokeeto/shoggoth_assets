@@ -23,7 +23,7 @@
     "text_font": { "font": "regular", "size": 64 },
     "flavor_text": "",
     "flavor_text_region": { "attached": true },
-    "flavor_text_format": "\n<center><i>{value}</i>",
+    "flavor_text_format": "\n<valign><center><i>{value}</i>",
 
     "traits": "",
     "traits_region": { "x": 455, "y": 1650, "width": 720, "height": 62 },

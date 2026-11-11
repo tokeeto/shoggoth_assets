@@ -1,5 +1,31 @@
 {
     "card_type": "concealed",
-    "template": "concealed_back",
-    "card_size": "mini"
+    "template": "chapter_1/concealed_back",
+    "template_bleed": true,
+    "card_size": "mini",
+
+    "name": "%:CONCEALED_CARD",
+    "name_font": {"font": "title", "size": 144, "color": "white", "alignment": "center"},
+    "name_region": {"x": 170, "y": 625, "width": 800, "height": 190},
+
+    "text": "%:CONCEALED_TEXT",
+    "text_font": {"font": "bolditalic", "size": 58, "alignment": "center"},
+    "text_region": {"x": 290, "y": 900, "width": 550, "height": 390},
+    "text_polygon": [
+        [360, 900],
+        [780, 900],
+        [840, 1085],
+        [810, 1290],
+        [320, 1290],
+        [290, 1085],
+        [360, 900]
+    ],
+
+    "value": "X",
+    "value_font": {"font": "title", "size": 130, "color": "white", "alignment": "center"},
+    "value_region": {"x": 500, "y": 1360, "width": 130, "height": 130},
+
+    "shroud_text": "%:CONCEALED_SHROUD",
+    "shroud_text_font": {"font": "title", "size": 64, "color": "white", "alignment": "center"},
+    "shroud_text_region": {"x": 480, "y": 1490, "width": 170, "height": 64}
 }

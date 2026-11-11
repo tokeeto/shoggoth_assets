@@ -1,0 +1,10 @@
+{
+    "card_type": "concealed",
+    "template": "chapter_1/concealed_decoy",
+    "template_bleed": true,
+    "card_size": "mini",
+
+    "name_region": { "x": 200, "y": 530, "width": 730, "height": 300 },
+    "name_font": { "font": "title", "size": 300, "alignment": "center" },
+    "name": "%:CONCEALED_DECOY"
+}
