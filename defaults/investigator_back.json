@@ -53,6 +53,20 @@
             }
         },
         {
+            "when": [
+                "parallel_guardian",
+                "parallel_seeker",
+                "parallel_rogue",
+                "parallel_mystic",
+                "parallel_survivor",
+                "parallel_neutral"
+            ],
+            "set": {
+                "name_font": { "font": "title", "size": 110, "alignment": "center", "color": "white" },
+                "subtitle_font": { "font": "bold", "alignment": "center", "size": 56, "color": "white" }
+            }
+        },
+        {
             "when": ["neutral"],
             "set": {
                 "text_polygon": [
