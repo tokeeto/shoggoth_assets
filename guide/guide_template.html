@@ -12,8 +12,10 @@
 		@page {
 			size: A4;
 			padding: 0;
-			margin: 15mm;
-			margin-bottom: 12mm;
+			margin: 16mm;
+			margin-bottom: 11mm;
+			margin-left: 19mm;
+			margin-right: 19mm;
 			background-image: url("file://{{a4_empty}}");
 			background-size: cover;
 			background-attachment: fixed bleed;
@@ -37,11 +39,20 @@
 
 		@page :nth(2) {
 			background-image: url("file://{{a4_title}}");
-			margin-top: 75mm;
+			margin-top: 72mm;
 
 			@bottom-center {
 		    	content: none;
 		 	}
+		}
+
+				/* a page with no margins, no background and no page number */
+		@page fullpage {
+			margin: 0;
+			background-image: none;
+			@bottom-center { 
+				content: none; 
+			}
 		}
 
 		html, body {
@@ -102,18 +113,21 @@
 		}
 		h1, h2, h3, h4 {
 			font-family: Teutonic;
-			color: #2d5b58;
+			color: #2c6560;
+			font-weight: normal;
 		}
 		h1 {
-			font-size: 22pt;
-			border-bottom: 3px double #2d5b58;
+			font-size: 18pt;
 		}
 		h2 {
-			font-size: 16pt;
-			border-bottom: 3px double #2d5b58;
+			font-size: 16.8pt;
 		}
 		h3, h4, h5 {
 			color: black;
+		}
+		h3 {
+			font-size: 14.5pt;
+			margin: .6em 0 .2em 0;
 		}
 		h5 {
 			font-size: 10pt;
@@ -132,15 +146,46 @@
 			break-after: page;
 			column-count: 2;
 			column-fill: auto;
+			column-gap: 6mm;
+		}
+		/* stuff for the underline under headers */
+		.chapter > h1, .chapter > h2 {
+		line-height: 1.1;
+		padding-bottom: 0;
+		margin-bottom: 0.5em;
+		border-bottom: 0.5px solid #2c6560;
+		}
+		.chapter > h1::after, .chapter > h2::after {
+		content: "";
+		display: block;
+		height: 0.5px;
+		border-top: 0.5px solid #2c6560;
+		position: relative;
+		top: -0.1em;
+		margin-bottom: -1px;
+		}
+		.chapter h1, .chapter h2 {
+		margin-top: 3mm;
+		margin-bottom: 3mm;
+		}
+		.chapter h2 {
+		margin-top: 3mm;
+		margin-bottom: 4mm;
+		}
+		.chapter h3 {
+		margin-top: 3mm;
+		margin-bottom: 3mm;
 		}
 
-		/* resolution styles */
+		/* resolution styles */ 
+		/* stuff for the underline + position fix */
 		.resolution_box {
 			padding: 0;
+			padding-top: 1px;
 			position: relative;
 		}
 		.resolution_box .glyph {
-			width: 100%;
+			width: 98%;
 			position: absolute;
 		}
 		.resolution_box .glyph.top {
@@ -152,16 +197,74 @@
 		.resolution_box .content {
 			border-radius: 5mm;
 			padding: .5em;
+			padding-top: 0px;
+			padding-bottom: 0em;
 			margin: 0 2em 2em 2em;
-			background-color: rgba(91, 45, 45, .2);
-			box-shadow: 0 0 1em 1em rgba(91, 45, 45, .2);
+			margin-top: 2mm;
+			margin-bottom:2.5em;
+  			background-color: rgba(170, 65, 62, .12);
+  			box-shadow: 0 0 1em 1em rgba(170, 65, 62, .12);
+			position: relative;
+			left: -0.75em;
+			width: 87%;
 		}
 		.resolution_box h2, .resolution_box h3 {
-			color: rgba(91, 45, 45, 1);
+			margin-bottom: 0.7em;
+			color: #5b2d2d;
 		}
 		.resolution_box h2 {
 			text-align: center;
-			border-bottom: 3px double rgba(91, 45, 45, 1);
+			border-bottom: 0.5px solid #5b2d2d;
+			font-size: 16pt;
+			margin-top: 1.4mm;
+			margin-bottom: 0;
+		}
+		.resolution_box h2::after {
+			content: "";
+			display: block;
+			position: relative;
+			height: 0.5px;
+			border-top: 0.5px solid;
+			top: -0.1em;
+			margin-top: 3px;
+			margin-bottom: -1px;	
+		}
+		.resolution_box h2 small {
+			font-size: 12pt;
+		}		
+		.resolution_box .content h2 {
+			margin-bottom: 0.5em;
+			line-height: 1.05;
+		}
+		.resolution_box ul > li:before {
+			color: #5b2d2d;
+		}
+		.resolution_box ul ul > li:before {
+			color: black;
+		}
+		.campaign {
+			position: fixed;
+			top: -25.7mm;
+			width: 100%;
+			text-align: center;
+			font-family: Teutonic;
+			font-weight: normal;
+			color: white;
+		}
+		.campaign p {
+			margin: 0;
+			line-height: 1;
+			text-align: center;
+		}
+		.campaign p:first-child { 
+			font-size: 21pt; 
+		} 
+		.campaign p + p {
+			font-size: 16.8pt;                            
+			margin-top: -0.7mm;
+		}
+		.cb {
+			 break-after: column;
 		}
 
 		/* resolution style used for information */
@@ -191,15 +294,38 @@
 		.standalone_box .content {
 			border-radius: 5mm;
 			padding: .5em;
+			padding-top: 0px;
+			padding-bottom: 0em;
 			margin: 0 2em 2em 2em;
+			margin-top: 2mm;
+			margin-bottom:2.5em;
 			background-color: rgba(45, 91, 45, .2);
 			box-shadow: 0 0 1em 1em rgba(45, 91, 45, .2);
+			position: relative;
+			left: -0.75em;
+			width: 87%;
 		}
 		.standalone_box h2 {
 			text-align: center;
-			border-bottom: 3px double #2d5b58;
+			border-bottom: 0.5px solid #2d5b58;
+			font-size: 16pt;
+			margin-top: 1.4mm;
+			margin-bottom: 0;
 		}
-
+		.standalone_box h2::after {
+			content: "";
+			display: block;
+			position: relative;
+			height: 0.5px;
+			border-top: 0.5px solid;
+			top: -0.1em;
+			margin-top: 3px;
+			margin-bottom: -1px;	
+		}
+		.standalone_box .content h2 {
+			margin-bottom: 0.5em;
+			line-height: 1.05;
+		}
 		/* general box stuff
 			h2 elements needs to be centeredto only have borders under content
 		*/
@@ -215,6 +341,25 @@
 			text-align: justify;
 		}
 
+		.index {
+			margin: 0 9.6mm 0 6.4mm;
+		}
+		.index p {
+			margin: 0;
+			line-height: 13.3pt;
+			text-align: left;
+			padding-right: 2em;
+		}
+		.index em {
+			font-style: normal;
+			margin-right: -2em;
+		}
+		.index em::before {
+			content: leader('.');
+		}
+		.index .p::before {
+			content: leader('.');
+		}
 		.story {
 			font-style: italic;
 		}
@@ -256,6 +401,36 @@
 			border-bottom: none;
 		}
 
+		.codex_grey {
+			background-color: rgba(70, 40, 40, .04);
+			border: 0.3pt solid #2f5545;
+			border-radius: 3mm;
+			padding: 2mm 3.5mm;
+			margin: 1em 0;
+			break-inside: avoid;
+			box-shadow:
+				inset 0 0 0 0.3pt #ecdfdd,
+				inset 0 0 0 0.65pt #2f5545,
+				inset 0 0 3mm rgba(90, 60, 58, .6);
+		}
+		.codex_grey h2 {
+			font-family: "Arno Pro" !important;
+			font-weight: bold;
+			font-size: 14pt;
+			color: #241f1f !important;
+			margin: 0 0 .3em 0;
+			border: none;
+		}
+		.codex_grey > h2::after { 
+			content: none; 
+		}
+		.encounter p {
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			margin: .6em 0;
+		}
+
 		/* Boxes for each class */
 
 		.center, .center > p {
@@ -274,17 +449,52 @@
 		ul {
 			list-style: none;
 			margin-left: 0;
-			padding-left: 1.6em;
+			padding-left: 1.48em;
 		}
 		ul > li {
 			position: relative;
 		}
 		ul > li:before {
 			content: 'B';
-			color: #2d5b58;
+			color: #2c6560;
 			font-family: AHLCGSymbol;
+			font-size: 1.1em;
+			position: absolute;
+			left: -1.35em;
+			top: -0.2em;
+		}
+		/* added indent for bullet inside bul paragraph */
+		ul ul, ol ul {
+			padding-left: 1.15em;
+			margin-top: .5em;
+		}
+		ul ul > li:before, ol ul > li:before {
+			content: 'b';
+			color: #3c4425;
+			font-size: 1em;
+			left: -1.15em;
+			top: 0;
+		}
+		/* numbered list for the campaign setup with 4 step and difficulty */
+		ol {
+			list-style: none;
+			counter-reset: etape;
+			margin-left: 0;
+			padding-left: 1.5em;
+		}
+		ol > li {
+			counter-increment: etape;
+			position: relative;
+		}
+		ol > li::before {
+			content: counter(etape) ".";
+			font-weight: bold;
 			position: absolute;
 			left: -1.5em;
+		}
+		ol > li > p + p {
+			padding-left: 1.05em;
+			text-indent: -1.05em;
 		}
 		.indent {
 			margin-left: 1.6em;
@@ -297,9 +507,7 @@
 			color: #34391d;
 			left: -1.1em;
 		}
-		.resolution_box ul > li:before {
-			color: rgb(91, 45, 45);
-		}
+
 		.icon {
 			font-family: "AHLCGSymbol";
 		}
@@ -365,6 +573,85 @@
 			font-weight: bold;
 			font-style: italic;
 		}
+		.quote {
+			margin-left: 4mm;
+			margin-right: 3.5mm;
+		}
+		.location {
+			font-family: Teutonic;
+			font-size: 14.7pt;
+			color: #2c6560;
+			font-weight: normal;
+			text-align: center;
+			border: none;
+			margin: 0 0 4mm 0;
+		}
+		.location::after { 
+			content: none; 
+		}	
+		.fullpage_US {
+			page: fullpage;
+			column-span: all;
+			position: relative;
+			height: 279mm;
+		}
+		.fullpage_US img {
+			position: absolute;
+			top: -3mm;
+			left: -3mm;
+			width: 221.9mm;
+			height: 285.4mm;
+			object-fit: cover;
+		}
+
+		.fullpage_A4 {
+			page: fullpage;        
+			column-span: all;       
+			position: relative;
+			height: 296mm;        
+		}
+		.fullpage_A4 img {
+			position: absolute;
+			top: -3mm;          
+			left: -3mm;
+			width: 216mm;      
+			height: 303mm;        
+			object-fit: cover;       
+		}
+		.achievements p {
+			padding-left: 1.3em;
+			text-indent: -1.3em;         
+		}
+		.achievements p::before {
+			content: "";
+			display: inline-block;
+			width: 0.75em;
+			height: 0.75em;
+			border: 0.6pt solid #241f1f;
+			margin-right: 0.55em;
+			vertical-align: -0.05em;
+		}
+		.sets { 
+			display:flex; flex-wrap:wrap; margin:3mm 0 6mm 0; 
+		}
+		.sets p { 
+			width:50%; 
+			display:flex; 
+			align-items:center; 
+			margin:0 0 4mm 0 !important; 
+			text-align:left; 
+			hyphens:none; 
+			font-size:10.5pt; 
+			line-height:1.15; 
+		}
+		.sets p > :first-child { 
+			flex:0 0 10mm; 
+			width:10mm; 
+			height:9mm; 
+			object-fit:contain; 
+			margin:0 3.5mm 0 2mm; 
+		}
+	
 	</style>
 	<style>
 		@media screen {
