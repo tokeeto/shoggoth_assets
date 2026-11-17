@@ -114,16 +114,13 @@
             "when": ["weakness", "basic weakness"],
             "set": {
                 "template": "chapter_1/enemy_weakness",
-                "collection_total": null
+                "collection_total": null,
+                "subtitle": "%:WEAKNESS"
             }
         },
         {
-            "when": ["weakness"],
+            "when": ["!encounter"],
             "set": { "encounter_icon_region": null }
-        },
-        {
-            "when": ["weakness", "encounter_weakness"],
-            "set": { "subtitle": "%:WEAKNESS" }
         },
         {
             "when": ["basic weakness"],
