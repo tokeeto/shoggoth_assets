@@ -91,8 +91,7 @@
         "alignment": "right"
     },
     "collection_number": "<exn>",
-    "collection_number_region": { "x": 2035, "y": 1480, "width": 170, "height": 40
-    },
+    "collection_number_region": { "x": 2035, "y": 1480, "width": 170, "height": 40},
     "collection_number_font": {
         "font": "bold",
         "size": 38,
@@ -124,8 +123,13 @@
             }
         },
         {
-            "when": "story",
-            "set": { "template": "chapter_1/investigator_neutral", "collection": "<esn>/<est>      <exi>    <exn>" }
+            "when": "encounter",
+            "set": {
+                "classes": ["neutral"],
+                "collection_total": "<esn>/<est>",
+                "collection_total_region": { "x": 1735, "y": 1480, "width": 170, "height": 40},
+                "collection_total_font": { "font": "bold", "size": 38, "color": "white", "alignment": "right"}
+            }
         },
         {
             "when": "rogue",

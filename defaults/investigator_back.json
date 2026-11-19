@@ -45,7 +45,7 @@
         {
             "when": ["encounter"],
             "set": {
-                "template": "chapter_1/investigator_back_neutral",
+                "template": "chapter_1/investigator_back_<class>",
                 "encounter_overlay": "story_event_overlay.png",
                 "encounter_overlay_region": { "x": 950, "y": 80, "width": 200, "height": 200 },
                 "encounter_icon_region": { "x": 995, "y": 120, "width": 115, "height": 115 },
