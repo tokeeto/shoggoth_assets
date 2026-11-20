@@ -30,6 +30,7 @@
     "weakness_label_font": { "font": "bold", "size": 58, "alignment": "center" },
 
     "level_region": { "x": 106, "y": 98, "width": 242, "height": 242 },
+    "level_dream_region": { "x": 92, "y": 100, "width": 275, "height": 280 },
     "class": "guardian",
 
     "cost": "---",
