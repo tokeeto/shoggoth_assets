@@ -67,7 +67,7 @@
             }
         },
         {
-            "when": ["neutral"],
+            "when": ["neutral", "parallel_neutral"],
             "set": {
                 "text_polygon": [
                     [940, 372],
